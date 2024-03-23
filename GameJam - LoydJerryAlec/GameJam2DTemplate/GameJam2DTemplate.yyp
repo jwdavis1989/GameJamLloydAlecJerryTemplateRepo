@@ -83,7 +83,7 @@
     {"id":{"name":"__obj_twerk_transitions__","path":"objects/__obj_twerk_transitions__/__obj_twerk_transitions__.yy",},},
     {"id":{"name":"obj_dash_echo","path":"objects/obj_dash_echo/obj_dash_echo.yy",},},
     {"id":{"name":"obj_fog_default","path":"objects/obj_fog_default/obj_fog_default.yy",},},
-    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"OLD_obj_player","path":"objects/OLD_obj_player/OLD_obj_player.yy",},},
     {"id":{"name":"obj_playerMECHAMAN","path":"objects/obj_playerMECHAMAN/obj_playerMECHAMAN.yy",},},
     {"id":{"name":"obj_wall_parent","path":"objects/obj_wall_parent/obj_wall_parent.yy",},},
     {"id":{"name":"objChest","path":"objects/objChest/objChest.yy",},},
@@ -110,7 +110,6 @@
     {"id":{"name":"objUIAmmoController","path":"objects/objUIAmmoController/objUIAmmoController.yy",},},
     {"id":{"name":"rmScratchPad","path":"rooms/rmScratchPad/rmScratchPad.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"id":{"name":"__background_get_element","path":"scripts/__background_get_element/__background_get_element.yy",},},
     {"id":{"name":"__background_get_internal","path":"scripts/__background_get_internal/__background_get_internal.yy",},},
     {"id":{"name":"__background_set_element","path":"scripts/__background_set_element/__background_set_element.yy",},},
@@ -223,7 +222,6 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rmScratchPad","path":"rooms/rmScratchPad/rmScratchPad.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

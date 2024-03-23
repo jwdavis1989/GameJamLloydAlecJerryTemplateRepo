@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player",
+  "%Name":"OLD_obj_player",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -31,7 +31,7 @@
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":83,"eventType":10,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_player",
+  "name":"OLD_obj_player",
   "overriddenProperties":[],
   "parent":{
     "name":"Player",
