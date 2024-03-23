@@ -1,0 +1,3 @@
+x += velX;
+y += velY;
+

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"room_transition",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"room_transition",
+  "parent":{
+    "name":"TwerkTransitions",
+    "path":"folders/Libraries/TwerkTransitions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

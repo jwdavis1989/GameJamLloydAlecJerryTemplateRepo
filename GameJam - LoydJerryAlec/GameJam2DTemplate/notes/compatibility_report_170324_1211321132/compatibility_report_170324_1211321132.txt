@@ -1,0 +1,180 @@
+GameMaker Studio 1 font texture has been backed up at F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\fonts\fFoughtKnightVictory\fFoughtKnightVictory.gms1.png
+GameMaker Studio 1 font texture has been backed up at F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\fonts\fFreudianSlit\fFreudianSlit.gms1.png
+GameMaker Studio 1 font texture has been backed up at F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\fonts\fFrontPageNews\fFrontPageNews.gms1.png
+GameMaker Studio 1 font texture has been backed up at F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\fonts\fFrontPageNews11\fFrontPageNews11.gms1.png
+GameMaker Studio 1 font texture has been backed up at F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\fonts\fFutureTimeSplitters\fFutureTimeSplitters.gms1.png
+GameMaker Studio 1 font texture has been backed up at F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\fonts\fGangWolfik\fGangWolfik.gms1.png
+GameMaker Studio 1 font texture has been backed up at F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\fonts\fGangWolfikBlade\fGangWolfikBlade.gms1.png
+GameMaker Studio 1 font texture has been backed up at F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\fonts\fGhettoMagnetic\fGhettoMagnetic.gms1.png
+GameMaker Studio 1 font texture has been backed up at F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\fonts\font_sign\font_sign.gms1.png
+GameMaker Studio 1 font texture has been backed up at F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\fonts\font0\font0.gms1.png
+GameMaker Studio 1 font texture has been backed up at F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\fonts\fGangWolfikBlade12\fGangWolfikBlade12.gms1.png
+GameMaker Studio 1 font texture has been backed up at F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\fonts\fGangWolfikBlade13\fGangWolfikBlade13.gms1.png
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\obj_playerMECHAMAN\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\obj_playerMECHAMAN\Alarm_0.gml
+Converted description /// @description boosting debuffing
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\objUIAmmoController\Create_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\objUIAmmoController\Step_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\objUIAmmoController\Draw_64.gml
+Converted builtin - line 3: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\objPlayer\Create_0.gml
+Converted description /// @description Initialize Variables
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\objPlayer\Alarm_10.gml
+Converted description /// @description Damage Flashing/Immunity
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\objPlayer\Alarm_1.gml
+Converted description /// @description Reloading Gun
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\objPlayer\Alarm_0.gml
+Converted description /// @description Boosting debuffing
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\objPlayer\Collision_351dea24-bac8-4ce4-850f-48b142b1df7a.gml
+Converted description /// @description Interactible
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\obj_player\Alarm_11.gml
+Converted description /// @description Out of Health?
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\obj_player\Alarm_10.gml
+Converted description /// @description Invuln Timer
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\obj_player\Alarm_9.gml
+Converted description /// @description Game Over Screen
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\obj_player\Alarm_8.gml
+Converted description /// @description Victory Screen
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\obj_player\Alarm_7.gml
+Converted description /// @description Warp Out Animation
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\obj_player\Alarm_3.gml
+Converted description /// @description Return to normal speed after boost
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\obj_player\Alarm_2.gml
+Converted description /// @description Rapid Fire Ship Shells
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\obj_player\Alarm_1.gml
+Converted builtin - line 18: background_vspeed[0] = 30 -> __background_set( e__BG.VSpeed, 0, 30 )
+Converted description /// @description After missile points are picked:
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\obj_player\Alarm_0.gml
+Converted description /// @description Can shoot?
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\obj_player\Step_0.gml
+Converted builtin - line 132: background_vspeed[0] = 0 -> __background_set( e__BG.VSpeed, 0, 0 )
+Converted builtin - line 141: background_vspeed[0] = 30 -> __background_set( e__BG.VSpeed, 0, 30 )
+String not found: ConversionLog_ConvertedString 5 'A' "A"
+String not found: ConversionLog_ConvertedString 6 'D' "D"
+String not found: ConversionLog_ConvertedString 7 'W' "W"
+String not found: ConversionLog_ConvertedString 8 'S' "S"
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\obj_player\Mouse_54.gml
+Converted builtin - line 7: background_vspeed[0] = 0 -> __background_set( e__BG.VSpeed, 0, 0 )
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\obj_player\Draw_64.gml
+Converted builtin - line 47: view_wport[0] -> __view_get( e__VW.WPort, 0 )
+Converted builtin - line 2: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 2: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 4: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 8: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 9: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 10: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 12: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 15: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 18: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 22: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 23: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 24: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 26: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 29: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 32: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 37: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 39: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 51: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 51: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin - line 52: view_hport[0] -> __view_get( e__VW.HPort, 0 )
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\obj_player\Draw_0.gml
+Converted builtin - line 36: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 36: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 36: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 36: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 36: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 36: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\objOrb\Alarm_3.gml
+Converted description /// @description Firing Timer
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\objOrb\Alarm_2.gml
+Converted description /// @description Charging Timer
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\objOrb\Alarm_1.gml
+Converted description /// @description Hover in Place at new height
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\objOrb\Alarm_0.gml
+Converted description /// @description Reverse Bobbing Direction
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\objChest\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\objChest\Alarm_0.gml
+Converted description /// @description Open Animation Completion
+
+Converting GML script: F:\Resume_and_Portfolio\React_Portfolio_2023\ShotgunComboScifiPrototypeGMS2\ShotgunComboScifiPrototypeGMS2\conv\gmx\ShotgunComboScifiPrototypeGMS2_591AC289\objects\objControllerScratchPad\Create_0.gml
+Converted description /// @description Init Room Controller
+
+Missing audiogroup for sound: 'snd_bottle_rocket' - setting to default audio group
+Missing audiogroup for sound: 'snd_ruin_door_open' - setting to default audio group
+Missing audiogroup for sound: 'bgm_ruins_theme_1' - setting to default audio group
+Missing audiogroup for sound: 'snd_basic_shot' - setting to default audio group
+Missing audiogroup for sound: 'snd_explosion' - setting to default audio group
+Missing audiogroup for sound: 'snd_jump' - setting to default audio group
+Missing audiogroup for sound: 'mus_inevitable_strife' - setting to default audio group
+Missing audiogroup for sound: 'mus_lamenting_skies' - setting to default audio group
+Missing audiogroup for sound: 'snd_door_creak' - setting to default audio group
+Missing audiogroup for sound: 'snd_low_growl' - setting to default audio group
+Missing audiogroup for sound: 'snd_metal_rattling' - setting to default audio group
+Missing audiogroup for sound: 'snd_snarling_growl' - setting to default audio group
+Missing audiogroup for sound: 'snd_walking' - setting to default audio group
+Missing audiogroup for sound: 'snd_ambient_space_music' - setting to default audio group
+Missing audiogroup for sound: 'snd_bug_noise' - setting to default audio group
+Missing audiogroup for sound: 'snd_buzzsaw' - setting to default audio group
+Missing audiogroup for sound: 'snd_city_night' - setting to default audio group
+Missing audiogroup for sound: 'snd_custom_gunshot' - setting to default audio group
+Missing audiogroup for sound: 'snd_error' - setting to default audio group
+Missing audiogroup for sound: 'snd_menu_browse' - setting to default audio group
+Missing audiogroup for sound: 'snd_menu_ping' - setting to default audio group
+Missing audiogroup for sound: 'snd_menu_toggle' - setting to default audio group
+Missing audiogroup for sound: 'snd_reload' - setting to default audio group
+Missing audiogroup for sound: 'snd_rifle_fire' - setting to default audio group
+Missing audiogroup for sound: 'snd_scary_bug_boss' - setting to default audio group
+Missing audiogroup for sound: 'snd_shockwave' - setting to default audio group
+Missing audiogroup for sound: 'snd_shoot' - setting to default audio group
+Missing audiogroup for sound: 'snd_spark_and_crackle_music' - setting to default audio group
+Missing audiogroup for sound: 'snd_alarm' - setting to default audio group
+Game speed set to 30
+Added compatibility script 'action\action_kill_object.gml'
+Added compatibility script 'action\action_restart_game.gml'
+Added compatibility script 'background\__background_set.gml'
+Added compatibility script 'background\__background_set_internal.gml'
+Added compatibility script 'instance\instance_create.gml'
+Added compatibility script 'object\object_get_depth.gml'
+Added compatibility script 'view\__view_get.gml'
+Added compatibility script 'action\__init_action.gml'
+Added compatibility script 'background\__init_background.gml'
+Added compatibility script 'view\__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'background\__background_get_element.gml'
+Added compatibility script 'background\__background_get_internal.gml'
+Added compatibility script 'background\__background_set_element.gml'
+Added compatibility script '__global_object_depths.gml'

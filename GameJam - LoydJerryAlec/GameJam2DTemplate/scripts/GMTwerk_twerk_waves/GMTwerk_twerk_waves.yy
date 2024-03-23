@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"GMTwerk_twerk_waves",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"GMTwerk_twerk_waves",
+  "parent":{
+    "name":"GMTwerk2",
+    "path":"folders/Libraries/GMTwerk2.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

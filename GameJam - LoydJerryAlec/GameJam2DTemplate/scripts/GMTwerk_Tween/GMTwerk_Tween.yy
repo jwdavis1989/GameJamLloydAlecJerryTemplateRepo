@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"GMTwerk_Tween",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"GMTwerk_Tween",
+  "parent":{
+    "name":"GMTwerk2",
+    "path":"folders/Libraries/GMTwerk2.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

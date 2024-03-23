@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"__TWERK_TRANS_CONFIG__",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__TWERK_TRANS_CONFIG__",
+  "parent":{
+    "name":"TwerkTransitions",
+    "path":"folders/Libraries_config/TwerkTransitions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

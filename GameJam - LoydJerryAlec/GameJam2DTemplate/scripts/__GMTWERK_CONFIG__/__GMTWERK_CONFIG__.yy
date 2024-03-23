@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"__GMTWERK_CONFIG__",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__GMTWERK_CONFIG__",
+  "parent":{
+    "name":"GMTwerk2",
+    "path":"folders/Libraries_config/GMTwerk2.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
