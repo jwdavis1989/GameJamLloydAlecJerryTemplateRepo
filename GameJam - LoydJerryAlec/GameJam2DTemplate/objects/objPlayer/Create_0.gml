@@ -12,8 +12,10 @@ dashing = false
 image_speed = 0.1
 grounded = false
 nightVision = true;
+if (nightVision) {
+	instance_create(x, y, objNightVisionCamera);
+}
 facing = "right";
-instance_create(x, y, objNightVisionCamera);
 invulnerable = false;
 control_locked = false;
 canGrapple = true;
