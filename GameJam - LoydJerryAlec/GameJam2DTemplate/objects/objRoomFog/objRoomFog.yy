@@ -27,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"color","filters":[],"listItems":[],"multiselect":false,"name":"color","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FF00FF00","varType":7,},
+    {"$GMObjectProperty":"","%Name":"color","filters":[],"listItems":[],"multiselect":false,"name":"color","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FFFFD400","varType":7,},
     {"$GMObjectProperty":"","%Name":"FogAlpha","filters":[],"listItems":[],"multiselect":false,"name":"FogAlpha","rangeEnabled":true,"rangeMax":1.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.5","varType":0,},
     {"$GMObjectProperty":"","%Name":"FogXSpeed","filters":[],"listItems":[],"multiselect":false,"name":"FogXSpeed","rangeEnabled":true,"rangeMax":10.0,"rangeMin":-10.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1.2","varType":0,},
     {"$GMObjectProperty":"","%Name":"FogYSpeed","filters":[],"listItems":[],"multiselect":false,"name":"FogYSpeed","rangeEnabled":true,"rangeMax":10.0,"rangeMin":-10.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-0.8","varType":0,},
