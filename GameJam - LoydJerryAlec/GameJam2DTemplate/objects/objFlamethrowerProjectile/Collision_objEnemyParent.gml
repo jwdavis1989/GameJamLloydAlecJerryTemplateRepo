@@ -1,3 +1,3 @@
 //target = instance_nearest(x, y, objEnemyParent);
-other.hp -= objPlayer.damage;
+other.hp -= objPlayer.equipped_weapon.damage;
 

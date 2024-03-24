@@ -135,27 +135,13 @@ if (equipped_weapon.currentAmmo < 1 && !equipped_weapon.reloading) {
     equipped_weapon.reloading = true;
 }
 //Fire if ammo
-if (key_shoot && currentAmmo > 0 && !reloading){
-	if(obj_inventory.equipped_flamethrower){
-		//do nothing - handled in key_shoot_hold
-	}
-	else{ //default - currently shotgun
-		for (var i = 0; i < pelletCount; i++) {
-			pellets[i] = instance_create(bulletAnchorX, bulletAnchorY, objIndividualBuckshot);
-		}
-		instance_create(bulletAnchorX, bulletAnchorY, objMuzzleFlare);
-		audio_play_sound(snd_rifle_fire, 1, 0);
-		currentAmmo--;
-	}
-	
+if(key_shoot_hold and equipped_weapon.fully_automatic && equipped_weapon.currentAmmo > 0 && !equipped_weapon.reloading){
+	for (var i = 0; i < equipped_weapon.pelletCount; i++) {
+        equipped_weapon.pellets[i] = instance_create(bulletAnchorX, bulletAnchorY, equipped_weapon.ammo);
+    }
+	 equipped_weapon.currentAmmo--;
 }
-if(key_shoot_hold){
-	if(obj_inventory.equipped_flamethrower && obj_inventory.ammo_flamethrower>0){
-		instance_create(bulletAnchorX, bulletAnchorY, objFlamethrowerProjectile);
-		obj_inventory.ammo_flamethrower -= 1;
-	}
-
-if (key_shoot && equipped_weapon.currentAmmo > 0 && !equipped_weapon.reloading){
+else if (key_shoot && equipped_weapon.currentAmmo > 0 && !equipped_weapon.reloading){
     for (var i = 0; i < equipped_weapon.pelletCount; i++) {
         equipped_weapon.pellets[i] = instance_create(bulletAnchorX, bulletAnchorY, equipped_weapon.ammo);
     }
