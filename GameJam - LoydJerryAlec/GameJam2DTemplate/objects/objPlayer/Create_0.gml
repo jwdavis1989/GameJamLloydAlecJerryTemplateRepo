@@ -28,17 +28,3 @@ bulletAnchorY = y - 11; //21
 
 //Weapon Stats
 equipped_weapon = instance_create(bulletAnchorX, bulletAnchorY, obj_gun_base_shotgun);
-/*
-damage = 5;
-maxAmmo = 2;
-currentAmmo = maxAmmo;
-reloading = false;
-reloadSpeed = 15;
-pelletCount = 100;
-pelletSpread = 4;
-pelletSpeed = 16;
-pelletSpeedVariance = 0.75;
-pelletLifetime = 15;
-pelletExplosive = false;
-pelletExplosiveRadius = 64;
-*/
