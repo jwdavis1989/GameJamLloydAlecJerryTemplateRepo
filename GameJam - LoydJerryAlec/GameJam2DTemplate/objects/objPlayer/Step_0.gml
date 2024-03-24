@@ -129,10 +129,10 @@ if (dashing || permanent_echo) {
 bulletAnchorX = x + sprite_width/2 - 1
 bulletAnchorY = y - 11;
 //Reload
-if (currentAmmo < 1 && !reloading) {
-    alarm[1] = reloadSpeed;
+if (equipped_weapon.currentAmmo < 1 && !equipped_weapon.reloading) {
+    alarm[1] = equipped_weapon.reloadSpeed;
     audio_play_sound(snd_reload, 1, 0);
-    reloading = true;
+    equipped_weapon.reloading = true;
 }
 //Fire if ammo
 if (key_shoot && currentAmmo > 0 && !reloading){
@@ -155,6 +155,13 @@ if(key_shoot_hold){
 		obj_inventory.ammo_flamethrower -= 1;
 	}
 
+if (key_shoot && equipped_weapon.currentAmmo > 0 && !equipped_weapon.reloading){
+    for (var i = 0; i < equipped_weapon.pelletCount; i++) {
+        equipped_weapon.pellets[i] = instance_create(bulletAnchorX, bulletAnchorY, equipped_weapon.ammo);
+    }
+    instance_create(bulletAnchorX, bulletAnchorY, objMuzzleFlare);
+    audio_play_sound(equipped_weapon.fire_sound, 1, 0);
+    equipped_weapon.currentAmmo--;
 }
 
 //Not fully implemented yet

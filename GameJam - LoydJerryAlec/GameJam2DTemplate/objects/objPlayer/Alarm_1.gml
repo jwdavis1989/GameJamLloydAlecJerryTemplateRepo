@@ -1,4 +1,4 @@
 /// @description Reloading Gun
-currentAmmo = maxAmmo;
-reloading = false;
+equipped_weapon.currentAmmo = equipped_weapon.maxAmmo;
+equipped_weapon.reloading = false;
 

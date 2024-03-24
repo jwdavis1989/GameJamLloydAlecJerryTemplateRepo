@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_draw_only_cyan",
+  "name":"shd_draw_only_cyan",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_noir_cyan",
+  "name":"shd_noir_cyan",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

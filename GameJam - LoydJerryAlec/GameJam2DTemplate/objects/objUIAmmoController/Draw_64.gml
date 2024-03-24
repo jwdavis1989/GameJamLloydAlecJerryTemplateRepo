@@ -10,5 +10,8 @@ if (instance_exists(objPlayer)) {
 			draw_sprite(sprUIAmmoRed, 0, (i * sprite_get_width(sprUIAmmoRed)/2) + sprite_get_width(sprUIAmmoRed)/2, anchorY);
 		}
 	}
+    for (var i=0; i < objPlayer.equipped_weapon.currentAmmo; i++) {
+        draw_sprite(sprUIAmmoRed, 0, (i * sprite_get_width(sprUIAmmoRed)/2) + sprite_get_width(sprUIAmmoRed)/2, anchorY);
+    }
 }
 

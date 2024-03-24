@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprOrbBody",
-    "path":"sprites/sprOrbBody/sprOrbBody.yy",
+    "name":"spr_orb_body_bug",
+    "path":"sprites/spr_orb_body_bug/spr_orb_body_bug.yy",
   },
   "spriteMaskId":null,
   "visible":true,

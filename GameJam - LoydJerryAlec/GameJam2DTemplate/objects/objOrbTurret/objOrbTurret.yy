@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprOrbGun",
-    "path":"sprites/sprOrbGun/sprOrbGun.yy",
+    "name":"spr_orb_gun_bug",
+    "path":"sprites/spr_orb_gun_bug/spr_orb_gun_bug.yy",
   },
   "spriteMaskId":null,
   "visible":true,

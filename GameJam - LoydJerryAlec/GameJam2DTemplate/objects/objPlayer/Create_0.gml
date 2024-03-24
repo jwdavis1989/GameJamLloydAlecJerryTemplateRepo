@@ -12,8 +12,10 @@ dashing = false
 image_speed = 0.1
 grounded = false
 nightVision = true;
+if (nightVision) {
+	instance_create(x, y, objNightVisionCamera);
+}
 facing = "right";
-instance_create(x, y, objNightVisionCamera);
 invulnerable = false;
 control_locked = false;
 canGrapple = true;
@@ -21,7 +23,12 @@ grapple = noone;
 grappleSpeed = 32;
 permanent_echo = false;
 
+bulletAnchorX = x + sprite_width/2 - 1 //63
+bulletAnchorY = y - 11; //21
+
 //Weapon Stats
+equipped_weapon = instance_create(bulletAnchorX, bulletAnchorY, obj_gun_base_shotgun);
+/*
 damage = 5;
 maxAmmo = 2;
 currentAmmo = maxAmmo;
@@ -34,6 +41,4 @@ pelletSpeedVariance = 0.75;
 pelletLifetime = 15;
 pelletExplosive = false;
 pelletExplosiveRadius = 64;
-bulletAnchorX = x + sprite_width/2 - 1 //63
-bulletAnchorY = y - 11; //21
-
+*/
