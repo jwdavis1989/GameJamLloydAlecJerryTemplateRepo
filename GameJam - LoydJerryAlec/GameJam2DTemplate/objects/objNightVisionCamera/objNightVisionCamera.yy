@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprVisionRadiusExtended",
-    "path":"sprites/sprVisionRadiusExtended/sprVisionRadiusExtended.yy",
+    "name":"spr_vision_radius_blue",
+    "path":"sprites/spr_vision_radius_blue/spr_vision_radius_blue.yy",
   },
   "spriteMaskId":null,
   "visible":true,
