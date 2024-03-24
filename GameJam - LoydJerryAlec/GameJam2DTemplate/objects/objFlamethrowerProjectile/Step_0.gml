@@ -19,3 +19,6 @@ if timeAlive > 10{
 //movement
 x += velX;
 y += velY + (random_range(0,10)*0.1);
+
+image_xscale = timeAlive/timeToLive * 2;
+image_yscale = timeAlive/timeToLive * 2;

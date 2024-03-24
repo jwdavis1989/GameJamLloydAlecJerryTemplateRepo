@@ -151,11 +151,7 @@ if (key_shoot && currentAmmo > 0 && !reloading){
 }
 if(key_shoot_hold){
 	if(obj_inventory.equipped_flamethrower && obj_inventory.ammo_flamethrower>0){
-		var projectile_x = x+10;
-		if(facing == "left") {
-			projectile_x = x - 64
-		}
-		instance_create(projectile_x, y-55, objFlamethrowerProjectile);
+		instance_create(bulletAnchorX, bulletAnchorY, objFlamethrowerProjectile);
 		obj_inventory.ammo_flamethrower -= 1;
 	}
 
