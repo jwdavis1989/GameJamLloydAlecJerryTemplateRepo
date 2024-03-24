@@ -7,6 +7,7 @@ if (!control_locked) {
     key_dash = keyboard_check_pressed(vk_shift);
     key_interact = keyboard_check(ord("E"));
     key_shoot = mouse_check_button_pressed(mb_left);
+	key_shoot_hold = mouse_check_button(mb_left)
 	key_grapple = mouse_check_button_pressed(mb_right);
 }
 else {
@@ -134,7 +135,13 @@ if (equipped_weapon.currentAmmo < 1 && !equipped_weapon.reloading) {
     equipped_weapon.reloading = true;
 }
 //Fire if ammo
-if (key_shoot && equipped_weapon.currentAmmo > 0 && !equipped_weapon.reloading){
+if(key_shoot_hold and equipped_weapon.fully_automatic && equipped_weapon.currentAmmo > 0 && !equipped_weapon.reloading){
+	for (var i = 0; i < equipped_weapon.pelletCount; i++) {
+        equipped_weapon.pellets[i] = instance_create(bulletAnchorX, bulletAnchorY, equipped_weapon.ammo);
+    }
+	 equipped_weapon.currentAmmo--;
+}
+else if (key_shoot && equipped_weapon.currentAmmo > 0 && !equipped_weapon.reloading){
     for (var i = 0; i < equipped_weapon.pelletCount; i++) {
         equipped_weapon.pellets[i] = instance_create(bulletAnchorX, bulletAnchorY, equipped_weapon.ammo);
     }
