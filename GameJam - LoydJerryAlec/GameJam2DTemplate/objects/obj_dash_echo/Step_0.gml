@@ -1,8 +1,1 @@
-/*if not obj_player.dashing
-{
-    instance_destroy()
-}
-*/
-
-/* */
-/*  */
+image_alpha = alarm[0]/10;

@@ -21,11 +21,10 @@ else {
 }
 //React to inputs
 move = key_left + key_right;
-if key_dash and not dashing and (move == 1 or move == -1) and grounded
+if key_dash and not dashing and (move != 0) and grounded
 {
     audio_play_sound(snd_jump, 2, 0);
     movespeed = movespeed * 2
-    //jumpspeed = 18
     grav = (0.5 * init_grav)
     dashing = true
     alarm[0] = 15
@@ -87,7 +86,7 @@ if (place_meeting(x,y+1,obj_wall_parent))
         if (move!=0) 
         {
             sprite_index = spr_character_walk;
-            image_speed = 0.2
+            image_speed = 0.3
         }
         else 
         {
@@ -121,8 +120,7 @@ if (vel_x > 0){
     facing = "right";
 }
 
-if dashing
-{
+if (dashing || permanent_echo) {
     instance_create(x, y, obj_dash_echo);
 }
 

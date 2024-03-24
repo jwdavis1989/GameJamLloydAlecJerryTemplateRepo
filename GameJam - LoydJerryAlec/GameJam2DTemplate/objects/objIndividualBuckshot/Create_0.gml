@@ -5,4 +5,4 @@ if (objPlayer.facing == "left") {
     velX = -velX;  
 }
 explosive = objPlayer.pelletExplosive;
-
+grav = velY/10;

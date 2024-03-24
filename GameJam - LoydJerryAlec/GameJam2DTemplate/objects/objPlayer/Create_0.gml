@@ -14,12 +14,12 @@ grounded = false
 nightVision = true;
 facing = "right";
 instance_create(x, y, objNightVisionCamera);
-comboState = 0;
 invulnerable = false;
 control_locked = false;
 canGrapple = true;
 grapple = noone;
 grappleSpeed = 32;
+permanent_echo = false;
 
 //Weapon Stats
 damage = 5;

@@ -1,7 +1,7 @@
 {
   "$GMRoom":"",
   "%Name":"rmScratchPad",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/rmScratchPad/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
