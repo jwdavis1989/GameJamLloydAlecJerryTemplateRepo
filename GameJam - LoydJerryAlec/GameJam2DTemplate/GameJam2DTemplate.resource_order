@@ -34,6 +34,7 @@
     {"name":"Backgrounds","order":3,"path":"folders/Sprites/Backgrounds.yy",},
     {"name":"Camera","order":2,"path":"folders/Sprites/Camera.yy",},
     {"name":"Doodads","order":5,"path":"folders/Sprites/Doodads.yy",},
+    {"name":"Items","order":10,"path":"folders/Sprites/Items.yy",},
     {"name":"NPCs","order":8,"path":"folders/Sprites/NPCs.yy",},
     {"name":"Projectiles","order":1,"path":"folders/Sprites/Projectiles.yy",},
     {"name":"Terrain","order":4,"path":"folders/Sprites/Terrain.yy",},
