@@ -7,6 +7,7 @@ if (!control_locked) {
     key_dash = keyboard_check_pressed(vk_shift);
     key_interact = keyboard_check(ord("E"));
     key_shoot = mouse_check_button_pressed(mb_left);
+	key_shoot_hold = mouse_check_button(mb_left)
 	key_grapple = mouse_check_button_pressed(mb_right);
 }
 else {
@@ -135,12 +136,29 @@ if (currentAmmo < 1 && !reloading) {
 }
 //Fire if ammo
 if (key_shoot && currentAmmo > 0 && !reloading){
-    for (var i = 0; i < pelletCount; i++) {
-        pellets[i] = instance_create(bulletAnchorX, bulletAnchorY, objIndividualBuckshot);
-    }
-    instance_create(bulletAnchorX, bulletAnchorY, objMuzzleFlare);
-    audio_play_sound(snd_rifle_fire, 1, 0);
-    currentAmmo--;
+	if(obj_inventory.equipped_flamethrower){
+		//do nothing - handled in key_shoot_hold
+	}
+	else{ //default - currently shotgun
+		for (var i = 0; i < pelletCount; i++) {
+			pellets[i] = instance_create(bulletAnchorX, bulletAnchorY, objIndividualBuckshot);
+		}
+		instance_create(bulletAnchorX, bulletAnchorY, objMuzzleFlare);
+		audio_play_sound(snd_rifle_fire, 1, 0);
+		currentAmmo--;
+	}
+	
+}
+if(key_shoot_hold){
+	if(obj_inventory.equipped_flamethrower && obj_inventory.ammo_flamethrower>0){
+		var projectile_x = x+10;
+		if(facing == "left") {
+			projectile_x = x - 64
+		}
+		instance_create(projectile_x, y-55, objFlamethrowerProjectile);
+		obj_inventory.ammo_flamethrower -= 1;
+	}
+
 }
 
 //Not fully implemented yet
