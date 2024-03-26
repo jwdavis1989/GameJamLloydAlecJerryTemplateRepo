@@ -1,3 +1,4 @@
+depth = -1001;
 timeAlive = 0;
 timeToLive = 20;
 velY = 1

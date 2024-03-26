@@ -1,3 +1,4 @@
+depth = -1001;
 damage = 1;
 alarm[0] = 30;
 movementSpeed = 16;
