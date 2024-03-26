@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"objScifiBrickWall",
+  "%Name":"objInvisibleCollisionBlock",
   "eventList":[],
   "managed":true,
-  "name":"objScifiBrickWall",
+  "name":"objInvisibleCollisionBlock",
   "overriddenProperties":[],
   "parent":{
     "name":"Terrain",
@@ -35,5 +35,5 @@
     "path":"sprites/sprScifiBrick128/sprScifiBrick128.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

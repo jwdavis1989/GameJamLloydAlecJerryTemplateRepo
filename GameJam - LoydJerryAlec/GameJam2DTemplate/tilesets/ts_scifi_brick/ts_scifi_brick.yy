@@ -1,14 +1,14 @@
 {
   "$GMTileSet":"",
-  "%Name":"ts_rust_scifi_brick",
+  "%Name":"ts_scifi_brick",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"ts_rust_scifi_brick",
-  "out_columns":4,
+  "name":"ts_scifi_brick",
+  "out_columns":5,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_rusty_scifi_brick_tileset",
-    "path":"sprites/spr_rusty_scifi_brick_tileset/spr_rusty_scifi_brick_tileset.yy",
+    "name":"spr_scifi_brick_tileset",
+    "path":"sprites/spr_scifi_brick_tileset/spr_scifi_brick_tileset.yy",
   },
   "spriteNoExport":true,
   "textureGroupId":{
@@ -27,7 +27,7 @@
     "path":"texturegroups/Default",
   },
   "tileAnimation":{
-    "FrameData":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,],
+    "FrameData":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,],
     "SerialiseFrameCount":1,
   },
   "tileAnimationFrames":[],
@@ -38,5 +38,5 @@
   "tileWidth":64,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":18,
+  "tile_count":24,
 }
