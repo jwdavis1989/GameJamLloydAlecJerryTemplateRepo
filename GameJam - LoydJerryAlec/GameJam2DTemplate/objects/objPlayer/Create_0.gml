@@ -27,7 +27,8 @@ bulletAnchorX = x + sprite_width/2 - 1 //63
 bulletAnchorY = y - 11; //21
 
 //Weapon Stats
-equipped_weapon = instance_create(bulletAnchorX, bulletAnchorY, obj_gun_base_shotgun);
+//equipped_weapon = instance_create(bulletAnchorX, bulletAnchorY, obj_gun_base_shotgun);
+equipped_weapon = ""; // handled in obj_inventory
 /*
 damage = 5;
 maxAmmo = 2;
