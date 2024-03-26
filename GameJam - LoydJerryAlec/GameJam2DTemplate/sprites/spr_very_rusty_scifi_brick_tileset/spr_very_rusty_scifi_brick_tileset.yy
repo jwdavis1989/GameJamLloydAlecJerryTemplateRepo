@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_rusty_scifi_brick_tileset",
+  "%Name":"spr_very_rusty_scifi_brick_tileset",
   "bboxMode":1,
   "bbox_bottom":191,
   "bbox_left":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8d644aa9-7e6d-4012-9a21-c9a45a34d044","name":"8d644aa9-7e6d-4012-9a21-c9a45a34d044","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"b30e21ad-770f-4409-bb80-24cb8e3d2dd5","name":"b30e21ad-770f-4409-bb80-24cb8e3d2dd5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":192,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"e3c1c7d7-f8b4-419f-8850-fa5e58a0c6d9","blendMode":0,"displayName":"default","isLocked":false,"name":"e3c1c7d7-f8b4-419f-8850-fa5e58a0c6d9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"7e446196-29b8-4d5e-9cb3-4d5abe3c6a44","blendMode":0,"displayName":"default","isLocked":false,"name":"7e446196-29b8-4d5e-9cb3-4d5abe3c6a44","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_rusty_scifi_brick_tileset",
+  "name":"spr_very_rusty_scifi_brick_tileset",
   "nineSlice":{
     "$GMNineSliceData":"",
     "bottom":64,
@@ -52,7 +52,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_rusty_scifi_brick_tileset",
+    "%Name":"spr_very_rusty_scifi_brick_tileset",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -76,7 +76,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_rusty_scifi_brick_tileset",
+    "name":"spr_very_rusty_scifi_brick_tileset",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -88,8 +88,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8d644aa9-7e6d-4012-9a21-c9a45a34d044","path":"sprites/spr_rusty_scifi_brick_tileset/spr_rusty_scifi_brick_tileset.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b0d6a88d-f9f6-4b33-ab29-c8aa6d9f54b8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b30e21ad-770f-4409-bb80-24cb8e3d2dd5","path":"sprites/spr_very_rusty_scifi_brick_tileset/spr_very_rusty_scifi_brick_tileset.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ea113ffd-9195-4141-9cb0-668815cd7a5f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
