@@ -49,9 +49,24 @@
           12,-8,-2147483648,-2,0,-2,14,7,15,-2147483648,19,20,-2147483648,11,12,-4,-2147483648,2,0,13,-3,14,1,
           15,-4,-2147483648,8,19,20,-2147483648,-2147483648,5,6,6,17,-3,14,1,16,-8,6,1,17,-21,14,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_very_rusty_scifi_brick","path":"tilesets/ts_very_rusty_scifi_brick/ts_very_rusty_scifi_brick.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"Rusty_Tiles","depth":-6,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Rusty_Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":16,"TileCompressedData":[
+          5,14,15,-2147483648,-2147483648,13,-12,14,4,15,0,-2147483648,21,-9,22,6,9,14,14,15,0,0,-4,-2147483648,
+          -6,0,5,13,14,14,15,0,-11,-2147483648,4,13,14,14,15,-3,0,-3,-2147483648,-2,0,-4,-2147483648,4,13,14,14,
+          15,-3,0,1,-2147483648,-5,0,-3,-2147483648,4,13,14,14,15,-3,0,1,-2147483648,-5,0,-3,-2147483648,7,13,
+          14,14,15,-2147483648,11,12,-5,0,-3,-2147483648,17,5,17,14,14,15,0,19,20,0,11,12,0,-2147483648,-2147483648,
+          0,5,17,-3,14,1,15,-4,0,7,19,20,-2147483648,0,5,6,17,-4,14,1,16,-8,6,1,17,-21,14,
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_rusty_scifi_brick","path":"tilesets/ts_rusty_scifi_brick/ts_rusty_scifi_brick.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"Metal_Tiles","depth":-5,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Metal_Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":16,"TileCompressedData":[
+          5,-2147483648,15,-2147483648,-2147483648,13,-12,-2147483648,4,15,-2147483648,-2147483648,21,-9,22,4,
+          9,-2147483648,-2147483648,15,-12,-2147483648,4,13,-2147483648,-2147483648,15,-12,-2147483648,4,13,-2147483648,
+          -2147483648,15,-12,-2147483648,4,13,-2147483648,-2147483648,15,-12,-2147483648,4,13,-2147483648,-2147483648,
+          15,-12,-2147483648,7,13,-2147483648,-2147483648,15,-2147483648,11,12,-8,-2147483648,11,5,17,-2147483648,
+          -2147483648,15,-2147483648,19,20,-2147483648,11,12,-4,-2147483648,2,0,13,-3,-2147483648,1,15,-4,-2147483648,
+          7,19,20,-2147483648,-2147483648,5,6,20,-4,-2147483648,1,16,-8,6,1,20,-21,-2147483648,
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scifi_brick","path":"tilesets/ts_scifi_brick/ts_scifi_brick.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRAssetLayer":"","%Name":"Assets_Water","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_85164CC","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_85164CC","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":12.500001,"scaleY":2.5,"spriteId":{"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},"x":96.0,"y":512.0,},
-      ],"depth":-6,"effectEnabled":true,"effectType":"_filter_underwater","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_Water","properties":[
+      ],"depth":-4,"effectEnabled":true,"effectType":"_filter_underwater","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_Water","properties":[
         {"name":"g_Distort1Speed","type":0,"value":"0.008",},
         {"name":"g_Distort2Speed","type":0,"value":"0.009",},
         {"name":"g_Distort1Scale","type":0,"value":"20",},
@@ -67,21 +82,6 @@
         {"name":"g_AddCol","type":1,"value":"#FF331900",},
         {"name":"g_DistortTexture","type":2,"value":"_filter_underwater_noise_sprite",},
       ],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"Rusty_Tiles","depth":-5,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Rusty_Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":16,"TileCompressedData":[
-          5,14,15,-2147483648,-2147483648,13,-12,14,4,15,0,-2147483648,21,-9,22,6,9,14,14,15,0,0,-4,-2147483648,
-          -6,0,5,13,14,14,15,0,-11,-2147483648,4,13,14,14,15,-3,0,-3,-2147483648,-2,0,-4,-2147483648,4,13,14,14,
-          15,-3,0,1,-2147483648,-5,0,-3,-2147483648,4,13,14,14,15,-3,0,1,-2147483648,-5,0,-3,-2147483648,7,13,
-          14,14,15,-2147483648,11,12,-5,0,-3,-2147483648,17,5,17,14,14,15,0,19,20,0,11,12,0,-2147483648,-2147483648,
-          0,5,17,-3,14,1,15,-4,0,7,19,20,-2147483648,0,5,6,17,-4,14,1,16,-8,6,1,17,-21,14,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_rusty_scifi_brick","path":"tilesets/ts_rusty_scifi_brick/ts_rusty_scifi_brick.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"Metal_Tiles","depth":-4,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Metal_Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":16,"TileCompressedData":[
-          5,-2147483648,15,-2147483648,-2147483648,13,-12,-2147483648,4,15,-2147483648,-2147483648,21,-9,22,4,
-          9,-2147483648,-2147483648,15,-12,-2147483648,4,13,-2147483648,-2147483648,15,-12,-2147483648,4,13,-2147483648,
-          -2147483648,15,-12,-2147483648,4,13,-2147483648,-2147483648,15,-12,-2147483648,4,13,-2147483648,-2147483648,
-          15,-12,-2147483648,7,13,-2147483648,-2147483648,15,-2147483648,11,12,-8,-2147483648,11,5,17,-2147483648,
-          -2147483648,15,-2147483648,19,20,-2147483648,11,12,-4,-2147483648,2,0,13,-3,-2147483648,1,15,-4,-2147483648,
-          7,19,20,-2147483648,-2147483648,5,6,20,-4,-2147483648,1,16,-8,6,1,20,-21,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scifi_brick","path":"tilesets/ts_scifi_brick/ts_scifi_brick.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Terrain_Collision_Masks","depth":-3,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_22B8DA22","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_22B8DA22","objectId":{"name":"objInvisibleCollisionBlock","path":"objects/objInvisibleCollisionBlock/objInvisibleCollisionBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":6.0,"x":0.0,"y":0.0,},
         {"$GMRInstance":"","%Name":"inst_2F8B0BEA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2F8B0BEA","objectId":{"name":"objInvisibleCollisionBlock","path":"objects/objInvisibleCollisionBlock/objInvisibleCollisionBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":7.0,"scaleY":1.0,"x":128.0,"y":640.0,},
