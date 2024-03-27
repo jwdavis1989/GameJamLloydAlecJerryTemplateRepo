@@ -43,8 +43,8 @@
     {"$GMRTileLayer":"","%Name":"Rusty_Tiles","depth":-800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Rusty_Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":16,"TileCompressedData":[
           5,14,0,0,-2147483648,0,-12,14,-14,0,-2,14,-3,0,-4,-2147483648,-7,0,-2,14,-2,0,-11,-2147483648,3,0,14,
           14,-4,0,-3,-2147483648,-2,0,-3,-2147483648,-2,0,-2,14,-4,0,1,-2147483648,-5,0,-2,-2147483648,-2,0,-2,
-          14,-4,0,1,-2147483648,-5,0,-3,-2147483648,7,0,14,14,15,-2147483648,11,12,-5,0,-3,-2147483648,5,5,17,
-          14,14,15,-8,0,4,-2147483648,0,0,17,-3,14,1,15,-6,0,5,-2147483648,0,5,6,17,-4,14,1,16,-8,6,1,17,-21,14,
+          14,-4,0,1,-2147483648,-5,0,-3,-2147483648,7,0,14,14,0,-2147483648,11,12,-5,0,-3,-2147483648,5,0,17,14,
+          14,15,-8,0,4,-2147483648,0,0,17,-3,14,1,15,-6,0,5,-2147483648,0,5,6,17,-4,14,1,16,-8,6,1,17,-21,14,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_rusty_scifi_brick","path":"tilesets/ts_rusty_scifi_brick/ts_rusty_scifi_brick.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Metal_Tiles","depth":-700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Metal_Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":16,"TileCompressedData":[
           5,-2147483648,15,-2147483648,-2147483648,13,-12,-2147483648,4,15,-2147483648,-2147483648,21,-9,22,4,
