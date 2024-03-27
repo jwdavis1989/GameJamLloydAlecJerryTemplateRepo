@@ -9,6 +9,10 @@ if (!control_locked) {
     key_shoot = mouse_check_button_pressed(mb_left);
 	key_shoot_hold = mouse_check_button(mb_left)
 	key_grapple = mouse_check_button_pressed(mb_right);
+	key_weapon1 = keyboard_check(ord("1"));
+	key_weapon2 = keyboard_check(ord("2"));
+	key_weapon_down = mouse_wheel_down()
+	key_weapon_up = mouse_wheel_up()
 }
 else {
     key_right = false;
@@ -19,6 +23,10 @@ else {
     key_interact = false;
     key_shoot = false;
 	key_grapple = false;
+	key_weapon1 = false;
+	key_weapon2 = false;
+	key_weapon_down = false;
+	key_weapon_up = false;
 }
 //React to inputs
 move = key_left + key_right;
@@ -172,4 +180,14 @@ if (grapple) {
 			move_towards_point(grapple.x, grapple.y, grappleSpeed);
 		}
 	}
+}
+
+if(key_weapon1){
+	obj_inventory.switch_weapon_to(1);
+}else if(key_weapon2){
+	obj_inventory.switch_weapon_to(2);
+}else if(key_weapon_down){
+	obj_inventory.switch_weapon_down();
+}else if(key_weapon_up){
+	obj_inventory.switch_weapon_up();
 }
