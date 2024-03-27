@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"objOrbGlow",
+  "%Name":"obj_ocean_window_background",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objOrbGlow",
+  "name":"obj_ocean_window_background",
   "overriddenProperties":[],
   "parent":{
-    "name":"Orb Bug",
-    "path":"folders/Objects/NPCs/Orb Bug.yy",
+    "name":"Background Details",
+    "path":"folders/Objects/Background Details.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprOrbGlow",
-    "path":"sprites/sprOrbGlow/sprOrbGlow.yy",
+    "name":"sprOceanWindowBackground",
+    "path":"sprites/sprOceanWindowBackground/sprOceanWindowBackground.yy",
   },
   "spriteMaskId":null,
   "visible":true,

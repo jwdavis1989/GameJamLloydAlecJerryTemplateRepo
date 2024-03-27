@@ -9,8 +9,8 @@
   "name":"objOrbProjectile",
   "overriddenProperties":[],
   "parent":{
-    "name":"NPCs",
-    "path":"folders/Objects/NPCs.yy",
+    "name":"Orb Bug",
+    "path":"folders/Objects/NPCs/Orb Bug.yy",
   },
   "parentObjectId":{
     "name":"objEnemyProjectileParent",
