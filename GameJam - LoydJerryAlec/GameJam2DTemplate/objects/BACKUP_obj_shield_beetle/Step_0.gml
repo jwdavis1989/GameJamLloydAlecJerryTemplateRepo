@@ -21,19 +21,14 @@ if (!currently_melee_charging) {
 
 	//4. Melee Charge-up
 	if (abs(x - objPlayer.x) < melee_engagement_range) {
-		//Begin melee charging animation
 		currently_melee_charging = true;
-		alarm[0] = melee_charge_speed;
-		vel_x = 0;
-		audio_play_sound(snd_bug_noise, 2, 0);
+		//Begin melee charging animation
+		alarm[0] = melee_animation_duration;
 	}
 
 	//5. Melee Attack
 		//Handled by alarm[1]
 }
-
-//Gravity
-vel_y += grav;
 
 //Horizontal Collision
 if (place_meeting(x+vel_x,y,obj_wall_parent))
