@@ -2,7 +2,7 @@ timeAlive += 1;
 if timeAlive > timeToLive{
 	instance_destroy(self);
 }
-//size
+//sprite change over time
 if timeAlive > 10{
 	if random_range(0,3) > 1{
 		sprite_index = spr_fire_lg2
@@ -18,7 +18,18 @@ if timeAlive > 10{
 }
 //movement
 x += velX;
-y += velY + (random_range(0,10)*0.1);
-
+if velY > 0
+	y += velY + (random_range(0,10)*0.1);
+//sprite size increase over time
 image_xscale = timeAlive/timeToLive * 2;
 image_yscale = timeAlive/timeToLive * 2;
+//stick to and burn enemys
+if(collided && collided_enemy != ""){
+	if(instance_exists(collided_enemy)){
+		collided_enemy.hp -= obj_gun_flamethrower.damage
+		x=collided_enemy.x
+		y=collided_enemy.y
+	}else{
+		instance_destroy(self)
+	}
+}
