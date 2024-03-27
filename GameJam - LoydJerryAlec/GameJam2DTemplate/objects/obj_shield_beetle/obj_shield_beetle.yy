@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_rising_water",
+  "%Name":"obj_shield_beetle",
   "eventList":[],
   "managed":true,
-  "name":"obj_rising_water",
+  "name":"obj_shield_beetle",
   "overriddenProperties":[],
   "parent":{
-    "name":"Terrain",
-    "path":"folders/Objects/Terrain.yy",
+    "name":"Shield Beetle",
+    "path":"folders/Objects/NPCs/Shield Beetle.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_water",
-    "path":"sprites/spr_water/spr_water.yy",
+    "name":"spr_shield_beetle_idle",
+    "path":"sprites/spr_shield_beetle_idle/spr_shield_beetle_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
