@@ -23,6 +23,10 @@ else {
     key_interact = false;
     key_shoot = false;
 	key_grapple = false;
+	key_weapon1 = false;
+	key_weapon2 = false;
+	key_weapon_down = false;
+	key_weapon_up = false;
 }
 //React to inputs
 move = key_left + key_right;
@@ -183,7 +187,7 @@ if(key_weapon1){
 }else if(key_weapon2){
 	obj_inventory.switch_weapon_to(2);
 }else if(key_weapon_down){
-	obj_inventory.switch_weapon_down()
+	obj_inventory.switch_weapon_down();
 }else if(key_weapon_up){
-	obj_inventory.switch_weapon_up()
+	obj_inventory.switch_weapon_up();
 }
