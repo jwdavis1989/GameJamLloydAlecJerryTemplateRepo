@@ -8,7 +8,7 @@ if (hp < 1) {
 //Aggro
 if (distance_to_object(objPlayer) < aggroRange && !aggro) {
     aggro = true;
-    audio_play_sound(snd_alarm, 1, 0);
+    audio_play_sound(snd_alarm, 1, 0, 1, 0, random_range(1, 1.5));
 }
 
 /* */
