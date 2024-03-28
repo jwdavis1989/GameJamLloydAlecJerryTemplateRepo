@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":361.056,
   "name":"snd_ambient_space_music",
   "parent":{
     "name":"Sounds",

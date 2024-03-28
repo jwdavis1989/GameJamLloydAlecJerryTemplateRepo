@@ -15,20 +15,33 @@ if (!currently_melee_charging) {
 	}
 
 	//3. Shield
-	if (alarm[2] > 0) {
+	if (alarm[2] <= 0) {
 		alarm[2] = shield_cooldown_timer;
 	}
 
 	//4. Melee Charge-up
-	if (abs(x - objPlayer.x) < melee_engagement_range) {
+	if (abs(x - objPlayer.x) < melee_engagement_range && !currently_melee_charging) {
 		currently_melee_charging = true;
 		//Begin melee charging animation
+		audio_play_sound(snd_bug_noise, 2, 0, 1, 0, 0.5);
 		alarm[0] = melee_animation_duration;
+		vel_x = 0;
+		attack_direction = (x < objPlayer.x);
 	}
 
 	//5. Melee Attack
 		//Handled by alarm[1]
+		
+	//Animation
+	if (vel_x < 0) {
+		image_xscale = width;	
+	}
+	else if (vel_x > 0) {
+		image_xscale = -width;	
+	}
 }
+
+vel_y += grav;
 
 //Horizontal Collision
 if (place_meeting(x+vel_x,y,obj_wall_parent))
@@ -51,11 +64,3 @@ if (place_meeting(x,y+vel_y,obj_wall_parent))
     vel_y = 0;
 }
 y += vel_y;
-
-//Animation
-if (vel_x > 0) {
-	image_xscale = -1;	
-}
-else if (vel_x > 1) {
-	image_xscale = 1;	
-}

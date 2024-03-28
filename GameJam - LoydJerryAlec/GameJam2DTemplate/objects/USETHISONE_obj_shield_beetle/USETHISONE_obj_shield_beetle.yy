@@ -1,21 +1,25 @@
 {
   "$GMObject":"",
-  "%Name":"BACKUP_obj_shield_beetle",
+  "%Name":"USETHISONE_obj_shield_beetle",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"BACKUP_obj_shield_beetle",
+  "name":"USETHISONE_obj_shield_beetle",
   "overriddenProperties":[],
   "parent":{
     "name":"Shield Beetle",
     "path":"folders/Objects/NPCs/Shield Beetle.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objEnemyParent",
+    "path":"objects/objEnemyParent/objEnemyParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
