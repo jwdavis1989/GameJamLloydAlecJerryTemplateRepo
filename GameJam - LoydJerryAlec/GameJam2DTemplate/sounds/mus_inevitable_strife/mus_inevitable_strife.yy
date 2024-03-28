@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":394.06247,
   "name":"mus_inevitable_strife",
   "parent":{
     "name":"Sounds",

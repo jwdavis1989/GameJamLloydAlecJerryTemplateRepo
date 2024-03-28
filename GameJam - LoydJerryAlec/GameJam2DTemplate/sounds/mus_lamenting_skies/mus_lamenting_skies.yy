@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":118.052666,
   "name":"mus_lamenting_skies",
   "parent":{
     "name":"Sounds",

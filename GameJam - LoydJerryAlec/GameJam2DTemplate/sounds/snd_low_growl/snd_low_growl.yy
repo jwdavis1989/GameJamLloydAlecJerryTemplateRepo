@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":3.978163,
   "name":"snd_low_growl",
   "parent":{
     "name":"Sounds",
