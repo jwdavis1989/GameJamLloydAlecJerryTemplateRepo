@@ -20,6 +20,7 @@
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_oxygen_tank","path":"objects/obj_oxygen_tank/obj_oxygen_tank.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_keycard_parent","path":"objects/obj_keycard_parent/obj_keycard_parent.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_door_keycard_parent","path":"objects/obj_door_keycard_parent/obj_door_keycard_parent.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":67,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"objPlayer",
