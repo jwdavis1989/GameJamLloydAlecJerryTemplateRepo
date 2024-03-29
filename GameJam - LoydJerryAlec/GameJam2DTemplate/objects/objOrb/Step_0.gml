@@ -34,7 +34,9 @@ glow.x = x;
 glow.y = y;
 
 if (hp < 1) {
-    instance_create(x, y, objExplosion);
+	audio_play_sound(snd_bug_noise, 2, 0, 1, 0, 1.5);
+	effect_create_depth(-1003, ef_firework, x, y, 0, c_red);
+	effect_create_depth(-1003, ef_explosion, x, y, 0, c_red);
     instance_destroy(turret);
     instance_destroy(glow);
     instance_destroy(self);

@@ -1,9 +1,9 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_shield_beetle_idle",
+  "%Name":"spr_shield_beetle_wing_flap",
   "bboxMode":2,
   "bbox_bottom":53,
-  "bbox_left":8,
+  "bbox_left":4,
   "bbox_right":55,
   "bbox_top":23,
   "collisionKind":1,
@@ -12,17 +12,17 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"83424fca-676f-4112-b967-9cee0e1c6a7e","name":"83424fca-676f-4112-b967-9cee0e1c6a7e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"91cf260e-cb38-4939-82c2-00b2ca283fc6","name":"91cf260e-cb38-4939-82c2-00b2ca283fc6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0d7bc9d9-edf5-4060-8de1-0b39843ec248","name":"0d7bc9d9-edf5-4060-8de1-0b39843ec248","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0fe3464c-49cf-4b6c-bf6e-4ad8267a0eb1","name":"0fe3464c-49cf-4b6c-bf6e-4ad8267a0eb1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"15b6c727-a6ea-4e02-bdba-1c7bc196a4d7","blendMode":0,"displayName":"default","isLocked":false,"name":"15b6c727-a6ea-4e02-bdba-1c7bc196a4d7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"7784ae28-63ac-4975-b7d9-eec7ed45aa17","blendMode":0,"displayName":"default","isLocked":false,"name":"7784ae28-63ac-4975-b7d9-eec7ed45aa17","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_shield_beetle_idle",
+  "name":"spr_shield_beetle_wing_flap",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -34,7 +34,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_shield_beetle_idle",
+    "%Name":"spr_shield_beetle_wing_flap",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -58,9 +58,9 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_shield_beetle_idle",
+    "name":"spr_shield_beetle_wing_flap",
     "playback":1,
-    "playbackSpeed":3.0,
+    "playbackSpeed":2.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -70,11 +70,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"83424fca-676f-4112-b967-9cee0e1c6a7e","path":"sprites/spr_shield_beetle_idle/spr_shield_beetle_idle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4c3b6608-d8f4-4dac-bab9-095dba61ac51","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0d7bc9d9-edf5-4060-8de1-0b39843ec248","path":"sprites/spr_shield_beetle_wing_flap/spr_shield_beetle_wing_flap.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5fa652c6-7f79-4404-8332-5afae97f8c5b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"91cf260e-cb38-4939-82c2-00b2ca283fc6","path":"sprites/spr_shield_beetle_idle/spr_shield_beetle_idle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6c0c8832-a35d-4f64-8646-019fbdd04445","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0fe3464c-49cf-4b6c-bf6e-4ad8267a0eb1","path":"sprites/spr_shield_beetle_wing_flap/spr_shield_beetle_wing_flap.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6f3b5f30-1b57-4256-b8d7-19f725851dba","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
