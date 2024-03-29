@@ -2,6 +2,7 @@
 // You can write your code in this editor
 //Handle Death
 if (hp < 1) {
+	effect_create_depth(-1003, ef_firework, x, y, 0, c_red);
 	effect_create_depth(-1003, ef_explosion, x, y, 1, c_red);
 	audio_play_sound(snd_bug_noise, 2, 0, 1, 0, 0.3);
 	instance_destroy(self);
@@ -37,6 +38,7 @@ if (!currently_melee_charging) {
 		image_speed = 0;
 		sprite_index = spr_shield_beetle_wing_flap;
 		image_index = 0;
+		effect_create_depth(-1003, ef_flare, x, y, 2, c_red);
 		attack_direction = (x < objPlayer.x);
 	}
 
@@ -52,7 +54,8 @@ if (!currently_melee_charging) {
 	}
 }
 else {
-	instance_create(x, y, obj_shield_beetle_echo);
+	instance_create_depth(x, y, -1003, obj_shield_beetle_echo);
+	effect_create_depth(-1002, ef_flare, x, y, 0, c_red);
 	nearest_echo = instance_nearest(x, y, obj_shield_beetle_echo);
 	if (attack_direction) {
 		nearest_echo.image_xscale = -width;
