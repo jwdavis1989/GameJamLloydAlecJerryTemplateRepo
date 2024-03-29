@@ -3,6 +3,6 @@ if(key_interact){
 		other.image_index = 1; // Open door
 	}
 	else{
-		show_message("You don't have the level 1 keycard.");
+		show_message(string("You don't have the level {0} keycard.", other.level));
 	}
 }

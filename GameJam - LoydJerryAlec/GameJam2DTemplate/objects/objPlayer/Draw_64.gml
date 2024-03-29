@@ -13,5 +13,8 @@ if(y < 540){ // Player is out of the water
 }
 
 if(keycards[0]){ // Player has first keycard
-	draw_sprite(spr_keycard_1, 0, x - 100, y - 100);
+	draw_sprite(spr_keycard_1, 0, x - 200, y - 100);
+}
+if(keycards[1]){ // Player has second keycard
+	draw_sprite(spr_keycard_2, 0, x - 150, y - 100);
 }
