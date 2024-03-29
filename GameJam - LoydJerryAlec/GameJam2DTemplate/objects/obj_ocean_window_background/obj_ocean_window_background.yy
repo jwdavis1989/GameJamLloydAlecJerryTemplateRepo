@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprOceanWindowBackground",
-    "path":"sprites/sprOceanWindowBackground/sprOceanWindowBackground.yy",
+    "name":"spr_ocean_window_background",
+    "path":"sprites/spr_ocean_window_background/spr_ocean_window_background.yy",
   },
   "spriteMaskId":null,
   "visible":true,
