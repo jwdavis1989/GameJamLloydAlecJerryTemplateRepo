@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprFactoryBackground",
-    "path":"sprites/sprFactoryBackground/sprFactoryBackground.yy",
+    "name":"spr_factory_background",
+    "path":"sprites/spr_factory_background/spr_factory_background.yy",
   },
   "spriteMaskId":null,
   "visible":true,

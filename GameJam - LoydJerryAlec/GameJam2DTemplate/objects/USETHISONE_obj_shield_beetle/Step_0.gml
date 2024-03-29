@@ -1,5 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
+//Handle Death
+if (hp < 1) {
+    instance_create(x, y, objExplosion);
+    instance_destroy(self);
+}
 
 //States
 if (!currently_melee_charging) {

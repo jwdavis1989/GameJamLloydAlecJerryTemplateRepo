@@ -1,6 +1,6 @@
 /// @description Init
 event_inherited();
-hp = 100;
+hp = 800;
 grav = 0.6;
 vel_x = 0;
 vel_y = 0;
@@ -23,4 +23,3 @@ else {
 }
 image_xscale = width;
 image_yscale = height;
-debug_message = "";
