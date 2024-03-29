@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":9.639184,
   "name":"snd_walking",
   "parent":{
     "name":"Sounds",

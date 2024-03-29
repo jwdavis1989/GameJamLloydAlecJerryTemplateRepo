@@ -1,0 +1,20 @@
+event_inherited();
+//Weapon Stats
+damage = 1;
+maxAmmo = 75;
+currentAmmo = maxAmmo;
+reloading = false;
+reloadSpeed = 45;
+pelletCount = 1;
+pelletSpread = 1;
+pelletSpeed = 10;
+pelletSpeedVariance = 0.75;
+pelletLifetime = 15;
+pelletExplosive = false;
+pelletExplosiveRadius = 64;
+ammo = objFlamethrowerProjectile;
+fully_automatic = true;
+fire_sound = snd_rifle_fire;
+ammo_ui_sprite = spr_fire_med;
+ammo_ui_sprite = sprUIAmmoRed;
+ammo_ui_per_sprite = 10;

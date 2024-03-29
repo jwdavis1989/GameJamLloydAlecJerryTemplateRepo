@@ -1,3 +1,4 @@
+depth = -1000;
 x = objPlayer.x;
 y = objPlayer.y;
 image_speed = 0.05

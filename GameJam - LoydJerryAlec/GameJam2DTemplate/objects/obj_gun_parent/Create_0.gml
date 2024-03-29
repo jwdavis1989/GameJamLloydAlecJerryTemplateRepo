@@ -16,3 +16,5 @@ pelletExplosiveRadius = 64;
 ammo = objIndividualBuckshot;
 fully_automatic = false;
 fire_sound = snd_rifle_fire;
+ammo_ui_sprite = sprUIAmmoRed;
+ammo_ui_per_sprite = 1;

@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"NPCs",
-    "path":"folders/Sprites/NPCs.yy",
+    "name":"Orb Bug",
+    "path":"folders/Sprites/NPCs/Orb Bug.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
