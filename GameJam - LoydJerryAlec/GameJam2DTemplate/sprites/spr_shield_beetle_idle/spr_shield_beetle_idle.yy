@@ -60,7 +60,7 @@
     },
     "name":"spr_shield_beetle_idle",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":3.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
