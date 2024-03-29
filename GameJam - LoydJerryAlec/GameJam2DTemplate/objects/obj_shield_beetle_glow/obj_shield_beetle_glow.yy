@@ -1,18 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_playerMECHAMAN",
+  "%Name":"obj_shield_beetle_glow",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_playerMECHAMAN",
+  "name":"obj_shield_beetle_glow",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Shield Beetle",
+    "path":"folders/Objects/NPCs/Shield Beetle.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +29,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":null,
+  "solid":false,
+  "spriteId":{
+    "name":"spr_shield_beetle_glow",
+    "path":"sprites/spr_shield_beetle_glow/spr_shield_beetle_glow.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
