@@ -71,6 +71,7 @@
     {"name":"obj_rusty_scifi_wall_9_slice","order":2,"path":"objects/obj_rusty_scifi_wall_9_slice/obj_rusty_scifi_wall_9_slice.yy",},
     {"name":"obj_smoke","order":6,"path":"objects/obj_smoke/obj_smoke.yy",},
     {"name":"obj_window","order":1,"path":"objects/obj_window/obj_window.yy",},
+    {"name":"obj_eye","order":6,"path":"objects/obj_eye/obj_eye.yy",},
     {"name":"objEnemyParent","order":3,"path":"objects/objEnemyParent/objEnemyParent.yy",},
     {"name":"objEnemyProjectileParent","order":5,"path":"objects/objEnemyProjectileParent/objEnemyProjectileParent.yy",},
     {"name":"objFlamethrowerProjectile","order":5,"path":"objects/objFlamethrowerProjectile/objFlamethrowerProjectile.yy",},

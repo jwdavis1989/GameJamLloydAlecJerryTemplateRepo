@@ -102,6 +102,7 @@
     {"id":{"name":"obj_window","path":"objects/obj_window/obj_window.yy",},},
     {"id":{"name":"objChest","path":"objects/objChest/objChest.yy",},},
     {"id":{"name":"objControllerScratchPad","path":"objects/objControllerScratchPad/objControllerScratchPad.yy",},},
+    {"id":{"name":"obj_eye","path":"objects/obj_eye/obj_eye.yy",},},
     {"id":{"name":"objEnemyParent","path":"objects/objEnemyParent/objEnemyParent.yy",},},
     {"id":{"name":"objEnemyProjectileParent","path":"objects/objEnemyProjectileParent/objEnemyProjectileParent.yy",},},
     {"id":{"name":"objExplosion","path":"objects/objExplosion/objExplosion.yy",},},
