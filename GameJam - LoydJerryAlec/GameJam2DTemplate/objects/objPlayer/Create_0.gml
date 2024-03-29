@@ -13,6 +13,9 @@ image_speed = 0.1
 grounded = false
 nightVision = true;
 oxygen_missing = 0;
+keycards[0] = false;
+keycards[1] = false;
+keycards[2] = false;
 if (nightVision) {
 	instance_create(x, y, objNightVisionCamera);
 }

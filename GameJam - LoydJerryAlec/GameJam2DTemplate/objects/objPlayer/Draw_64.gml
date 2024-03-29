@@ -11,3 +11,7 @@ if(y > 540){ // If below water height in scratchpad room
 if(y < 540){ // Player is out of the water
 	oxygen_missing = 0; // Reset oxygen
 }
+
+if(keycards[0]){ // Player has first keycard
+	draw_sprite(spr_keycard_1, 0, x - 100, y - 100);
+}
