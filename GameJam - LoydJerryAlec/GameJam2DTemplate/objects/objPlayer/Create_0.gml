@@ -12,6 +12,7 @@ dashing = false
 image_speed = 0.1
 grounded = false
 nightVision = true;
+oxygen_missing = 0;
 if (nightVision) {
 	instance_create(x, y, objNightVisionCamera);
 }
