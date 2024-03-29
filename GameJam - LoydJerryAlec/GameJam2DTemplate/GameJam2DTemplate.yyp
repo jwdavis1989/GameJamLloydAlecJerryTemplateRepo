@@ -104,7 +104,6 @@
     {"id":{"name":"obj_keycard_2","path":"objects/obj_keycard_2/obj_keycard_2.yy",},},
     {"id":{"name":"obj_keycard_parent","path":"objects/obj_keycard_parent/obj_keycard_parent.yy",},},
     {"id":{"name":"obj_oxygen_tank","path":"objects/obj_oxygen_tank/obj_oxygen_tank.yy",},},
-    {"id":{"name":"obj_rising_water","path":"objects/obj_rising_water/obj_rising_water.yy",},},
     {"id":{"name":"obj_smoke","path":"objects/obj_smoke/obj_smoke.yy",},},
     {"id":{"name":"obj_ocean_window_background","path":"objects/obj_ocean_window_background/obj_ocean_window_background.yy",},},
     {"id":{"name":"obj_player_glow_echo","path":"objects/obj_player_glow_echo/obj_player_glow_echo.yy",},},
