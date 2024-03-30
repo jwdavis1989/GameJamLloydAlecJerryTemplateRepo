@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":1.714286,
   "name":"snd_menu_ping",
   "parent":{
     "name":"Sounds",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Doodads",
-    "path":"folders/Sprites/Doodads.yy",
+    "name":"windows",
+    "path":"folders/Sprites/Doodads/windows.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

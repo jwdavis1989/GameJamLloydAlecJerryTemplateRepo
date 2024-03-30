@@ -8,8 +8,8 @@
   "name":"obj_door_keycard_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Interactables",
-    "path":"folders/Objects/Interactables.yy",
+    "name":"doors",
+    "path":"folders/Objects/Interactables/doors.yy",
   },
   "parentObjectId":null,
   "persistent":false,

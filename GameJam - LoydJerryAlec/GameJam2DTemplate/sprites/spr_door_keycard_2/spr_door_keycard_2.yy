@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Doodads",
-    "path":"folders/Sprites/Doodads.yy",
+    "name":"doors",
+    "path":"folders/Sprites/Doodads/doors.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

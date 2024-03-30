@@ -1,0 +1,1 @@
+image_speed = 1; // Play door opening animation
