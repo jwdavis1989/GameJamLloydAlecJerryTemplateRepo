@@ -1,3 +1,2 @@
-/// Spawn Test Enemy
-// You can write your code in this editor
+/// @description Spawn Orb Bug
 instance_create(x + 128, y - 48, objOrb);

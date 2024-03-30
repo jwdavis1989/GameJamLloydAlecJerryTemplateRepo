@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":2.620612,
   "name":"snd_door_creak",
   "parent":{
     "name":"Sounds",

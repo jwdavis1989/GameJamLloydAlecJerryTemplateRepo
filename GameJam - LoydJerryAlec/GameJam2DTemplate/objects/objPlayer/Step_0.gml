@@ -30,13 +30,16 @@ else {
 }
 //React to inputs
 move = key_left + key_right;
-if key_dash and not dashing and (move != 0) and grounded
-{
-    audio_play_sound(snd_jump, 2, 0);
+if (grounded) {
+	air_dashes = base_air_dashes;	
+}
+if (key_dash && !dashing && (move != 0) && air_dashes) {
+    audio_play_sound(snd_jump, 2, 0, 1, 0, random_range(0.5, 0.75));
     movespeed = movespeed * 2
-    grav = (0.5 * init_grav)
+	grav = (0.5 * init_grav);
     dashing = true
     alarm[0] = 15
+	air_dashes--;
 }
 vel_x = move * movespeed;
 
