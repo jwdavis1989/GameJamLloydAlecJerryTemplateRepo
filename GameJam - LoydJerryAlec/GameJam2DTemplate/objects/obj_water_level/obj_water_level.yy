@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_water",
+  "%Name":"obj_water_level",
   "eventList":[],
   "managed":true,
-  "name":"obj_water",
+  "name":"obj_water_level",
   "overriddenProperties":[],
   "parent":{
     "name":"Terrain",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_water_collision",
-    "path":"sprites/spr_water_collision/spr_water_collision.yy",
+    "name":"spr_water_level",
+    "path":"sprites/spr_water_level/spr_water_level.yy",
   },
   "spriteMaskId":null,
   "visible":false,

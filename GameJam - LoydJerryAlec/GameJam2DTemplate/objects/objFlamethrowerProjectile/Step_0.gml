@@ -33,3 +33,8 @@ if(collided && collided_enemy != ""){
 		instance_destroy(self)
 	}
 }
+
+if(objPlayer.underwater){
+	instance_create(x, y, obj_smoke); // TO-DO: Make sure sprite lines up with gun
+	instance_destroy();
+}

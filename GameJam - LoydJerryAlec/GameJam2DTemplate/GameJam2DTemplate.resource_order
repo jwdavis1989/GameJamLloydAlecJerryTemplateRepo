@@ -1,7 +1,7 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
-    {"name":"obj_water","order":1,"path":"objects/obj_water/obj_water.yy",},
-    {"name":"spr_water_collision","order":1,"path":"sprites/spr_water_collision/spr_water_collision.yy",},
+    {"name":"obj_water_level","order":1,"path":"objects/obj_water_level/obj_water_level.yy",},
+    {"name":"spr_water_level","order":1,"path":"sprites/spr_water_level/spr_water_level.yy",},
   ],
 }
