@@ -41,6 +41,7 @@
     {"name":"inst_37F7B717","path":"rooms/rmCentralHub/rmCentralHub.yy",},
     {"name":"inst_1EC63A70","path":"rooms/rmCentralHub/rmCentralHub.yy",},
     {"name":"inst_7E4AEF7C","path":"rooms/rmCentralHub/rmCentralHub.yy",},
+    {"name":"inst_31B870C6","path":"rooms/rmCentralHub/rmCentralHub.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -71,7 +72,7 @@
       ],"layers":[],"name":"Enemy_Layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMREffectLayer":"","%Name":"Effect_Edge_Detection","depth":-7,"effectEnabled":true,"effectType":"_filter_edgedetect","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Effect_Edge_Detection","properties":[
         {"name":"g_Threshold","type":0,"value":"0",},
-      ],"resourceType":"GMREffectLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+      ],"resourceType":"GMREffectLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRTileLayer":"","%Name":"Very_Rusty_Tiles","depth":-6,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Very_Rusty_Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
           5,14,0,-2147483648,0,0,-11,14,-16,-2147483648,1,14,-14,0,1,14,-16,-2147483648,2,14,0,-12,-2147483648,
           2,0,14,-16,-2147483648,2,14,0,-12,-2147483648,2,0,14,-16,-2147483648,2,14,0,-12,-2147483648,2,0,14,-16,
@@ -130,6 +131,7 @@
         {"$GMRInstance":"","%Name":"inst_37F7B717","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_37F7B717","objectId":{"name":"objInvisibleCollisionBlock","path":"objects/objInvisibleCollisionBlock/objInvisibleCollisionBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.25,"scaleY":0.25,"x":896.0,"y":512.0,},
         {"$GMRInstance":"","%Name":"inst_1EC63A70","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1EC63A70","objectId":{"name":"objInvisibleCollisionBlock","path":"objects/objInvisibleCollisionBlock/objInvisibleCollisionBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":1.0,"x":0.0,"y":512.0,},
         {"$GMRInstance":"","%Name":"inst_7E4AEF7C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7E4AEF7C","objectId":{"name":"objInvisibleCollisionBlock","path":"objects/objInvisibleCollisionBlock/objInvisibleCollisionBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.00006,"y":512.0,},
+        {"$GMRInstance":"","%Name":"inst_31B870C6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_31B870C6","objectId":{"name":"obj_room_touch_transition_lloyd","path":"objects/obj_room_touch_transition_lloyd/obj_room_touch_transition_lloyd.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.25,"scaleY":1.0,"x":128.0,"y":320.0,},
       ],"layers":[],"name":"Terrain_Collision_Masks","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Control_Layer","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_EE386C4F_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_EE386C4F_1","objectId":{"name":"objChest","path":"objects/objChest/objChest.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1280.0,"y":384.0,},

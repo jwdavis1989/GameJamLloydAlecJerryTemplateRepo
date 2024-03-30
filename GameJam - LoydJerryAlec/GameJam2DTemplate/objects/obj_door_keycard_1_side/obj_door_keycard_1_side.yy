@@ -3,9 +3,6 @@
   "%Name":"obj_door_keycard_1_side",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_door_keycard_1_side",
@@ -15,8 +12,8 @@
     "path":"folders/Objects/Interactables/doors.yy",
   },
   "parentObjectId":{
-    "name":"obj_door_keycard_parent",
-    "path":"objects/obj_door_keycard_parent/obj_door_keycard_parent.yy",
+    "name":"obj_door_keycard_side_parent",
+    "path":"objects/obj_door_keycard_side_parent/obj_door_keycard_side_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
