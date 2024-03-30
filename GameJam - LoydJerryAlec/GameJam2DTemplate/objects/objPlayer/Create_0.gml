@@ -18,6 +18,7 @@ oxygen_missing = 0;
 keycards[0] = false;
 keycards[1] = false;
 keycards[2] = false;
+underwater = false;
 if (nightVision) {
 	instance_create(x, y, objNightVisionCamera);
 }

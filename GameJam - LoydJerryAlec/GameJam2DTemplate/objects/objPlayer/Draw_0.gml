@@ -7,6 +7,7 @@ if (alarm[10] > 0 and alarm[10]%4 == 0) {
 }
 else {
     draw_self();
+	/*
 	draw_set_color(c_blue);
 
 	// OXYGEN METER TEST
@@ -21,6 +22,15 @@ else {
 		oxygen_missing = 0; // Reset oxygen
 	}
 
+	*/
+	
+	if(underwater){
+		draw_rectangle(x - 50, y - 75, x + 50 - oxygen_missing, y - 50, false); // bar gets shorter while in water
+		if(oxygen_missing < 100){
+			oxygen_missing += 2;
+		}
+	}
+	
 	if(keycards[0]){ // Player has first keycard
 		draw_sprite(spr_keycard_1, 0, x - 200, y - 100);
 	}

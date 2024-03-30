@@ -194,3 +194,7 @@ if(key_weapon1){
 }else if(key_weapon_up){
 	obj_inventory.switch_weapon_up();
 }
+
+if(oxygen_missing > 0){ // Player constantly regains oxygen
+		oxygen_missing -= 1;
+}
