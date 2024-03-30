@@ -1,1 +1,1 @@
-image_speed = 1; // Play door opening animation
+image_speed = 1; // open door
