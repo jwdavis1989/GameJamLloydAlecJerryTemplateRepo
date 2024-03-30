@@ -191,3 +191,6 @@ if(key_weapon1){
 }else if(key_weapon_up){
 	obj_inventory.switch_weapon_up();
 }
+if keyboard_check(ord("L")){
+	room_goto(RoomAlecDev);
+}
