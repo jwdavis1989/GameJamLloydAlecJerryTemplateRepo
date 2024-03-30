@@ -23,9 +23,7 @@ if (!currently_melee_charging) {
 
 	//3. Shield
 	//If player is out of combat range, periodically shield
-	if (alarm[2] <= 0) {
-		alarm[2] = shield_cooldown_timer;
-	}
+	//Feature Cut due to enemy being too difficulty to read
 
 	//4. Melee Charge-up
 	if (abs(x - objPlayer.x) < melee_engagement_range && !currently_melee_charging) {
@@ -35,7 +33,7 @@ if (!currently_melee_charging) {
 		audio_play_sound(snd_bug_noise, 3, 0, 1, 0, random_range(0.5, 1));
 		alarm[0] = melee_animation_duration;
 		vel_x = 0;
-		image_speed = 0;
+		image_speed = 1;
 		sprite_index = spr_shield_beetle_wing_flap;
 		image_index = 0;
 		effect_create_depth(-1003, ef_flare, x, y, 2, c_red);
