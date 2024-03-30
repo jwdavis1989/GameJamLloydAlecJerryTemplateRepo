@@ -3,7 +3,7 @@
   "%Name":"spr_shield_beetle_idle",
   "bboxMode":2,
   "bbox_bottom":53,
-  "bbox_left":8,
+  "bbox_left":4,
   "bbox_right":55,
   "bbox_top":23,
   "collisionKind":1,

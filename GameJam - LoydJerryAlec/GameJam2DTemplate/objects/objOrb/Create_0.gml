@@ -4,6 +4,7 @@ turret = instance_create(x, y, objOrbTurret);
 glow = instance_create(x, y, objOrbGlow);
 image_speed = 0.2;
 health = 20;
+melee_damage = 10;
 aggro = false;
 aggroRange = 384;
 hoverRange = 128;
