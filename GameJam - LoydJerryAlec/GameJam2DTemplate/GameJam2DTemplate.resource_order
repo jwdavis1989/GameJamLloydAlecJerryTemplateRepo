@@ -1,7 +1,9 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"obj_door_keycard_2_side","order":1,"path":"objects/obj_door_keycard_2_side/obj_door_keycard_2_side.yy",},
     {"name":"obj_water_level","order":1,"path":"objects/obj_water_level/obj_water_level.yy",},
+    {"name":"spr_door_keycard_2_side","order":1,"path":"sprites/spr_door_keycard_2_side/spr_door_keycard_2_side.yy",},
     {"name":"spr_water_level","order":1,"path":"sprites/spr_water_level/spr_water_level.yy",},
   ],
 }
