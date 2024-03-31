@@ -1,4 +1,5 @@
-{  "FolderOrderSettings":[
+{
+  "FolderOrderSettings":[
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":8,"path":"folders/Fonts.yy",},
     {"name":"Libraries_config","order":16,"path":"folders/Libraries_config.yy",},
@@ -55,10 +56,6 @@
     {"name":"Timelines","order":9,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"obj_door_keycard_2_side","order":1,"path":"objects/obj_door_keycard_2_side/obj_door_keycard_2_side.yy",},
-    {"name":"obj_water_level","order":1,"path":"objects/obj_water_level/obj_water_level.yy",},
-    {"name":"spr_door_keycard_2_side","order":1,"path":"sprites/spr_door_keycard_2_side/spr_door_keycard_2_side.yy",},
-    {"name":"spr_water_level","order":1,"path":"sprites/spr_water_level/spr_water_level.yy",},
     {"name":"PostFx_Pack_3","order":2,"path":"extensions/PostFx_Pack_3/PostFx_Pack_3.yy",},
     {"name":"Xbox_Gamepad_Buttons","order":1,"path":"extensions/Xbox_Gamepad_Buttons/Xbox_Gamepad_Buttons.yy",},
     {"name":"fFreudianSlit","order":1,"path":"fonts/fFreudianSlit/fFreudianSlit.yy",},
@@ -75,6 +72,7 @@
     {"name":"compatibility_report_170324_1211321132","order":1,"path":"notes/compatibility_report_170324_1211321132/compatibility_report_170324_1211321132.yy",},
     {"name":"obj_dash_echo","order":1,"path":"objects/obj_dash_echo/obj_dash_echo.yy",},
     {"name":"obj_door_keycard_1_side","order":3,"path":"objects/obj_door_keycard_1_side/obj_door_keycard_1_side.yy",},
+    {"name":"obj_door_keycard_2_side","order":1,"path":"objects/obj_door_keycard_2_side/obj_door_keycard_2_side.yy",},
     {"name":"obj_door_keycard_2","order":1,"path":"objects/obj_door_keycard_2/obj_door_keycard_2.yy",},
     {"name":"obj_door_keycard_parent","order":2,"path":"objects/obj_door_keycard_parent/obj_door_keycard_parent.yy",},
     {"name":"obj_eye","order":6,"path":"objects/obj_eye/obj_eye.yy",},
@@ -95,6 +93,7 @@
     {"name":"obj_shield_beetle_glow","order":3,"path":"objects/obj_shield_beetle_glow/obj_shield_beetle_glow.yy",},
     {"name":"obj_shield_beetle_shield","order":4,"path":"objects/obj_shield_beetle_shield/obj_shield_beetle_shield.yy",},
     {"name":"obj_smoke","order":6,"path":"objects/obj_smoke/obj_smoke.yy",},
+    {"name":"obj_water_level","order":1,"path":"objects/obj_water_level/obj_water_level.yy",},
     {"name":"obj_wide_room_dalle","order":3,"path":"objects/obj_wide_room_dalle/obj_wide_room_dalle.yy",},
     {"name":"obj_window","order":1,"path":"objects/obj_window/obj_window.yy",},
     {"name":"objEnemyParent","order":3,"path":"objects/objEnemyParent/objEnemyParent.yy",},
@@ -187,6 +186,7 @@
     {"name":"spr_character_jump_or_boost","order":1,"path":"sprites/spr_character_jump_or_boost/spr_character_jump_or_boost.yy",},
     {"name":"spr_character_walk","order":2,"path":"sprites/spr_character_walk/spr_character_walk.yy",},
     {"name":"spr_door_keycard_1_side","order":1,"path":"sprites/spr_door_keycard_1_side/spr_door_keycard_1_side.yy",},
+    {"name":"spr_door_keycard_2_side","order":1,"path":"sprites/spr_door_keycard_2_side/spr_door_keycard_2_side.yy",},
     {"name":"spr_door_keycard_2","order":2,"path":"sprites/spr_door_keycard_2/spr_door_keycard_2.yy",},
     {"name":"spr_door_keycard_3","order":3,"path":"sprites/spr_door_keycard_3/spr_door_keycard_3.yy",},
     {"name":"spr_eye_orig","order":6,"path":"sprites/spr_eye_orig/spr_eye_orig.yy",},
@@ -223,6 +223,7 @@
     {"name":"spr_very_rusty_scifi_brick_tileset","order":3,"path":"sprites/spr_very_rusty_scifi_brick_tileset/spr_very_rusty_scifi_brick_tileset.yy",},
     {"name":"spr_vision_radius_blue","order":3,"path":"sprites/spr_vision_radius_blue/spr_vision_radius_blue.yy",},
     {"name":"spr_water_falling","order":7,"path":"sprites/spr_water_falling/spr_water_falling.yy",},
+    {"name":"spr_water_level","order":1,"path":"sprites/spr_water_level/spr_water_level.yy",},
     {"name":"spr_water","order":5,"path":"sprites/spr_water/spr_water.yy",},
     {"name":"spr_window_cracked_1","order":1,"path":"sprites/spr_window_cracked_1/spr_window_cracked_1.yy",},
     {"name":"spr_window_cracked_2","order":2,"path":"sprites/spr_window_cracked_2/spr_window_cracked_2.yy",},
