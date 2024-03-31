@@ -8,6 +8,8 @@ base_grav = 0;
 grav = base_grav;
 vel_x = 1;
 vel_y = 0;
+horizontal_buffer = 16;
+vertical_buffer = 16;
 width = 3;
 height = 3;
 movement_speed = 5;
@@ -29,3 +31,4 @@ else {
 }
 image_xscale = width;
 image_yscale = height;
+debug_message = "";

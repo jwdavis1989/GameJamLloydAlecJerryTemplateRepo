@@ -29,12 +29,17 @@ if (!currently_melee_charging && !flee_animation) {
 	}else {
 			vel_x = -movement_speed;
 	}
-	if(objPlayer.y > y)
+	
+	if (abs(y - objPlayer.y) > vertical_buffer) 
 	{
-		velY = movement_speed
-	}else{
-		velY = -movement_speed
+		if(objPlayer.y > y)
+		{
+			vel_y = movement_speed
+		}else{
+			vel_y = -movement_speed
+		}
 	}
+	
 	//wait before attadck
 	if (abs(x - objPlayer.x) < melee_engagement_range && !currently_melee_animating) {
 		//Begin melee charging animation
@@ -46,17 +51,19 @@ if (!currently_melee_charging && !flee_animation) {
 }
 		
 //direction to face
-if(currently_melee_charging || currently_melee_animating){
-	image_xscale = width * ((objPlayer.x > x)? -1:1)
-}
-if(abs(x - objPlayer.x) < 32){
-	if (vel_x < 0) {
-		image_xscale = width;	
+if (abs(x - objPlayer.x) > horizontal_buffer) {
+	if(currently_melee_charging || currently_melee_animating){
+		image_xscale = width * ((objPlayer.x > x)? -1:1)
 	}
-	else if (vel_x > 0) {
-		image_xscale = -width;	
-	}
+	if(abs(x - objPlayer.x) < 32){
+		if (vel_x < 0) {
+			image_xscale = width;	
+		}
+		else if (vel_x > 0) {
+			image_xscale = -width;	
+		}
 
+	}
 }
 
 //Horizontal Collision
@@ -66,7 +73,7 @@ if (place_meeting(x+vel_x,y,obj_wall_parent))
     {
         x += sign(vel_x);
     }
-    vel_x = -vel_x;
+    vel_x = 0;
 }
 x += vel_x;
 
@@ -77,6 +84,6 @@ if (place_meeting(x,y+vel_y,obj_wall_parent))
     {
         y += sign(vel_y);
     }
-    vel_y = -vel_y;
+    vel_y = 0;
 }
 y += vel_y;
