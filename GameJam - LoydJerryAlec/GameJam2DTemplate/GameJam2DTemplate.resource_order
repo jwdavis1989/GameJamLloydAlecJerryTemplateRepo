@@ -210,6 +210,7 @@
     {"name":"spr_shark","order":1,"path":"sprites/spr_shark/spr_shark.yy",},
     {"name":"spr_shield_beetle_echo","order":2,"path":"sprites/spr_shield_beetle_echo/spr_shield_beetle_echo.yy",},
     {"name":"spr_shield_beetle_glow","order":3,"path":"sprites/spr_shield_beetle_glow/spr_shield_beetle_glow.yy",},
+    {"name":"spr_shield_beetle_walking","order":5,"path":"sprites/spr_shield_beetle_walking/spr_shield_beetle_walking.yy",},
     {"name":"spr_shield_beetle_shield","order":4,"path":"sprites/spr_shield_beetle_shield/spr_shield_beetle_shield.yy",},
     {"name":"spr_shield_beetle_wing_flap","order":1,"path":"sprites/spr_shield_beetle_wing_flap/spr_shield_beetle_wing_flap.yy",},
     {"name":"spr_smoke","order":8,"path":"sprites/spr_smoke/spr_smoke.yy",},

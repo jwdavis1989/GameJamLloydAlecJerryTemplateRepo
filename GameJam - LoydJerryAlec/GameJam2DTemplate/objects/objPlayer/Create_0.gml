@@ -1,5 +1,5 @@
 /// @description Initialize Variables
-hp = 5;
+hp = 100;
 grav = 0.6;
 init_grav = 0.6
 vel_x = 0;

@@ -269,6 +269,7 @@
     {"id":{"name":"spr_shield_beetle_echo","path":"sprites/spr_shield_beetle_echo/spr_shield_beetle_echo.yy",},},
     {"id":{"name":"spr_shield_beetle_glow","path":"sprites/spr_shield_beetle_glow/spr_shield_beetle_glow.yy",},},
     {"id":{"name":"spr_shield_beetle_idle","path":"sprites/spr_shield_beetle_idle/spr_shield_beetle_idle.yy",},},
+    {"id":{"name":"spr_shield_beetle_walking","path":"sprites/spr_shield_beetle_walking/spr_shield_beetle_walking.yy",},},
     {"id":{"name":"spr_shield_beetle_shield","path":"sprites/spr_shield_beetle_shield/spr_shield_beetle_shield.yy",},},
     {"id":{"name":"spr_shield_beetle_wing_flap","path":"sprites/spr_shield_beetle_wing_flap/spr_shield_beetle_wing_flap.yy",},},
     {"id":{"name":"spr_smoke","path":"sprites/spr_smoke/spr_smoke.yy",},},
