@@ -13,8 +13,7 @@ vel_y = 0;
 width = 1;
 height = 1;
 movement_speed = 1;
-morph_timer = random_range(300, 450);
-morph_timer = random_range(30, 45);
+morph_timer = random_range(30, 300);
 alarm[0] = morph_timer;
 if (instance_exists(objPlayer)) {
 	attack_direction = x < objPlayer.x;

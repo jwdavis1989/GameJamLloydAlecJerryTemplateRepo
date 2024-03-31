@@ -41,11 +41,6 @@ if (place_meeting(x+vel_x,y,obj_wall_parent))
         x += sign(vel_x);
     }
     vel_x = 0;
-	if (currently_melee_charging) {
-		//Screen Shake!
-		effect_create_depth(-7, ef_smoke, x, y, 1, c_dkgray);
-		
-	}
 }
 x += vel_x;
 

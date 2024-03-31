@@ -151,7 +151,7 @@ bulletAnchorY = y - 11;
 //Reload
 if (equipped_weapon.currentAmmo < 1 && !equipped_weapon.reloading) {
     alarm[1] = equipped_weapon.reloadSpeed;
-    audio_play_sound(snd_reload, 1, 0);
+    audio_play_sound(snd_reload, 1, 0, 1, 0, random_range(0.8, 1.2));
     equipped_weapon.reloading = true;
 }
 //Fire if ammo
@@ -166,7 +166,7 @@ else if (key_shoot && equipped_weapon.currentAmmo > 0 && !equipped_weapon.reload
         equipped_weapon.pellets[i] = instance_create(bulletAnchorX, bulletAnchorY, equipped_weapon.ammo);
     }
     instance_create(bulletAnchorX, bulletAnchorY, objMuzzleFlare);
-    audio_play_sound(equipped_weapon.fire_sound, 1, 0);
+    audio_play_sound(equipped_weapon.fire_sound, 1, 0, 1, 0, random_range(0.8, 1.2));
     equipped_weapon.currentAmmo--;
 }
 
@@ -212,3 +212,5 @@ if(buttonPressed){
 if(!underwater && oxygen_missing > 0){
 		oxygen_missing -= 2; // Player constantly regains oxygen while not underwater
 }
+
+audio_listener_position(x, y, 0);
