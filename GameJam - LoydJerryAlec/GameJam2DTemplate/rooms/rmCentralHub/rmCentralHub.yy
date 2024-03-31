@@ -48,6 +48,8 @@
     {"name":"inst_1577C9E8","path":"rooms/rmCentralHub/rmCentralHub.yy",},
     {"name":"inst_2E57920C","path":"rooms/rmCentralHub/rmCentralHub.yy",},
     {"name":"inst_6893C1BB","path":"rooms/rmCentralHub/rmCentralHub.yy",},
+    {"name":"inst_54309635","path":"rooms/rmCentralHub/rmCentralHub.yy",},
+    {"name":"inst_5D2A9109","path":"rooms/rmCentralHub/rmCentralHub.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -80,6 +82,8 @@
         {"$GMRInstance":"","%Name":"inst_600FFD30","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_600FFD30","objectId":{"name":"objOrb","path":"objects/objOrb/objOrb.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":320.0,},
         {"$GMRInstance":"","%Name":"inst_1577C9E8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1577C9E8","objectId":{"name":"objOrb","path":"objects/objOrb/objOrb.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":320.0,},
         {"$GMRInstance":"","%Name":"inst_2E57920C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E57920C","objectId":{"name":"objOrb","path":"objects/objOrb/objOrb.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":320.0,},
+        {"$GMRInstance":"","%Name":"inst_54309635","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_54309635","objectId":{"name":"obj_maggot","path":"objects/obj_maggot/obj_maggot.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":544.0,},
+        {"$GMRInstance":"","%Name":"inst_5D2A9109","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D2A9109","objectId":{"name":"obj_maggot","path":"objects/obj_maggot/obj_maggot.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":416.0,},
       ],"layers":[],"name":"Enemy_Layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMREffectLayer":"","%Name":"Effect_Edge_Detection","depth":-7,"effectEnabled":true,"effectType":"_filter_edgedetect","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Effect_Edge_Detection","properties":[
         {"name":"g_Threshold","type":0,"value":"0",},

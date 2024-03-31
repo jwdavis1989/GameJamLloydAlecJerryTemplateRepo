@@ -1,0 +1,20 @@
+/// @description Init
+event_inherited();
+base_image_speed = 0.1;
+image_speed = base_image_speed;
+hp = 500;
+melee_damage = 20;
+base_grav = 0.6;
+grav = base_grav;
+vel_x = 0;
+vel_y = 30;
+width = 2;
+height = 2;
+movement_speed = 4;
+morph_timer = random_range(60, 120);
+alarm[0] = morph_timer;
+image_xscale = width;
+image_yscale = height;
+ascending = false;
+ascending_duration = 15;
+y -= 30;
