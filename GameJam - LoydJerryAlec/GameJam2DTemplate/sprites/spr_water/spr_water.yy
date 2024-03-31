@@ -23,7 +23,7 @@
   ],
   "name":"spr_water",
   "nineSlice":null,
-  "origin":0,
+  "origin":1,
   "parent":{
     "name":"Terrain",
     "path":"folders/Sprites/Terrain.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":32,
     "yorigin":0,
   },
   "swatchColours":null,

@@ -55,3 +55,6 @@ switch_weapon_up = function ()
 		objPlayer.equipped_weapon = weapons[current_weapon]
 	}
 }
+
+// Keycards
+// TO-DO: Initalize keycard array here (instead of in player object)

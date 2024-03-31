@@ -31,3 +31,12 @@ if(collided && collided_enemy != ""){
 		y=collided_enemy.y
 	}
 }
+
+if(instance_exists(objPlayer)){
+	if(objPlayer.underwater){
+		var _smoke = instance_create(x, y, obj_smoke); // TO-DO: Make sure sprite lines up with gun
+		_smoke.image_xscale = image_xscale;
+		_smoke.image_yscale = image_yscale;
+		instance_destroy();
+	}
+}

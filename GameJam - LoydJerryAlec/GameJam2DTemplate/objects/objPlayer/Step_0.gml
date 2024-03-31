@@ -208,3 +208,7 @@ if(buttonPressed){
 }else if(key_weapon_up){
 	obj_inventory.switch_weapon_up();
 }
+
+if(!underwater && oxygen_missing > 0){
+		oxygen_missing -= 2; // Player constantly regains oxygen while not underwater
+}
