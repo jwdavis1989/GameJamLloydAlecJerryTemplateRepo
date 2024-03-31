@@ -33,7 +33,7 @@ move = key_left + key_right;
 if (grounded) {
 	air_dashes = base_air_dashes;	
 }
-if (key_dash && !dashing && (move != 0) && air_dashes) {
+if (key_dash && !dashing && air_dashes) {
     audio_play_sound(snd_jump, 2, 0, 1, 0, random_range(0.5, 0.75));
     movespeed = movespeed * 2
 	grav = (0.5 * init_grav);
