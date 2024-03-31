@@ -29,7 +29,14 @@ if(collided && collided_enemy != ""){
 		collided_enemy.hp -= obj_gun_flamethrower.damage
 		x=collided_enemy.x
 		y=collided_enemy.y
-	}else{
-		instance_destroy(self)
+	}
+}
+
+if(instance_exists(objPlayer)){
+	if(objPlayer.underwater){
+		var _smoke = instance_create(x, y, obj_smoke); // TO-DO: Make sure sprite lines up with gun
+		_smoke.image_xscale = image_xscale;
+		_smoke.image_yscale = image_yscale;
+		instance_destroy();
 	}
 }

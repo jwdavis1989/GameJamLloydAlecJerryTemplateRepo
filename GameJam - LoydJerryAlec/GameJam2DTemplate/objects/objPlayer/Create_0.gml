@@ -1,5 +1,5 @@
 /// @description Initialize Variables
-hp = 5;
+hp = 100;
 grav = 0.6;
 init_grav = 0.6
 vel_x = 0;
@@ -9,9 +9,17 @@ init_jumpspeed = 14
 movespeed = 8;
 init_movespeed = 8
 dashing = false
+base_air_dashes = 1;
+air_dashes = base_air_dashes;
 image_speed = 0.1
 grounded = false
 nightVision = true;
+oxygen_missing = 0;
+oxygen_max = 100;
+keycards[0] = false;
+keycards[1] = false;
+keycards[2] = false;
+underwater = false;
 if (nightVision) {
 	instance_create(x, y, objNightVisionCamera);
 }

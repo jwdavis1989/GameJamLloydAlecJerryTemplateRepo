@@ -1,5 +1,5 @@
 depth = -1001;
-damage = 1;
+damage = 10;
 alarm[0] = 30;
 movementSpeed = 16;
 image_angle = instance_nearest(x, y, objOrbTurret).image_angle;

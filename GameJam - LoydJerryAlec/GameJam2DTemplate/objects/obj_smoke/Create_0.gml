@@ -1,0 +1,1 @@
+alarm[0] = 10; // destroy self after 10 seconds
