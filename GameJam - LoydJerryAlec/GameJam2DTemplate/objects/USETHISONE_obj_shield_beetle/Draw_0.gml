@@ -1,5 +1,5 @@
 /// @description Insert description here
-// You can write your code in this editor
 draw_self();
+//debug_message = image_speed;
 //draw_set_color(c_white);
 //draw_text(x, y - 64, debug_message);

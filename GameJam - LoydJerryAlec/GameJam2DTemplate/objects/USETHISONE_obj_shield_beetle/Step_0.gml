@@ -39,17 +39,22 @@ if (!currently_melee_charging) {
 		effect_create_depth(-1003, ef_flare, x, y, 2, c_red);
 		attack_direction = (x < objPlayer.x);
 	}
-
-	//5. Melee Attack
-		//Handled by alarm[1]
-		
-	//Animation
-	if (vel_x < 0) {
-		image_xscale = width;	
+    //Animation
+	else if (vel_x < 0) {
+		image_xscale = width;
+		sprite_index = spr_shield_beetle_walking;
+		image_speed = base_image_speed;
 	}
 	else if (vel_x > 0) {
 		image_xscale = -width;	
+		sprite_index = spr_shield_beetle_walking;
+		image_speed = base_image_speed;
 	}
+	else {
+		sprite_index = spr_shield_beetle_idle;
+	}
+		
+	
 }
 else {
 	instance_create_depth(x, y, -1003, obj_shield_beetle_echo);
