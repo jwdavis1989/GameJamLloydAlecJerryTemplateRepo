@@ -29,8 +29,5 @@ if(collided && collided_enemy != ""){
 		collided_enemy.hp -= obj_gun_flamethrower.damage
 		x=collided_enemy.x
 		y=collided_enemy.y
-		timeToLive = timeAlive + 10; //keep alive 10 after enemy death
-	}else{
-		//instance_destroy(self)
 	}
 }

@@ -1,9 +1,16 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+if (hp < 1) {
+	effect_create_depth(-1003, ef_firework, x, y, 0, c_red);
+	effect_create_depth(-1003, ef_explosion, x, y, 1, c_red);
+	audio_play_sound(snd_bug_noise, 2, 0, 1, 0, 0.3);
+	instance_destroy(self);
+}
 //States
 movement_animation_timer++;
-if(movement_animation_timer<15){
+if(currently_melee_animating){
+	//Will be set to spr_shark_attack by alarm 0
+}else if(movement_animation_timer<15){
 	sprite_index = spr_shark_fin_away;
 }else if (movement_animation_timer<30){
 	sprite_index = spr_shark
@@ -14,44 +21,43 @@ if(movement_animation_timer<15){
 }else if(movement_animation_timer<75){
 	movement_animation_timer = 0;
 }
-if (!currently_melee_charging) {
-	//movement animation
 
-	//1. Burrowing/Spawning
-		//This can be handled in the create event likely
-
-	//2. Chasing
+if (!currently_melee_charging && !flee_animation) {
+	//movement direction
 	if (objPlayer.x > x) {
 		vel_x = movement_speed;
-	}
-	else {
+	}else {
 			vel_x = -movement_speed;
 	}
-
-
-	//4. Melee Charge-up
-	//if (abs(x - objPlayer.x) < melee_engagement_range && !currently_melee_charging) {
-	//	currently_melee_charging = true;
-	//	//Begin melee charging animation
-	//	audio_play_sound(snd_bug_noise, 2, 0, 1, 0, 0.5);
-	//	alarm[0] = melee_animation_duration;
-	//	vel_x = 0;
-	//	attack_direction = (x < objPlayer.x);
-	//}
-
-	//5. Melee Attack
-		//Handled by alarm[1]
+	if(objPlayer.y > y)
+	{
+		velY = movement_speed
+	}else{
+		velY = -movement_speed
+	}
+	//wait before attadck
+	if (abs(x - objPlayer.x) < melee_engagement_range && !currently_melee_animating) {
+		//Begin melee charging animation
+		currently_melee_charging = true;
+		alarm[0] = melee_charge_speed;
+		vel_x = 0;
+		audio_play_sound(snd_bug_noise, 2, 0);
+	}
+}
 		
-	//Animation
+//direction to face
+if(currently_melee_charging || currently_melee_animating){
+	image_xscale = width * ((objPlayer.x > x)? -1:1)
+}
+if(abs(x - objPlayer.x) < 32){
 	if (vel_x < 0) {
 		image_xscale = width;	
 	}
 	else if (vel_x > 0) {
 		image_xscale = -width;	
 	}
-}
 
-vel_y += grav;
+}
 
 //Horizontal Collision
 if (place_meeting(x+vel_x,y,obj_wall_parent))
@@ -60,7 +66,7 @@ if (place_meeting(x+vel_x,y,obj_wall_parent))
     {
         x += sign(vel_x);
     }
-    vel_x = 0;
+    vel_x = -vel_x;
 }
 x += vel_x;
 
@@ -71,6 +77,6 @@ if (place_meeting(x,y+vel_y,obj_wall_parent))
     {
         y += sign(vel_y);
     }
-    vel_y = 0;
+    vel_y = -vel_y;
 }
 y += vel_y;

@@ -1,4 +1,7 @@
 //Get the player's input
+if( keyboard_check(ord("L"))){
+	room_goto(rmAlecDev);
+}
 if (!control_locked) {
     key_right = keyboard_check(ord("D"));
     key_left = -keyboard_check(ord("A"));
@@ -9,8 +12,14 @@ if (!control_locked) {
     key_shoot = mouse_check_button_pressed(mb_left);
 	key_shoot_hold = mouse_check_button(mb_left)
 	key_grapple = mouse_check_button_pressed(mb_right);
-	key_weapon1 = keyboard_check(ord("1"));
-	key_weapon2 = keyboard_check(ord("2"));
+	key_weapons = [
+		keyboard_check(ord("1")),
+		keyboard_check(ord("2")),
+		keyboard_check(ord("3")),
+		keyboard_check(ord("4")),
+		keyboard_check(ord("5")),
+		keyboard_check(ord("6")),
+	]
 	key_weapon_down = mouse_wheel_down()
 	key_weapon_up = mouse_wheel_up()
 }
@@ -184,16 +193,18 @@ if (grapple) {
 		}
 	}
 }
-
-if(key_weapon1){
-	obj_inventory.switch_weapon_to(1);
-}else if(key_weapon2){
-	obj_inventory.switch_weapon_to(2);
+var buttonPressed = false;
+for(var i = 0; i < obj_inventory.weapons_count; i++){
+	if(key_weapons[i]){
+		obj_inventory.switch_weapon_to(i+1)
+		buttonPressed = true;
+		break;
+	}
+}
+if(buttonPressed){
+	
 }else if(key_weapon_down){
 	obj_inventory.switch_weapon_down();
 }else if(key_weapon_up){
 	obj_inventory.switch_weapon_up();
-}
-if keyboard_check(ord("L")){
-	room_goto(RoomAlecDev);
 }
