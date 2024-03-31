@@ -1,16 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_room_touch_transition_lloyd",
+  "%Name":"obj_door_automatic",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_room_touch_transition_lloyd",
+  "name":"obj_door_automatic",
   "overriddenProperties":[],
   "parent":{
-    "name":"Interactables",
-    "path":"folders/Objects/Interactables.yy",
+    "name":"doors",
+    "path":"folders/Objects/Interactables/doors.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,9 +34,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprScifiBrick128",
-    "path":"sprites/sprScifiBrick128/sprScifiBrick128.yy",
+    "name":"spr_door_automatic",
+    "path":"sprites/spr_door_automatic/spr_door_automatic.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
