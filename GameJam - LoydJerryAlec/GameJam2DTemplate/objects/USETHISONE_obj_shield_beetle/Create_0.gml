@@ -5,6 +5,7 @@ dashing_image_speed = 1;
 shielding_image_speed = 0;
 image_speed = base_image_speed;
 hp = 800;
+melee_damage = 34;
 base_grav = 0.6;
 grav = base_grav;
 vel_x = 0;

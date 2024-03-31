@@ -1,6 +1,6 @@
 event_inherited();
 //Weapon Stats
-damage = 1;
+damage = 0.5;
 maxAmmo = 75;
 currentAmmo = maxAmmo;
 reloading = false;
@@ -15,6 +15,5 @@ pelletExplosiveRadius = 64;
 ammo = objFlamethrowerProjectile;
 fully_automatic = true;
 fire_sound = snd_rifle_fire;
-ammo_ui_sprite = spr_fire_med;
-ammo_ui_sprite = sprUIAmmoRed;
-ammo_ui_per_sprite = 10;
+ammo_ui_sprite = spr_ui_flamethrower_tank;
+ammo_ui_per_sprite = 75;

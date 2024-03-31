@@ -6,19 +6,4 @@ if (!invulnerable) {
         alarm[10] = 15;
         invulnerable = true;
     }
-    /*
-    else
-    {
-        //Game Over Man!
-        sprite_index = spr_invis;
-        visible = false;
-        control_locked = true;
-        alarm[9] = 30;
-        instance_create(x, y, obj_explosion_large);
-        dead = true;
-    }
-    */
 }
-
-/* */
-/*  */
