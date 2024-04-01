@@ -57,4 +57,7 @@ switch_weapon_up = function ()
 }
 
 // Keycards
-// TO-DO: Initalize keycard array here (instead of in player object)
+keycard_amount = 3;
+for(var i = 0; i < keycard_amount; i++){
+	keycards[i] = false;
+}

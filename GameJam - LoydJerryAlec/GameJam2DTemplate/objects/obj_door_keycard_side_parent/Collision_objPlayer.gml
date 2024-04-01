@@ -1,6 +1,6 @@
 if(other.key_interact){ // Player pressed interact key
 	if(!open){ // Door isn't open
-		if(other.keycards[level - 1]){ // Player has corresponding keycard
+		if(obj_inventory.keycards[level - 1]){ // Player has corresponding keycard
 			open = true;
 			image_index = 1; // Turn on green light
 			audio_play_sound(snd_menu_ping, 10, false); // Play ding sound

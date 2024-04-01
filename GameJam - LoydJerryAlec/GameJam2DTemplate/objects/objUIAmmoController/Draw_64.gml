@@ -20,6 +20,8 @@ if (instance_exists(objPlayer)) {
 }
 
 // Keycard Displays
+/*
+// FOR STANDALONE KEYCARDS
 if(objPlayer.keycards[0]){ // Player has first keycard
 	draw_sprite(spr_keycard_1, 0, view_get_xport(0), view_get_yport(0));
 }
@@ -28,4 +30,13 @@ if(objPlayer.keycards[1]){ // Player has second keycard
 }
 if(objPlayer.keycards[2]){ // Player has third keycard
 	draw_sprite(spr_keycard_3, 0, view_get_xport(0) + sprite_get_width(spr_keycard_1) * 2, view_get_yport(0));
+}
+*/
+
+// FOR OMNI KEYCARDS
+for(var i = 0; i < obj_inventory.keycard_amount; i++){
+	if(obj_inventory.keycards[i]){ // Player has keycard
+		draw_sprite(spr_keycard, i, view_get_xport(0) 
+		+ sprite_get_width(spr_keycard) * i, view_get_yport(0));
+	}
 }
