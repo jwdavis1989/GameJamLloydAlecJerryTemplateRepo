@@ -155,11 +155,14 @@ if (equipped_weapon.currentAmmo < 1 && !equipped_weapon.reloading) {
     equipped_weapon.reloading = true;
 }
 //Fire if ammo
-if(key_shoot_hold and equipped_weapon.fully_automatic && equipped_weapon.currentAmmo > 0 && !equipped_weapon.reloading){
+if(alarm[9] < 0 and key_shoot_hold and equipped_weapon.fully_automatic && equipped_weapon.currentAmmo > 0 && !equipped_weapon.reloading){
 	for (var i = 0; i < equipped_weapon.pelletCount; i++) {
         equipped_weapon.pellets[i] = instance_create(bulletAnchorX, bulletAnchorY, equipped_weapon.ammo);
     }
+	alarm[9] = equipped_weapon.fire_rate
 	 equipped_weapon.currentAmmo--;
+	 audio_play_sound(equipped_weapon.fire_sound, 1, 0,1,0,1
+	 +random_range(-5,5)*0.1);
 }
 else if (key_shoot && equipped_weapon.currentAmmo > 0 && !equipped_weapon.reloading){
     for (var i = 0; i < equipped_weapon.pelletCount; i++) {
