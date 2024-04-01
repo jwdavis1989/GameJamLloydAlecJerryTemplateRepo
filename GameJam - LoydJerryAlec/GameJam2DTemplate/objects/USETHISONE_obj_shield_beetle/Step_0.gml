@@ -10,10 +10,8 @@ if (hp < 1) {
 
 //States
 if (!currently_melee_charging) {
-	//1. Burrowing/Spawning
-		//This can be handled in the create event likely
 
-	//2. Chasing
+	//Chasing
 	if (objPlayer.x > x) {
 		vel_x = movement_speed;
 	}
@@ -21,11 +19,7 @@ if (!currently_melee_charging) {
 			vel_x = -movement_speed;
 	}
 
-	//3. Shield
-	//If player is out of combat range, periodically shield
-	//Feature Cut due to enemy being too difficulty to read
-
-	//4. Melee Charge-up
+	//Melee Charge-up
 	if (abs(x - objPlayer.x) < melee_engagement_range && !currently_melee_charging) {
 		currently_melee_charging = true;
 		//Begin melee charging animation
@@ -39,6 +33,7 @@ if (!currently_melee_charging) {
 		effect_create_depth(-1003, ef_flare, x, y, 2, c_red);
 		attack_direction = (x < objPlayer.x);
 	}
+	
     //Animation
 	else if (vel_x < 0) {
 		image_xscale = width;

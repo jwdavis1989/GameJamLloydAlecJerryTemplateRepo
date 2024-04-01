@@ -1,5 +1,5 @@
 /// @description Init
 event_inherited();
-image_speed = 0.1;
-vel_y = 30;
+animation_timer = 30;
+image_speed = 0;
 

@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"objChest",
+  "%Name":"obj_junk_box",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objChest",
+  "name":"obj_junk_box",
   "overriddenProperties":[],
   "parent":{
     "name":"chests",
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_scifi_chest",
-    "path":"sprites/spr_scifi_chest/spr_scifi_chest.yy",
+    "name":"spr_junk_box",
+    "path":"sprites/spr_junk_box/spr_junk_box.yy",
   },
   "spriteMaskId":null,
   "visible":true,
