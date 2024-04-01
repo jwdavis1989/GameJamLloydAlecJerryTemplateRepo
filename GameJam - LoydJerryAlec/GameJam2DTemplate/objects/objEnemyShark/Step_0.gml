@@ -10,15 +10,15 @@ if (hp < 1) {
 movement_animation_timer++;
 if(currently_melee_animating){
 	//Will be set to spr_shark_attack by alarm 0
-}else if(movement_animation_timer<15){
+}else if(movement_animation_timer<1){
 	sprite_index = spr_shark_fin_away;
-}else if (movement_animation_timer<30){
+}else if (movement_animation_timer<24){
 	sprite_index = spr_shark
-}else if (movement_animation_timer<45){
+}else if (movement_animation_timer<36){
 	sprite_index = spr_shark_fin_toward
-}else if(movement_animation_timer<60){
+}else if(movement_animation_timer<48){
 	sprite_index = spr_shark;
-}else if(movement_animation_timer<75){
+}else{
 	movement_animation_timer = 0;
 }
 
@@ -66,6 +66,7 @@ if (abs(x - objPlayer.x) > horizontal_buffer) {
 	}
 }
 
+
 //Horizontal Collision
 if (place_meeting(x+vel_x,y,obj_wall_parent))
 {
@@ -81,6 +82,14 @@ x += vel_x;
 if (place_meeting(x,y+vel_y,obj_wall_parent))
 {
     while(!place_meeting(x,y+sign(vel_y),obj_wall_parent))
+    {
+        y += sign(vel_y);
+    }
+    vel_y = 0;
+}
+if (place_meeting(x,y+vel_y,obj_water_level))
+{
+    while(!place_meeting(x,y+sign(vel_y),obj_water_level))
     {
         y += sign(vel_y);
     }
