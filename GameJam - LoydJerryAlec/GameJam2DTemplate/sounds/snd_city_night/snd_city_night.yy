@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":48.0445,
   "name":"snd_city_night",
   "parent":{
     "name":"Sounds",

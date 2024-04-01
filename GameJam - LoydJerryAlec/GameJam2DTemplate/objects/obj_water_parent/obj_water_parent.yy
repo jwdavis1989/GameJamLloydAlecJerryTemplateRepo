@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_water_level",
-  "eventList":[],
+  "%Name":"obj_water_parent",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"objFlamethrowerProjectile","path":"objects/objFlamethrowerProjectile/objFlamethrowerProjectile.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_water_level",
+  "name":"obj_water_parent",
   "overriddenProperties":[],
   "parent":{
     "name":"Terrain",
     "path":"folders/Objects/Terrain.yy",
   },
-  "parentObjectId":{
-    "name":"obj_water_parent",
-    "path":"objects/obj_water_parent/obj_water_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_water_level",
-    "path":"sprites/spr_water_level/spr_water_level.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
