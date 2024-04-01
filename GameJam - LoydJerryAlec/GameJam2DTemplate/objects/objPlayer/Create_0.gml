@@ -15,6 +15,8 @@ air_dashes = base_air_dashes;
 image_speed = 0.1
 grounded = false
 nightVision = true;
+
+// Underwater-related Variables
 oxygen_missing = 0;
 oxygen_max = 100;
 underwater = false;

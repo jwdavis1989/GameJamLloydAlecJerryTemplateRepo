@@ -19,24 +19,30 @@ if (instance_exists(objPlayer)) {
 		draw_text_colour(140+(i*3) ,anchorY, "I  ", c_green, c_green, c_green, c_green, 1)
 }
 
-// Keycard Displays
-/*
-// FOR STANDALONE KEYCARDS
-if(objPlayer.keycards[0]){ // Player has first keycard
-	draw_sprite(spr_keycard_1, 0, view_get_xport(0), view_get_yport(0));
-}
-if(objPlayer.keycards[1]){ // Player has second keycard
-	draw_sprite(spr_keycard_2, 0, view_get_xport(0) + sprite_get_width(spr_keycard_1), view_get_yport(0));
-}
-if(objPlayer.keycards[2]){ // Player has third keycard
-	draw_sprite(spr_keycard_3, 0, view_get_xport(0) + sprite_get_width(spr_keycard_1) * 2, view_get_yport(0));
-}
-*/
-
-// FOR OMNI KEYCARDS
+// Keycard Display
 for(var i = 0; i < obj_inventory.keycard_amount; i++){
 	if(obj_inventory.keycards[i]){ // Player has keycard
 		draw_sprite(spr_keycard, i, view_get_xport(0) 
 		+ sprite_get_width(spr_keycard) * i, view_get_yport(0));
 	}
+}
+
+// Scrap Display
+// 5 or less scrap
+if(obj_inventory.scrap_amount < 6){
+	for(var i = 0; i < obj_inventory.scrap_amount; i++){
+		draw_sprite(spr_scrap, 0, view_get_xport(0) + 
+		view_get_wport(0) -  sprite_get_width(spr_scrap) / 2 * 5 + 15 * i, 
+		view_get_yport(0) + sprite_get_height(spr_scrap) / 2);
+	}
+// 6 or more scrap
+}else{
+	draw_sprite(spr_scrap, 0, view_get_xport(0) + 
+	view_get_wport(0) -  sprite_get_width(spr_scrap) / 2 * 5, 
+	view_get_yport(0) + sprite_get_height(spr_scrap) / 2);
+	
+	draw_set_color(c_white);
+	draw_text_transformed(view_get_xport(0) + view_get_wport(0) -  sprite_get_width(spr_scrap) / 2 * 4 + 5,
+	view_get_yport(0) + sprite_get_height(spr_scrap) / 2 - 12, "X " + string(obj_inventory.scrap_amount),
+	2, 2, image_angle);
 }

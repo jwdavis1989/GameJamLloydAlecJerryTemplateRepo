@@ -61,3 +61,6 @@ keycard_amount = 3;
 for(var i = 0; i < keycard_amount; i++){
 	keycards[i] = false;
 }
+
+// Scrap
+scrap_amount = 0;

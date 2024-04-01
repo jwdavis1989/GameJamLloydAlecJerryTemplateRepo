@@ -8,7 +8,8 @@ if(other.key_interact){ // Player pressed interact key
 			instance_destroy(blocker); // Allow player to pass through
 		}
 		else{
-			show_message(string("You don't have the level {0} keycard.", level));
+			create_rising_message(string("Need Level {0} keycard", level), c_white, 38, objPlayer.x - 
+			sprite_get_width(spr_character_idle) / 2, objPlayer.y - sprite_get_height(spr_character_idle) / 2, 1.2, 1.2);
 		}
 	}
 }
