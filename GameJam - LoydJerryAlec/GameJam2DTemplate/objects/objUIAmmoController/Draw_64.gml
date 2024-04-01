@@ -13,11 +13,22 @@ if (instance_exists(objPlayer)) {
 	    draw_sprite(weapon.ammo_ui_sprite, 0, (i * sprite_get_width(weapon.ammo_ui_sprite)/2) + sprite_get_width(weapon.ammo_ui_sprite)/2, anchorY);
 	}
 	//hp here for now
+	draw_text_colour(100, anchorY - 15, "HEALTH", c_green, c_green, c_green, c_green, 1);
 	var hp_percentage = objPlayer.hp/objPlayer.max_hp
-	draw_text_colour(100,anchorY, string(hp_percentage*100)+" %", c_green, c_green, c_green, c_green, 1)
+	draw_text_colour(100,anchorY, string(round(hp_percentage*100))+" %", c_green, c_green, c_green, c_green, 1)
 	for(var i =0; i < 100*(hp_percentage);i++)
 		draw_text_colour(140+(i*3) ,anchorY, "I  ", c_green, c_green, c_green, c_green, 1)
 }
+
+//Oxygen Bar GUI Test
+//if(objPlayer.oxygen_missing > 0){ // Only display while player is missing oxygen
+draw_text_colour(500, anchorY - 15, "OXYGEN", c_blue, c_blue, c_blue, c_blue, 1);
+var oxygen_percentage = (objPlayer.oxygen_max - objPlayer.oxygen_missing) / objPlayer.oxygen_max
+draw_text_colour(500, anchorY, string(round(oxygen_percentage * 100)) +" %", c_blue, c_blue, c_blue, c_blue, 1)
+for(var i = 0; i < 100 * (oxygen_percentage); i++){
+	draw_text_colour(540 + (i * 3), anchorY, "I  ", c_blue, c_blue, c_blue, c_blue, 1);
+}
+//}
 
 // Keycard Display
 for(var i = 0; i < obj_inventory.keycard_amount; i++){

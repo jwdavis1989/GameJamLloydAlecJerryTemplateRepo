@@ -22,6 +22,9 @@ else {
 
 	*/
 	
+	
+	// Oxygen Bar Display
+	/*
 	if(underwater){
 		// ORIGINAL OXYGEN BAR
 		
@@ -31,16 +34,16 @@ else {
 			oxygen_missing += 1;
 		}
 		
-		/*
 		// OXYGEN TANK OXYGEN BAR TEST
 		draw_sprite_part(spr_oxygen_tank, 0, 0, 0, sprite_get_width(spr_oxygen_tank), 
 			oxygen_max - oxygen_missing, x - 50 , y - 50);
 		if(oxygen_missing < oxygen_max){
 			oxygen_missing += 1;
 		}
-		*/
 		
 	}
+	*/
+	
 	
 	/*
 	// KEYCARD DISPLAY TEST CODE
