@@ -215,3 +215,9 @@ if(buttonPressed){
 if(!underwater && oxygen_missing > 0){
 		oxygen_missing -= 2; // Player constantly regains oxygen while not underwater
 }
+
+if(underwater && oxygen_missing == oxygen_max){ // Lose 1 hp per second when out of oxygen
+	if(hp > 0){
+		hp -= 1; 
+	}
+}

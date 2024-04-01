@@ -46,3 +46,24 @@ if(obj_inventory.scrap_amount < 6){
 	view_get_yport(0) + sprite_get_height(spr_scrap) / 2 - 12, "X " + string(obj_inventory.scrap_amount),
 	2, 2, image_angle);
 }
+
+// Rivet Display
+// 5 or less rivets
+if(obj_inventory.rivet_amount < 6){
+	for(var i = 0; i < obj_inventory.rivet_amount; i++){
+		draw_sprite(spr_rivet, 0, view_get_xport(0) + 
+		view_get_wport(0) -  sprite_get_width(spr_rivet) / 2 * 5 + 15 * i, 
+		view_get_yport(0) + sprite_get_height(spr_rivet) / 2 + sprite_get_height(spr_rivet));
+	}
+// 6 or more rivets
+}else{
+	draw_sprite(spr_rivet, 0, view_get_xport(0) + 
+	view_get_wport(0) -  sprite_get_width(spr_scrap) / 2 * 5, 
+	view_get_yport(0) + sprite_get_height(spr_scrap) / 2 + sprite_get_height(spr_rivet));
+	
+	draw_set_color(c_white);
+	draw_text_transformed(view_get_xport(0) + view_get_wport(0) -  sprite_get_width(spr_scrap) / 2 * 4 + 5,
+	view_get_yport(0) + sprite_get_height(spr_scrap) / 2  + 
+	sprite_get_height(spr_rivet)- 12, "X " + 
+	string(obj_inventory.rivet_amount),2, 2, image_angle);
+}

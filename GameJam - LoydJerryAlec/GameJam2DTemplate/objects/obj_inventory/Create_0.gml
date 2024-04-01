@@ -62,5 +62,6 @@ for(var i = 0; i < keycard_amount; i++){
 	keycards[i] = false;
 }
 
-// Scrap
+// Scrap & Rivets
 scrap_amount = 0;
+rivet_amount = 0;
