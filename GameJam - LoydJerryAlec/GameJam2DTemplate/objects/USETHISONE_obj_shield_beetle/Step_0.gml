@@ -4,7 +4,7 @@
 if (hp < 1) {
 	effect_create_depth(-1003, ef_firework, x, y, 0, c_red);
 	effect_create_depth(-1003, ef_explosion, x, y, 1, c_red);
-	audio_play_sound(snd_bug_noise, 2, 0, 1, 0, 0.3);
+	audio_play_sound_at(snd_bug_noise, x, y, 0, 100, 300, 1, 0, 2, 1, 0, 0.3);
 	instance_destroy(self);
 }
 
@@ -29,8 +29,8 @@ if (!currently_melee_charging) {
 	if (abs(x - objPlayer.x) < melee_engagement_range && !currently_melee_charging) {
 		currently_melee_charging = true;
 		//Begin melee charging animation
-		audio_play_sound(snd_bug_noise, 2, 0, 1, 0, random_range(0.1, 0.3));
-		audio_play_sound(snd_bug_noise, 3, 0, 1, 0, random_range(0.5, 1));
+		audio_play_sound_at(snd_bug_noise, x, y, 0, 100, 300, 1, 0, 2, 1, 0, random_range(0.1, 0.3));
+		audio_play_sound_at(snd_bug_noise, x, y, 0, 100, 300, 1, 0, 3, 1, 0, random_range(0.5, 1));
 		alarm[0] = melee_animation_duration;
 		vel_x = 0;
 		image_speed = 1;
@@ -85,7 +85,7 @@ if (place_meeting(x+vel_x,y,obj_wall_parent))
     vel_x = 0;
 	if (currently_melee_charging) {
 		//Screen Shake!
-		effect_create_depth(-7, ef_smoke, x, y, 1, c_dkgray);
+		effect_create_depth(-7, ef_smoke, x, y, 1, c_white);
 		
 	}
 }

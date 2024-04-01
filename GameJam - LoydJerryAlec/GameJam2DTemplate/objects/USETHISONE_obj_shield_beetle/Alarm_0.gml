@@ -7,5 +7,5 @@ grav = 0;
 if (!attack_direction) {
 	vel_x = -vel_x;
 }
-audio_play_sound(snd_bottle_rocket, 2, 0, 1, 0, 2);
+audio_play_sound_at(snd_bottle_rocket, x, y, 0, 100, 300, 1, 0, 2, 1, 0, random_range(1.9, 2.1));
 //Animation change to melee attack
