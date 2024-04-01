@@ -1,0 +1,1 @@
+time_alive = 60;
