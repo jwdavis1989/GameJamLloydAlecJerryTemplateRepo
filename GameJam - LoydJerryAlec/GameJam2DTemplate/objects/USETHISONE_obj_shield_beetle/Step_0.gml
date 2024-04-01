@@ -58,7 +58,7 @@ if (!currently_melee_charging) {
 }
 else {
 	instance_create_depth(x, y, -1003, obj_shield_beetle_echo);
-	effect_create_depth(-1002, ef_flare, x, y, 0, c_red);
+	//effect_create_depth(-1002, ef_flare, x, y, 1, c_red);
 	nearest_echo = instance_nearest(x, y, obj_shield_beetle_echo);
 	if (attack_direction) {
 		nearest_echo.image_xscale = -width;
@@ -68,6 +68,10 @@ else {
 	}
 }
 
+if (alarm[1] > 0) {
+	effect_create_depth(-1002, ef_flare, x, y + sprite_height/8, width - 1, c_red);	
+	effect_create_depth(-1002, ef_flare, x, y + sprite_height/4, width - 1, c_red);	
+}
 if (alarm[0] > 0 && alarm[0] < melee_animation_duration && currently_melee_charging) {
 	vel_y-= 0.1 * grav;	
 }
