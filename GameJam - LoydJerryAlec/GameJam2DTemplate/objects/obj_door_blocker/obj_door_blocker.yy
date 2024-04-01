@@ -37,5 +37,5 @@
     "path":"sprites/spr_door_blocker/spr_door_blocker.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
