@@ -2,8 +2,8 @@
 // You can write your code in this editor
 currently_melee_charging = false;
 currently_melee_animating = false;
-image_speed = base_image_speed;
-//sprite_index = spr_shark;
+//image_speed = base_image_speed;
+sprite_index = spr_shark;
 if (objPlayer.x > x) {
 	vel_x = -movement_speed;
 }

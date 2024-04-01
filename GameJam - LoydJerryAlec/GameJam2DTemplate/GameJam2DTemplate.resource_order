@@ -185,6 +185,7 @@
     {"name":"snd_snarling_growl","order":11,"path":"sounds/snd_snarling_growl/snd_snarling_growl.yy",},
     {"name":"snd_spark_and_crackle_music","order":27,"path":"sounds/snd_spark_and_crackle_music/snd_spark_and_crackle_music.yy",},
     {"name":"snd_walking","order":12,"path":"sounds/snd_walking/snd_walking.yy",},
+    {"name":"snd_flamerthrower","order":29,"path":"sounds/snd_flamerthrower/snd_flamerthrower.yy",},
     {"name":"spr_buzzsaw","order":5,"path":"sprites/spr_buzzsaw/spr_buzzsaw.yy",},
     {"name":"spr_character_idle_glow","order":4,"path":"sprites/spr_character_idle_glow/spr_character_idle_glow.yy",},
     {"name":"spr_character_jump_or_boost","order":1,"path":"sprites/spr_character_jump_or_boost/spr_character_jump_or_boost.yy",},
