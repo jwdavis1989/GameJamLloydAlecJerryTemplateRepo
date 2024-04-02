@@ -20,7 +20,7 @@ if (instance_exists(objPlayer)) {
 		draw_text_colour(140+(i*3) ,anchorY, "I  ", c_green, c_green, c_green, c_green, 1)
 }
 
-//Oxygen Bar GUI Test
+//Oxygen Bar GUI
 //if(objPlayer.oxygen_missing > 0){ // Only display while player is missing oxygen
 draw_text_colour(500, anchorY - 15, "OXYGEN", c_blue, c_blue, c_blue, c_blue, 1);
 var oxygen_percentage = (objPlayer.oxygen_max - objPlayer.oxygen_missing) / objPlayer.oxygen_max
@@ -46,8 +46,7 @@ if(obj_inventory.scrap_amount < 6){
 		view_get_wport(0) -  sprite_get_width(spr_scrap) / 2 * 5 + 15 * i, 
 		view_get_yport(0) + sprite_get_height(spr_scrap) / 2);
 	}
-// 6 or more scrap
-}else{
+}else{ // 6 or more scrap
 	draw_sprite(spr_scrap, 0, view_get_xport(0) + 
 	view_get_wport(0) -  sprite_get_width(spr_scrap) / 2 * 5, 
 	view_get_yport(0) + sprite_get_height(spr_scrap) / 2);
@@ -66,15 +65,28 @@ if(obj_inventory.rivet_amount < 6){
 		view_get_wport(0) -  sprite_get_width(spr_rivet) / 2 * 5 + 15 * i, 
 		view_get_yport(0) + sprite_get_height(spr_rivet) / 2 + sprite_get_height(spr_rivet));
 	}
-// 6 or more rivets
-}else{
+}else{ // 6 or more rivets
 	draw_sprite(spr_rivet, 0, view_get_xport(0) + 
 	view_get_wport(0) -  sprite_get_width(spr_scrap) / 2 * 5, 
 	view_get_yport(0) + sprite_get_height(spr_scrap) / 2 + sprite_get_height(spr_rivet));
 	
 	draw_set_color(c_white);
-	draw_text_transformed(view_get_xport(0) + view_get_wport(0) -  sprite_get_width(spr_scrap) / 2 * 4 + 5,
+	draw_text_transformed(view_get_xport(0) + view_get_wport(0) - sprite_get_width(spr_scrap) / 2 * 4 + 5,
 	view_get_yport(0) + sprite_get_height(spr_scrap) / 2  + 
-	sprite_get_height(spr_rivet)- 12, "X " + 
+	sprite_get_height(spr_rivet) - 12, "X " + 
 	string(obj_inventory.rivet_amount),2, 2, image_angle);
+}
+
+// Oxygen Tank Display
+if(obj_inventory.oxygen_tanks > 0){
+	draw_sprite(spr_oxygen_tank_submarine, 0, view_get_xport(0) + 
+	view_get_wport(0) -  sprite_get_width(spr_scrap) / 2 * 5, 
+	view_get_yport(0) + sprite_get_height(spr_scrap) / 2 + sprite_get_height(spr_rivet) + 
+	sprite_get_height(spr_oxygen_tank_submarine) + 12);
+	
+	draw_set_color(c_white);
+	draw_text_transformed(view_get_xport(0) + view_get_wport(0) - sprite_get_width(spr_scrap) / 2 * 4 + 5,
+	view_get_yport(0) + sprite_get_height(spr_scrap) / 2  + 
+	sprite_get_height(spr_rivet) - 12 + sprite_get_height(spr_oxygen_tank_submarine) + 12, "X " + 
+	string(obj_inventory.oxygen_tanks),2, 2, image_angle);
 }

@@ -20,6 +20,8 @@ nightVision = true;
 oxygen_missing = 0;
 oxygen_max = 100;
 underwater = false;
+breathing_sound = noone; // To be replaced by id for breathing sound
+drowning_sound = noone;
 
 if (nightVision) {
 	instance_create(x, y, objNightVisionCamera);
