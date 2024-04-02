@@ -170,6 +170,7 @@ else if (key_shoot && equipped_weapon.currentAmmo > 0 && !equipped_weapon.reload
     }
     instance_create(bulletAnchorX, bulletAnchorY, objMuzzleFlare);
     audio_play_sound(equipped_weapon.fire_sound, 1, 0, 1, 0, random_range(0.8, 1.2));
+	screen_shake(2);
     equipped_weapon.currentAmmo--;
 }
 
