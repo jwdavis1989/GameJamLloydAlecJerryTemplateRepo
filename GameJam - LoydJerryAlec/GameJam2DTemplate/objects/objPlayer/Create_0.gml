@@ -27,9 +27,6 @@ if (nightVision) {
 facing = "right";
 invulnerable = false;
 control_locked = false;
-canGrapple = true;
-grapple = noone;
-grappleSpeed = 32;
 permanent_echo = false;
 glow = instance_create(x, y, obj_player_glow);
 bulletAnchorX = x + sprite_width/2 - 1 //63
