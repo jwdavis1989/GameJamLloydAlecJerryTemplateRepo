@@ -254,6 +254,7 @@
     {"name":"sprite27","order":7,"path":"sprites/sprite27/sprite27.yy",},
     {"name":"Sprite56","order":17,"path":"sprites/Sprite56/Sprite56.yy",},
     {"name":"Sprite57","order":18,"path":"sprites/Sprite57/Sprite57.yy",},
+    {"name":"spr_junk_bug_chomp","order":1,"path":"sprites/spr_junk_bug_chomp/spr_junk_bug_chomp.yy",},
     {"name":"sprMuzzleExplosion","order":3,"path":"sprites/sprMuzzleExplosion/sprMuzzleExplosion.yy",},
     {"name":"sprOrbBody","order":2,"path":"sprites/sprOrbBody/sprOrbBody.yy",},
     {"name":"sprOrbGlow","order":3,"path":"sprites/sprOrbGlow/sprOrbGlow.yy",},

@@ -1,6 +1,7 @@
 /// @description Init
 event_inherited();
-base_image_speed = 0.1;
+transform_image_speed = 0.1;
+chomp_image_speed = 1;
 dashing_image_speed = 1;
 aggroRange = 64;
 jumping = false;

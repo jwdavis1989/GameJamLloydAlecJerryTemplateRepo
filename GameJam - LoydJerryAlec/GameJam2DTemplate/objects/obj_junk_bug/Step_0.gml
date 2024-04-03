@@ -11,7 +11,7 @@ if (hp < 1) {
 //States
 if (abs(x - objPlayer.x) < aggroRange && !aggro) {
 	aggro = true;
-	image_speed = base_image_speed;
+	image_speed = transform_image_speed;
 }
 
 if (aggro && !jumping && grounded && jump_off_cooldown) {
@@ -20,7 +20,7 @@ if (aggro && !jumping && grounded && jump_off_cooldown) {
 	alarm[0] = jump_duration;
 	vel_y -= jump_speed;
 	grav = grav/2;
-	image_angle = point_direction(x, y, objPlayer.x, objPlayer.y) + 180;
+	image_angle = point_direction(x, y, objPlayer.x, objPlayer.y) + 270;
 	if (objPlayer.x > x) {
 		vel_x = movement_speed;
 	}
@@ -29,9 +29,9 @@ if (aggro && !jumping && grounded && jump_off_cooldown) {
 	}
 
     //Animation
-	if (image_index == 3) {
-		image_speed = 0;
-		image_index = 3;
+	if (image_index == 3 && sprite_index == spr_junk_bug) {
+		image_speed = chomp_image_speed;
+		sprite_index = spr_junk_bug_chomp;
 	}
 	if (vel_x < 0) {
 		image_xscale = width;
