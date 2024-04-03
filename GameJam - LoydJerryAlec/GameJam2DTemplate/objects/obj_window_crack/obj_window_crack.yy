@@ -1,9 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_window",
-  "eventList":[],
+  "%Name":"obj_window_crack",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_window",
+  "name":"obj_window_crack",
   "overriddenProperties":[],
   "parent":{
     "name":"Interactables",
@@ -31,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_window",
-    "path":"sprites/spr_window/spr_window.yy",
+    "name":"spr_window_crack",
+    "path":"sprites/spr_window_crack/spr_window_crack.yy",
   },
   "spriteMaskId":null,
   "visible":true,

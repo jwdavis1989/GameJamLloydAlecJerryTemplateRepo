@@ -7,7 +7,9 @@ if (alarm[10] > 0 and alarm[10]%4 == 0) {
 }
 else {
     draw_self();
-	/*
+}
+
+/*
 	// OXYGEN METER TEST
 	if(y > 540){ // If below water height in scratchpad room
 		draw_rectangle(x - 50, y - 75, x + 50 - oxygen_missing, y - 50, false); // bar gets shorter while in water
@@ -54,4 +56,3 @@ else {
 		draw_sprite(spr_keycard_2, 0, x - 150, y - 100);
 	}
 	*/
-}

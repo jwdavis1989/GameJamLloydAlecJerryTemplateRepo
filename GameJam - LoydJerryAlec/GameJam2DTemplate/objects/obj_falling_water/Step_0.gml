@@ -6,4 +6,5 @@ if(time_alive == 0){
 	instance_destroy();
 }
 
-// original x_scale 0.5
+// original x_scale growth 0.5
+// original y_scale growth 1.0
