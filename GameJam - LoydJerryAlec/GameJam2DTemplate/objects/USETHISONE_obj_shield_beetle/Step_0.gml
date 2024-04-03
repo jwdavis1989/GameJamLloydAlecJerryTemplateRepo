@@ -2,6 +2,7 @@
 // You can write your code in this editor
 //Handle Death
 if (hp < 1) {
+	monster_death_handle_supply(self);
 	effect_create_depth(-1003, ef_firework, x, y, 0, c_red);
 	effect_create_depth(-1003, ef_explosion, x, y, 1, c_red);
 	audio_play_sound_at(snd_bug_noise, x, y, 0, 100, 300, 1, 0, 2, 1, 0, 0.3);

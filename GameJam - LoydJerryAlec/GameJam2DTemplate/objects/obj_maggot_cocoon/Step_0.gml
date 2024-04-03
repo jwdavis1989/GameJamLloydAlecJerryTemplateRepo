@@ -4,7 +4,8 @@
 if (hp < 1) {
 	effect_create_depth(-1003, ef_firework, x, y, 0, c_red);
 	effect_create_depth(-1003, ef_explosion, x, y, 0, c_red);
-	audio_play_sound(snd_bug_noise, 2, 0, 1, 0, 3);
+	audio_play_sound_at(snd_bug_noise, x, y, 0, 100, 300, 1, 0, 2, 1, 0, random_range(2.9, 3.1));
+	monster_death_handle_supply(self);
 	instance_destroy(self);
 }
 

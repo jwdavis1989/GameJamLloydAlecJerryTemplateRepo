@@ -5,3 +5,7 @@ depth = -8;
 melee_damage = 20;
 debug_message = "";
 flicker_duration = 10;
+width = 1;
+height = 1;
+supply_cost = 10;
+spawned = false;	//Spawned by spawner?

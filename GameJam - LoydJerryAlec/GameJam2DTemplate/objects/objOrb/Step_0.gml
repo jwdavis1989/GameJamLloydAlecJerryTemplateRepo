@@ -4,8 +4,7 @@ event_inherited();
 
 //Chase
 if (aggro) {
-    if (distance_to_object(objPlayer) < aggroRange 
-    && distance_to_object(objPlayer) > hoverRange && !turretStance) {
+    if (distance_to_object(objPlayer) > hoverRange && !turretStance) {
         move_towards_point(objPlayer.x, objPlayer.y, movementSpeed);
     }
     else if (distance_to_object(objPlayer) < hoverRange) {
@@ -30,6 +29,9 @@ x += currentVelX;
 //Turret
 turret.x = x;
 turret.y = y;
+turret.image_blend = image_blend;
+turret.image_xscale = width;
+turret.image_yscale = height;
 glow.x = x;
 glow.y = y;
 
@@ -39,6 +41,7 @@ if (hp < 1) {
 	effect_create_depth(-1003, ef_explosion, x, y, 0, c_red);
     instance_destroy(turret);
     instance_destroy(glow);
+	monster_death_handle_supply(self);
     instance_destroy(self);
 }
 
