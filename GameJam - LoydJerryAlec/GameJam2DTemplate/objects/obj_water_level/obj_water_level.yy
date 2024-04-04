@@ -9,7 +9,10 @@
     "name":"Terrain",
     "path":"folders/Objects/Terrain.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_water_parent",
+    "path":"objects/obj_water_parent/obj_water_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

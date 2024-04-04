@@ -192,6 +192,26 @@ if(buttonPressed){
 	obj_inventory.switch_weapon_up();
 }
 
+if(underwater){
+	if(oxygen_missing < oxygen_max){ //Lose oxygen while underwater
+		oxygen_missing += 1;
+	}else if(oxygen_missing == oxygen_max){ // Lose 1 hp per second when out of oxygen
+		if(hp > 0){
+			hp -= 1; 
+			if(!audio_is_playing(drowning_sound)){ // If drowning sound not playing
+				audio_stop_sound(breathing_sound); // Stop breathing sound
+				drowning_sound = audio_play_sound(snd_underwater_drowning, 10, true, 0.6, 11.64, 1);
+				audio_sound_loop_start(snd_underwater_drowning, 11.64);
+				audio_sound_loop_end(snd_underwater_drowning, 15.86);
+			}
+		}
+	}
+}else if(!underwater && oxygen_missing > 0){
+		oxygen_missing -= (oxygen_max * 0.02); // Player constantly regains oxygen while not underwater
+		if(oxygen_missing < 0){
+			oxygen_missing = 0; // Make sure it doesn't go negative
+		}
+}
 if(!underwater && oxygen_missing > 0){
 		oxygen_missing -= 2; // Player constantly regains oxygen while not underwater
 }
