@@ -19,3 +19,13 @@ if (instance_exists(objPlayer)) {
 		draw_text_colour(140+(i*3) ,anchorY, "I  ", c_green, c_green, c_green, c_green, 1)
 }
 
+// Keycard Displays
+if(objPlayer.keycards[0]){ // Player has first keycard
+	draw_sprite(spr_keycard_1, 0, view_get_xport(0), view_get_yport(0));
+}
+if(objPlayer.keycards[1]){ // Player has second keycard
+	draw_sprite(spr_keycard_2, 0, view_get_xport(0) + sprite_get_width(spr_keycard_1), view_get_yport(0));
+}
+if(objPlayer.keycards[2]){ // Player has third keycard
+	draw_sprite(spr_keycard_3, 0, view_get_xport(0) + sprite_get_width(spr_keycard_1) * 2, view_get_yport(0));
+}
