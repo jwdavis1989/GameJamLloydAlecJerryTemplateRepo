@@ -1,3 +1,14 @@
+// Draw oxygen tank if player has one
+if(obj_inventory.oxygen_tanks > 0){
+	if(facing = "right"){
+		draw_sprite_ext(spr_oxygen_tank_submarine, 0, x - sprite_get_width(spr_oxygen_tank_submarine) / 2, 
+			y - sprite_get_height(spr_oxygen_tank_submarine) / 2, 0.8, 0.8, image_angle, c_white, 1);
+	}else if(facing = "left"){
+		draw_sprite_ext(spr_oxygen_tank_submarine, 0, x - sprite_get_width(spr_oxygen_tank_submarine) / 3, 
+			y - sprite_get_height(spr_oxygen_tank_submarine) / 2, 0.8, 0.8, image_angle, c_white, 1);
+	}
+}
+
 //Invulnerability Flicker
 if (alarm[10] > 0 and alarm[10]%4 == 0) {
     //

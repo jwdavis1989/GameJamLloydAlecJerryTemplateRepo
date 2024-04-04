@@ -12,8 +12,8 @@
   "name":"obj_window_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Interactables",
-    "path":"folders/Objects/Interactables.yy",
+    "name":"windows",
+    "path":"folders/Objects/Interactables/windows.yy",
   },
   "parentObjectId":null,
   "persistent":false,

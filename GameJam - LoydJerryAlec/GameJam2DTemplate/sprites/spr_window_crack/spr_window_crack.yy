@@ -23,14 +23,15 @@
   "height":64,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"f806268e-a6f8-40d0-ab58-d8dad7ada78c","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"f806268e-a6f8-40d0-ab58-d8dad7ada78c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"cfdb289f-addc-4639-85fb-14e52b8e8275","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"cfdb289f-addc-4639-85fb-14e52b8e8275","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_window_crack",
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Doodads",
-    "path":"folders/Sprites/Doodads.yy",
+    "name":"windows",
+    "path":"folders/Sprites/Doodads/windows.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

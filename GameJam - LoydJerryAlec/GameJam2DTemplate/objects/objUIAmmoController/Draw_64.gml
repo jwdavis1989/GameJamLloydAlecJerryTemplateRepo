@@ -78,6 +78,7 @@ if(obj_inventory.rivet_amount < 6){
 }
 
 // Oxygen Tank Display
+/*
 if(obj_inventory.oxygen_tanks > 0){
 	draw_sprite(spr_oxygen_tank_submarine, 0, view_get_xport(0) + 
 	view_get_wport(0) -  sprite_get_width(spr_scrap) / 2 * 5, 
@@ -90,3 +91,4 @@ if(obj_inventory.oxygen_tanks > 0){
 	sprite_get_height(spr_rivet) - 12 + sprite_get_height(spr_oxygen_tank_submarine) + 12, "X " + 
 	string(obj_inventory.oxygen_tanks),2, 2, image_angle);
 }
+*/

@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_oxygen_tank_submarine",
+  "%Name":"spr_metal_plate",
   "bboxMode":0,
   "bbox_bottom":63,
   "bbox_left":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c2717f4c-59b4-4f5a-97ae-0ec4c8554d32","name":"c2717f4c-59b4-4f5a-97ae-0ec4c8554d32","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"1c10adfa-44cd-435d-a785-0b5753428351","name":"1c10adfa-44cd-435d-a785-0b5753428351","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"af551080-72e9-4a67-8018-33e1a22f771a","blendMode":0,"displayName":"default","isLocked":false,"name":"af551080-72e9-4a67-8018-33e1a22f771a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"279504d6-a02c-4d5b-8bc1-755323a1f6f6","blendMode":0,"displayName":"default","isLocked":false,"name":"279504d6-a02c-4d5b-8bc1-755323a1f6f6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_oxygen_tank_submarine",
+  "name":"spr_metal_plate",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_oxygen_tank_submarine",
+    "%Name":"spr_metal_plate",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_oxygen_tank_submarine",
+    "name":"spr_metal_plate",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c2717f4c-59b4-4f5a-97ae-0ec4c8554d32","path":"sprites/spr_oxygen_tank_submarine/spr_oxygen_tank_submarine.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7eaffa3f-d7b3-4b54-9d24-30016fb82b6f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1c10adfa-44cd-435d-a785-0b5753428351","path":"sprites/spr_metal_plate/spr_metal_plate.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"eb9bea12-b00e-4cfa-be7d-8f65c543a028","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -6,8 +6,8 @@
   "name":"obj_window",
   "overriddenProperties":[],
   "parent":{
-    "name":"Interactables",
-    "path":"folders/Objects/Interactables.yy",
+    "name":"windows",
+    "path":"folders/Objects/Interactables/windows.yy",
   },
   "parentObjectId":{
     "name":"obj_window_parent",
