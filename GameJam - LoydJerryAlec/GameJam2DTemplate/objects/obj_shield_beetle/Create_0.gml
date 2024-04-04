@@ -12,5 +12,5 @@ currently_melee_charging = false;
 currently_melee_animating = false;
 melee_animation_duration = 30;
 shield_cooldown_timer = 60;
-image_xscale = 3;
-image_yscale = 3;
+image_xscale = width;
+image_yscale = height;

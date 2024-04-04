@@ -172,32 +172,10 @@ else if (key_shoot && equipped_weapon.currentAmmo > 0 && !equipped_weapon.reload
     }
     instance_create(bulletAnchorX, bulletAnchorY, objMuzzleFlare);
     audio_play_sound(equipped_weapon.fire_sound, 1, 0, 1, 0, random_range(0.8, 1.2));
+	screen_shake(2);
     equipped_weapon.currentAmmo--;
 }
 
-//Not fully implemented yet
-//Grappling
-if (key_grapple && canGrapple) {
-	alarm[2] = 30;
-	canGrapple = false;
-	audio_play_sound(snd_bottle_rocket, 2, 0);
-	instance_destroy(instance_nearest(x, y, objGrappleHook));
-	grapple = instance_create(bulletAnchorX, bulletAnchorY, objGrappleHook);
-}
-
-
-if (grapple) {
-	if (grapple.grappled) {
-		if (place_meeting(x + grappleSpeed, y + grappleSpeed, obj_wall_parent)) {
-			move_towards_point(grapple.x, grapple.y, 0);
-			instance_destroy(grapple);
-			grapple = noone;
-		}
-		else {
-			move_towards_point(grapple.x, grapple.y, grappleSpeed);
-		}
-	}
-}
 var buttonPressed = false;
 for(var i = 0; i < obj_inventory.weapons_count; i++){
 	if(key_weapons[i]){

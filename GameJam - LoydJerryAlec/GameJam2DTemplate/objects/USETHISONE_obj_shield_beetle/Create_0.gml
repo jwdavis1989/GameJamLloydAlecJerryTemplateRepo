@@ -31,3 +31,4 @@ image_xscale = width;
 image_yscale = height;
 nearest_echo = noone;
 glow = instance_create(x, y, obj_shield_beetle_glow);
+supply_cost = 30;
