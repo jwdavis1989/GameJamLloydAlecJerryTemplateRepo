@@ -1,3 +1,3 @@
-//draw_text(x, y + 24, hp);
-draw_self();
-
+if (!(alarm[11] > 0 and alarm[11] % 4 == 0)) {
+	draw_self();
+}

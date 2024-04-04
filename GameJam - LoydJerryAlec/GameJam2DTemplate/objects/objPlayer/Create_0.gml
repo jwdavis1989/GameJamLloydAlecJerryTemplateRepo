@@ -29,15 +29,15 @@ if (nightVision) {
 facing = "right";
 invulnerable = false;
 control_locked = false;
-canGrapple = true;
-grapple = noone;
-grappleSpeed = 32;
 permanent_echo = false;
 glow = instance_create(x, y, obj_player_glow);
 bulletAnchorX = x + sprite_width/2 - 1 //63
 bulletAnchorY = y - 11; //21
 
 //Weapon Stats
-//equipped_weapon = instance_create(bulletAnchorX, bulletAnchorY, obj_gun_base_shotgun);
-equipped_weapon = ""; // handled in obj_inventory
 
+equipped_weapon = noone; // handled in obj_inventory
+inventory = instance_create(x,y,obj_inventory)
+
+audio_listener_position(x, y, 0);
+audio_listener_orientation(0, -1, 0, 0, 0, -1);

@@ -12,15 +12,15 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0d7bc9d9-edf5-4060-8de1-0b39843ec248","name":"0d7bc9d9-edf5-4060-8de1-0b39843ec248","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0fe3464c-49cf-4b6c-bf6e-4ad8267a0eb1","name":"0fe3464c-49cf-4b6c-bf6e-4ad8267a0eb1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"461c1277-f7f1-454b-9011-ca3ff594a2f8","name":"461c1277-f7f1-454b-9011-ca3ff594a2f8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"a5fa14f2-d8cf-4e5d-90df-c5bb75c9c319","name":"a5fa14f2-d8cf-4e5d-90df-c5bb75c9c319","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"7784ae28-63ac-4975-b7d9-eec7ed45aa17","blendMode":0,"displayName":"default","isLocked":false,"name":"7784ae28-63ac-4975-b7d9-eec7ed45aa17","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"edf63ee8-9655-47be-88d5-c15b25078b34","blendMode":0,"displayName":"default","isLocked":false,"name":"edf63ee8-9655-47be-88d5-c15b25078b34","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_shield_beetle_wing_flap",
   "nineSlice":null,
@@ -70,11 +70,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0d7bc9d9-edf5-4060-8de1-0b39843ec248","path":"sprites/spr_shield_beetle_wing_flap/spr_shield_beetle_wing_flap.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5fa652c6-7f79-4404-8332-5afae97f8c5b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"461c1277-f7f1-454b-9011-ca3ff594a2f8","path":"sprites/spr_shield_beetle_wing_flap/spr_shield_beetle_wing_flap.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fb800c04-9561-4365-aedc-5b309f90b57a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0fe3464c-49cf-4b6c-bf6e-4ad8267a0eb1","path":"sprites/spr_shield_beetle_wing_flap/spr_shield_beetle_wing_flap.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6f3b5f30-1b57-4256-b8d7-19f725851dba","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a5fa14f2-d8cf-4e5d-90df-c5bb75c9c319","path":"sprites/spr_shield_beetle_wing_flap/spr_shield_beetle_wing_flap.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"78028081-b5f5-4be8-b68a-671094f2e51a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

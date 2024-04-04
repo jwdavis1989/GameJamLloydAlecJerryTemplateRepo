@@ -1,9 +1,13 @@
 event_inherited();
 hp = 100;
 turret = instance_create(x, y, objOrbTurret);
+turret.image_blend = image_blend;
 glow = instance_create(x, y, objOrbGlow);
 image_speed = 0.2;
-health = 20;
+image_xscale = width;
+image_yscale = height;
+turret.image_xscale = width;
+turret.image_yscale = height;
 melee_damage = 10;
 aggro = false;
 aggroRange = 384;

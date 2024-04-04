@@ -1,6 +1,8 @@
 //Get the player's input
 if( keyboard_check(ord("L"))){
 	room_goto(rmAlecDev);
+	x=200
+	y=200
 }
 if (!control_locked) {
     key_right = keyboard_check(ord("D"));
@@ -149,9 +151,9 @@ if (dashing || permanent_echo) {
 bulletAnchorX = x + sprite_width/2 - 1
 bulletAnchorY = y - 11;
 //Reload
-if (equipped_weapon.currentAmmo < 1 && !equipped_weapon.reloading) {
+if (equipped_weapon && equipped_weapon.currentAmmo < 1 && !equipped_weapon.reloading) {
     alarm[1] = equipped_weapon.reloadSpeed;
-    audio_play_sound(snd_reload, 1, 0);
+    audio_play_sound(snd_reload, 1, 0, 1, 0, random_range(0.8, 1.2));
     equipped_weapon.reloading = true;
 }
 //Fire if ammo
@@ -169,33 +171,11 @@ else if (key_shoot && equipped_weapon.currentAmmo > 0 && !equipped_weapon.reload
         equipped_weapon.pellets[i] = instance_create(bulletAnchorX, bulletAnchorY, equipped_weapon.ammo);
     }
     instance_create(bulletAnchorX, bulletAnchorY, objMuzzleFlare);
-    audio_play_sound(equipped_weapon.fire_sound, 1, 0);
+    audio_play_sound(equipped_weapon.fire_sound, 1, 0, 1, 0, random_range(0.8, 1.2));
+	screen_shake(2);
     equipped_weapon.currentAmmo--;
 }
 
-//Not fully implemented yet
-//Grappling
-if (key_grapple && canGrapple) {
-	alarm[2] = 30;
-	canGrapple = false;
-	audio_play_sound(snd_bottle_rocket, 2, 0);
-	instance_destroy(instance_nearest(x, y, objGrappleHook));
-	grapple = instance_create(bulletAnchorX, bulletAnchorY, objGrappleHook);
-}
-
-
-if (grapple) {
-	if (grapple.grappled) {
-		if (place_meeting(x + grappleSpeed, y + grappleSpeed, obj_wall_parent)) {
-			move_towards_point(grapple.x, grapple.y, 0);
-			instance_destroy(grapple);
-			grapple = noone;
-		}
-		else {
-			move_towards_point(grapple.x, grapple.y, grappleSpeed);
-		}
-	}
-}
 var buttonPressed = false;
 for(var i = 0; i < obj_inventory.weapons_count; i++){
 	if(key_weapons[i]){
@@ -232,3 +212,8 @@ if(underwater){
 			oxygen_missing = 0; // Make sure it doesn't go negative
 		}
 }
+if(!underwater && oxygen_missing > 0){
+		oxygen_missing -= 2; // Player constantly regains oxygen while not underwater
+}
+
+audio_listener_position(x, y, 0);

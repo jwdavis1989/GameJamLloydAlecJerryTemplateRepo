@@ -1,6 +1,5 @@
 /// @description Init
-interacted = false;
-looted = false;
-animating = false;
+event_inherited();
 image_speed = 0.1;
+vel_y = 30;
 

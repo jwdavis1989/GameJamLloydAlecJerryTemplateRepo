@@ -10,10 +10,13 @@
   "name":"objChest",
   "overriddenProperties":[],
   "parent":{
-    "name":"Interactables",
-    "path":"folders/Objects/Interactables.yy",
+    "name":"chests",
+    "path":"folders/Objects/Interactables/chests.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_chest_parent",
+    "path":"objects/obj_chest_parent/obj_chest_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

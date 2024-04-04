@@ -2,18 +2,17 @@
 // You can write your code in this editor
 //Handle Death
 if (hp < 1) {
+	monster_death_handle_supply(self);
 	effect_create_depth(-1003, ef_firework, x, y, 0, c_red);
 	effect_create_depth(-1003, ef_explosion, x, y, 1, c_red);
-	audio_play_sound(snd_bug_noise, 2, 0, 1, 0, 0.3);
+	audio_play_sound_at(snd_bug_noise, x, y, 0, 100, 300, 1, 0, 2, 1, 0, 0.3);
 	instance_destroy(self);
 }
 
 //States
 if (!currently_melee_charging) {
-	//1. Burrowing/Spawning
-		//This can be handled in the create event likely
 
-	//2. Chasing
+	//Chasing
 	if (objPlayer.x > x) {
 		vel_x = movement_speed;
 	}
@@ -21,16 +20,12 @@ if (!currently_melee_charging) {
 			vel_x = -movement_speed;
 	}
 
-	//3. Shield
-	//If player is out of combat range, periodically shield
-	//Feature Cut due to enemy being too difficulty to read
-
-	//4. Melee Charge-up
+	//Melee Charge-up
 	if (abs(x - objPlayer.x) < melee_engagement_range && !currently_melee_charging) {
 		currently_melee_charging = true;
 		//Begin melee charging animation
-		audio_play_sound(snd_bug_noise, 2, 0, 1, 0, random_range(0.1, 0.3));
-		audio_play_sound(snd_bug_noise, 3, 0, 1, 0, random_range(0.5, 1));
+		audio_play_sound_at(snd_bug_noise, x, y, 0, 100, 300, 1, 0, 2, 1, 0, random_range(0.1, 0.3));
+		audio_play_sound_at(snd_bug_noise, x, y, 0, 100, 300, 1, 0, 3, 1, 0, random_range(0.5, 1));
 		alarm[0] = melee_animation_duration;
 		vel_x = 0;
 		image_speed = 1;
@@ -39,6 +34,7 @@ if (!currently_melee_charging) {
 		effect_create_depth(-1003, ef_flare, x, y, 2, c_red);
 		attack_direction = (x < objPlayer.x);
 	}
+	
     //Animation
 	else if (vel_x < 0) {
 		image_xscale = width;
@@ -58,7 +54,7 @@ if (!currently_melee_charging) {
 }
 else {
 	instance_create_depth(x, y, -1003, obj_shield_beetle_echo);
-	effect_create_depth(-1002, ef_flare, x, y, 0, c_red);
+	//effect_create_depth(-1002, ef_flare, x, y, 1, c_red);
 	nearest_echo = instance_nearest(x, y, obj_shield_beetle_echo);
 	if (attack_direction) {
 		nearest_echo.image_xscale = -width;
@@ -68,6 +64,10 @@ else {
 	}
 }
 
+if (alarm[1] > 0) {
+	effect_create_depth(-1002, ef_flare, x, y + sprite_height/8, width - 1, c_red);	
+	effect_create_depth(-1002, ef_flare, x, y + sprite_height/4, width - 1, c_red);	
+}
 if (alarm[0] > 0 && alarm[0] < melee_animation_duration && currently_melee_charging) {
 	vel_y-= 0.1 * grav;	
 }
@@ -85,8 +85,8 @@ if (place_meeting(x+vel_x,y,obj_wall_parent))
     vel_x = 0;
 	if (currently_melee_charging) {
 		//Screen Shake!
-		effect_create_depth(-7, ef_smoke, x, y, 1, c_dkgray);
-		
+		effect_create_depth(-7, ef_smoke, x, y, 1, c_white);
+		screen_shake(10);
 	}
 }
 x += vel_x;
