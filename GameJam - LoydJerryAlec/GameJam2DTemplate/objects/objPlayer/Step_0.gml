@@ -24,6 +24,7 @@ if (!control_locked) {
 	]
 	key_weapon_down = mouse_wheel_down()
 	key_weapon_up = mouse_wheel_up()
+	key_pickup = keyboard_check(ord("V")); // For picking up and putting down sub oxygen tanks
 }
 else {
     key_right = false;
@@ -38,6 +39,7 @@ else {
 	key_weapon2 = false;
 	key_weapon_down = false;
 	key_weapon_up = false;
+	key_pickup = false;
 }
 //React to inputs
 move = key_left + key_right;
@@ -192,6 +194,7 @@ if(buttonPressed){
 	obj_inventory.switch_weapon_up();
 }
 
+// Underwater Checks
 if(underwater){
 	if(oxygen_missing < oxygen_max){ //Lose oxygen while underwater
 		oxygen_missing += 1;
@@ -214,6 +217,18 @@ if(underwater){
 }
 if(!underwater && oxygen_missing > 0){
 		oxygen_missing -= 2; // Player constantly regains oxygen while not underwater
+}
+
+// Submarine Oxygen Tank
+if(obj_inventory.oxygen_tanks > 0 && sub_tank_interact_timer <= 0){ // Player is holding submarine oxygen tank
+	if(key_pickup){
+		instance_create(x, y, obj_oxygen_tank_submarine);
+		obj_inventory.oxygen_tanks--;
+		sub_tank_interact_timer = 5;
+	}
+}
+if(sub_tank_interact_timer > 0){
+	sub_tank_interact_timer--
 }
 
 audio_listener_position(x, y, 0);
