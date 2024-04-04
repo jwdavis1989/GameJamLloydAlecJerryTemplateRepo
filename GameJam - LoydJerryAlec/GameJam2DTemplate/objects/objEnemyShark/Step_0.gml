@@ -7,16 +7,17 @@ if (hp < 1) {
 	instance_destroy(self);
 }
 //States
+//TODO should be handled in sprite and tied to movement speed
 movement_animation_timer++;
 if(currently_melee_animating){
 	//Will be set to spr_shark_attack by alarm 0
-}else if(movement_animation_timer<1){
+}else if(movement_animation_timer<14){
 	sprite_index = spr_shark_fin_away;
-}else if (movement_animation_timer<24){
+}else if (movement_animation_timer<28){
 	sprite_index = spr_shark
-}else if (movement_animation_timer<36){
+}else if (movement_animation_timer<42){
 	sprite_index = spr_shark_fin_toward
-}else if(movement_animation_timer<48){
+}else if(movement_animation_timer<56){
 	sprite_index = spr_shark;
 }else{
 	movement_animation_timer = 0;
