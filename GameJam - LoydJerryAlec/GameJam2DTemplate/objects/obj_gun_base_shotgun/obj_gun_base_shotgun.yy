@@ -15,7 +15,7 @@
     "name":"obj_gun_parent",
     "path":"objects/obj_gun_parent/obj_gun_parent.yy",
   },
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,

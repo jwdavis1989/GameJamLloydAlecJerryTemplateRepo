@@ -1,6 +1,8 @@
 //Get the player's input
 if( keyboard_check(ord("L"))){
 	room_goto(rmAlecDev);
+	x=200
+	y=200
 }
 if (!control_locked) {
     key_right = keyboard_check(ord("D"));
@@ -149,7 +151,7 @@ if (dashing || permanent_echo) {
 bulletAnchorX = x + sprite_width/2 - 1
 bulletAnchorY = y - 11;
 //Reload
-if (equipped_weapon.currentAmmo < 1 && !equipped_weapon.reloading) {
+if (equipped_weapon && equipped_weapon.currentAmmo < 1 && !equipped_weapon.reloading) {
     alarm[1] = equipped_weapon.reloadSpeed;
     audio_play_sound(snd_reload, 1, 0);
     equipped_weapon.reloading = true;

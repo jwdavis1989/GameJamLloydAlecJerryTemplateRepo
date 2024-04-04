@@ -37,5 +37,6 @@ bulletAnchorY = y - 11; //21
 
 //Weapon Stats
 //equipped_weapon = instance_create(bulletAnchorX, bulletAnchorY, obj_gun_base_shotgun);
-equipped_weapon = ""; // handled in obj_inventory
+equipped_weapon = noone; // handled in obj_inventory
+inventory = instance_create(x,y,obj_inventory)
 
