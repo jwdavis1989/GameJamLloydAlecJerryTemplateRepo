@@ -1,0 +1,12 @@
+event_inherited();
+damage = 100;
+maxAmmo = 5;
+currentAmmo = maxAmmo;
+reloadSpeed = 25;
+pelletCount = 1;
+pelletSpread = 0.2;
+pelletSpeed = 23;
+pelletLifetime = 28;
+ammo = obj_projectile_spear;
+fire_sound = snd_crossbow_fire;
+ammo_ui_sprite = spr_ui_spear;

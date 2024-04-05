@@ -225,6 +225,8 @@ if(obj_inventory.oxygen_tanks > 0 && sub_tank_interact_timer <= 0){ // Player is
 		instance_create(x, y, obj_oxygen_tank_submarine);
 		obj_inventory.oxygen_tanks--;
 		sub_tank_interact_timer = 5;
+		//TO-DO: Reset movement to default when putting down tank
+		//movespeed = init_movespeed;
 	}
 }
 if(sub_tank_interact_timer > 0){
