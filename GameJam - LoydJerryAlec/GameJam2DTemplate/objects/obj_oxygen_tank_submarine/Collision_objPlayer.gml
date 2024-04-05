@@ -10,8 +10,7 @@ if(objPlayer.key_pickup && other.sub_tank_interact_timer <= 0){
 		objPlayer.y - sprite_get_height(spr_character_idle) / 2, 1.2, 1.2);
 	other.sub_tank_interact_timer = 5;
 	instance_destroy(message);
-	//TO-DO: Slow player down while carrying tank
-	//other.movespeed = 6;
+	other.movespeed = 6; //Slow player down while carrying tank
 	instance_destroy();// Remove tank from level
 }
 

@@ -48,11 +48,19 @@ if (grounded) {
 }
 if (key_dash && !dashing && air_dashes) {
     audio_play_sound(snd_jump, 2, 0, 1, 0, random_range(0.5, 0.75));
-    movespeed = movespeed * 2
-	grav = (0.5 * init_grav);
-    dashing = true
-    alarm[0] = 15
-	air_dashes--;
+	if(obj_inventory.oxygen_tanks < 1){ // Player not carrying oxygen tank
+	    movespeed = movespeed * 2
+		grav = (0.5 * init_grav);
+	    dashing = true
+	    alarm[0] = 15
+		air_dashes--;
+	}else{ // Dashing is slower while carrying tank
+		movespeed = movespeed * 1.5;
+		grav = (0.7 * init_grav);
+	    dashing = true
+	    alarm[0] = 25;
+		air_dashes--;
+	}
 }
 vel_x = move * movespeed;
 
@@ -225,8 +233,7 @@ if(obj_inventory.oxygen_tanks > 0 && sub_tank_interact_timer <= 0){ // Player is
 		instance_create(x, y, obj_oxygen_tank_submarine);
 		obj_inventory.oxygen_tanks--;
 		sub_tank_interact_timer = 5;
-		//TO-DO: Reset movement to default when putting down tank
-		//movespeed = init_movespeed;
+		movespeed = init_movespeed; //Reset movement to default when putting down tank
 	}
 }
 if(sub_tank_interact_timer > 0){
