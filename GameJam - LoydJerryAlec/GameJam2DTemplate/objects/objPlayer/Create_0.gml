@@ -18,7 +18,7 @@ nightVision = true;
 
 // Underwater-related Variables
 oxygen_missing = 0;
-oxygen_max = 100;
+oxygen_max = 150;
 underwater = false;
 breathing_sound = noone; // Replaced by id for breathing sound in water collison event
 drowning_sound = noone; // Replaced by id for drowning sound in step event
