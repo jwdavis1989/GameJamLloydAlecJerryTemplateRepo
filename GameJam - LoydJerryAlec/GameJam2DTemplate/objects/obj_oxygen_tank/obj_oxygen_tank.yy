@@ -10,8 +10,8 @@
   "name":"obj_oxygen_tank",
   "overriddenProperties":[],
   "parent":{
-    "name":"oxygen",
-    "path":"folders/Objects/Interactables/oxygen.yy",
+    "name":"Interactables",
+    "path":"folders/Objects/Interactables.yy",
   },
   "parentObjectId":null,
   "persistent":false,
