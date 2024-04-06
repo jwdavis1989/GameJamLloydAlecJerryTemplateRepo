@@ -65,4 +65,5 @@ for(var i = 0; i < keycard_amount; i++){
 // Supplies
 scrap_amount = 0;
 rivet_amount = 0;
-oxygen_tanks = 0;
+med_kits = 0;
+fuel_cells = 0;
