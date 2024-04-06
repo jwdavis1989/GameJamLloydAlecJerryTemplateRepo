@@ -6,6 +6,7 @@ y_anchor = 384;
 image_speed = 0.5;
 movement_speed = 16;
 scale = 3;
+explosion_scale = 2;
 image_xscale = scale;
 image_yscale = scale;
 distance_shrink_rate = 6 / 30;
@@ -20,3 +21,4 @@ else {
 	image_angle = point_direction(x, y, x-1, y - 1);
 	move_towards_point(x_anchor[1], y_anchor, movement_speed);
 }
+explosion = noone;
