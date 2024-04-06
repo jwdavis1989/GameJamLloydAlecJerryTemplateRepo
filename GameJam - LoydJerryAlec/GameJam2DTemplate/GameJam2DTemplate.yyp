@@ -392,6 +392,7 @@
     {"id":{"name":"sprGrapplingHook","path":"sprites/sprGrapplingHook/sprGrapplingHook.yy",},},
     {"id":{"name":"sprIndividualBuckshot","path":"sprites/sprIndividualBuckshot/sprIndividualBuckshot.yy",},},
     {"id":{"name":"sprIndividualBuckshotRed","path":"sprites/sprIndividualBuckshotRed/sprIndividualBuckshotRed.yy",},},
+    {"id":{"name":"sprShaft","path":"sprites/sprShaft/sprShaft.yy",},},
     {"id":{"name":"sprite27","path":"sprites/sprite27/sprite27.yy",},},
     {"id":{"name":"sprMuzzleExplosion","path":"sprites/sprMuzzleExplosion/sprMuzzleExplosion.yy",},},
     {"id":{"name":"sprOrbBody","path":"sprites/sprOrbBody/sprOrbBody.yy",},},

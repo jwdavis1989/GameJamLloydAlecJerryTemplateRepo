@@ -3,11 +3,12 @@
 audio_stop_all();
 time_passed = 0;
 image_alpha = 0;
-image_speed= 0;
+image_speed = 0;
+image_index = 1;
 menuSurf = -1;
 gameoverSurfBuffer = -1;
 anchorX = __view_get( e__VW.XView, 0 );//left side
-anchorY = view_yview[0];//top
+anchorY = __view_get( e__VW.YView, 0 );//top
 x=anchorX
 y=anchorY
 pause = true;
