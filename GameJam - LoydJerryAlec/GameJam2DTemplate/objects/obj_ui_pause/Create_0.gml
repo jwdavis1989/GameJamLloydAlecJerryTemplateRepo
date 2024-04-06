@@ -5,12 +5,12 @@ pause = false;
 pauseSurf = -1;
 menuSurf = -1;
 pauseSurfBuffer = -1;
-resW = 1024
-resH=768;
+resW = display_get_width()
+resH=display_get_height();
 
 //audio control
 audio_group_load(audiogroup_default);
-audio_group_load(audiogroup_music);
+audio_group_load(audiogroup_effects);
 volume = 1;
 vol_max = 2 //double
 volume_slider = -1 //slider object

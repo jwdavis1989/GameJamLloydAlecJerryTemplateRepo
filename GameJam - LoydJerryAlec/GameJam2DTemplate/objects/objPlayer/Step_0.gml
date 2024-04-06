@@ -1,8 +1,13 @@
 //Get the player's input
+if(hp <= 0){
+	instance_create(0, 0, obj_ui_gameover);
+}
+	
 if( keyboard_check(ord("L"))){
-	room_goto(rmAlecDev);
-	x=200
-	y=200
+	instance_create(0, 0, obj_ui_victory);
+	//room_goto(rmAlecDev);
+	//x=200
+	//y=200
 }
 if (!control_locked) {
     key_right = keyboard_check(ord("D"));
