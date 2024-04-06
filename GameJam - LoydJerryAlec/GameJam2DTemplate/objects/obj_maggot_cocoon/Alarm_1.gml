@@ -1,3 +1,4 @@
 /// @description Ascending Birth
-instance_create(x, y, objOrb);
+orb = instance_create(x, y, objOrb);
+orb.spawned = spawned;
 instance_destroy(self);
