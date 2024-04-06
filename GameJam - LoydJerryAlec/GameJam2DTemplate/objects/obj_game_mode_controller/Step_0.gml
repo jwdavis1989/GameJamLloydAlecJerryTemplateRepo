@@ -27,7 +27,7 @@ if (phase == "Defense") {
 		*/
 		wave_remaining = 0;
 		for (var i=0; i<array_length(current_wave);i++) {
-			if (current_wave[i].count > 0) {
+			if (current_wave[i].count >= 0) {
 				alarm[i + 2] = current_wave[i].spawn_time_interval;	
 				wave_remaining += current_wave[i].count;
 				current_wave[i].count--;

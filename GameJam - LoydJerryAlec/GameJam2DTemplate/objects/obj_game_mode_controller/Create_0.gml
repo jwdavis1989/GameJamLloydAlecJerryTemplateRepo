@@ -7,7 +7,7 @@ Gather: Gives timer until next defense round
 Repair: Gives pause so player can repair sub
 */
 phase = "Defense";
-wave = 1;
+wave = 2;
 wave_began = false;
 wave_remaining = 0;
 //Gives Leviathan time to grow sprite and latch onto sub, then attack begins!
@@ -33,8 +33,9 @@ current_wave_1 = [{unit: obj_maggot, count: 10, spawn_time_interval: 15},
 		  {unit: USETHISONE_obj_shield_beetle, count: 1, spawn_time_interval: 15}];
 wave_1 = [{unit: obj_maggot, count: 10, spawn_time_interval: 15},
 		  {unit: USETHISONE_obj_shield_beetle, count: 1, spawn_time_interval: 15}];
-wave_2 = [{unit: USETHISONE_obj_shield_beetle, count: 2, spawn_time_interval: 15}];
-wave_3 = [{unit: obj_maggot, count: 10, spawn_time_interval: 15}, 
+wave_2 = [{unit: USETHISONE_obj_shield_beetle, count: 2, spawn_time_interval: 30}, 
+          {unit: objOrb, count: 10, spawn_time_interval: 30}];
+wave_3 = [{unit: obj_maggot, count: 20, spawn_time_interval: 15}, 
 		  {unit: USETHISONE_obj_shield_beetle, count: 2, spawn_time_interval: 15}];
 wave_4 = [{unit: obj_maggot, count: 20, spawn_time_interval: 15}, 
 		  {unit: USETHISONE_obj_shield_beetle, count: 4, spawn_time_interval: 15}];
