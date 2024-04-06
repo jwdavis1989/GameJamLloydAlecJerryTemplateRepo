@@ -77,6 +77,28 @@ if(obj_inventory.rivet_amount < 6){
 	string(obj_inventory.rivet_amount),2, 2, image_angle);
 }
 
+// Med-kit Display
+// 5 or less Med-kits
+if(obj_inventory.med_kits < 6){
+	for(var i = 0; i < obj_inventory.med_kits; i++){
+		draw_sprite(spr_med_kit, 0, view_get_xport(0) + 
+		view_get_wport(0) -  sprite_get_width(spr_med_kit) / 2 * 5 + 15 * i, 
+		view_get_yport(0) + sprite_get_height(spr_rivet) / 2 + sprite_get_height(spr_rivet) 
+		+ sprite_get_height(spr_med_kit));
+	}
+}else{ // 6 or more Med-kits
+	draw_sprite(spr_med_kit, 0, view_get_xport(0) + 
+	view_get_wport(0) -  sprite_get_width(spr_med_kit) / 2 * 5, 
+	view_get_yport(0) + sprite_get_height(spr_scrap) / 2 + sprite_get_height(spr_rivet) 
+	+ sprite_get_height(spr_med_kit));
+	
+	draw_set_color(c_white);
+	draw_text_transformed(view_get_xport(0) + view_get_wport(0) - sprite_get_width(spr_scrap) / 2 * 4 + 5,
+	view_get_yport(0) + sprite_get_height(spr_scrap) / 2  + 
+	sprite_get_height(spr_rivet) - 12 + sprite_get_height(spr_med_kit) + 8, "X " + 
+	string(obj_inventory.med_kits),2, 2, image_angle);
+}
+
 // Oxygen Tank Display
 /*
 if(obj_inventory.oxygen_tanks > 0){

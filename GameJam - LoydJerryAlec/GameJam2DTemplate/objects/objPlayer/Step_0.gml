@@ -24,7 +24,7 @@ if (!control_locked) {
 	]
 	key_weapon_down = mouse_wheel_down()
 	key_weapon_up = mouse_wheel_up()
-	key_pickup = keyboard_check(ord("V")); // For picking up and putting down sub oxygen tanks
+	key_pickup = keyboard_check(ord("V")); // For picking up and putting down fuel cells
 }
 else {
     key_right = false;
@@ -48,13 +48,13 @@ if (grounded) {
 }
 if (key_dash && !dashing && air_dashes) {
     audio_play_sound(snd_jump, 2, 0, 1, 0, random_range(0.5, 0.75));
-	if(obj_inventory.oxygen_tanks < 1){ // Player not carrying oxygen tank
+	if(obj_inventory.fuel_cells < 1){ // Player not carrying fuel cell
 	    movespeed = movespeed * 2
 		grav = (0.5 * init_grav);
 	    dashing = true
 	    alarm[0] = 15
 		air_dashes--;
-	}else{ // Dashing is slower while carrying tank
+	}else{ // Dashing is slower while carrying cell
 		movespeed = movespeed * 1.5;
 		grav = (0.7 * init_grav);
 	    dashing = true
@@ -227,17 +227,17 @@ if(!underwater && oxygen_missing > 0){
 		oxygen_missing -= 2; // Player constantly regains oxygen while not underwater
 }
 
-// Submarine Oxygen Tank
-if(obj_inventory.oxygen_tanks > 0 && sub_tank_interact_timer <= 0){ // Player is holding submarine oxygen tank
+// Fuel Cell
+if(obj_inventory.fuel_cells > 0 && fuel_cell_interact_timer <= 0){ // Player is holding fuel cell
 	if(key_pickup){
-		instance_create(x, y, obj_oxygen_tank_submarine);
-		obj_inventory.oxygen_tanks--;
-		sub_tank_interact_timer = 5;
-		movespeed = init_movespeed; //Reset movement to default when putting down tank
+		instance_create(x, y, obj_fuel_cell);
+		obj_inventory.fuel_cells--;
+		fuel_cell_interact_timer = 5;
+		movespeed = init_movespeed; // Reset movement to default when putting down cell
 	}
 }
-if(sub_tank_interact_timer > 0){
-	sub_tank_interact_timer--
+if(fuel_cell_interact_timer > 0){
+	fuel_cell_interact_timer--
 }
 
 audio_listener_position(x, y, 0);
