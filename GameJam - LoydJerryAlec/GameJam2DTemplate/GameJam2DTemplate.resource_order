@@ -149,7 +149,6 @@
     {"name":"OLD_obj_player","order":2,"path":"objects/OLD_obj_player/OLD_obj_player.yy",},
     {"name":"USETHISONE_obj_shield_beetle","order":1,"path":"objects/USETHISONE_obj_shield_beetle/USETHISONE_obj_shield_beetle.yy",},
     {"name":"WIP_obj_rising_water","order":3,"path":"objects/WIP_obj_rising_water/WIP_obj_rising_water.yy",},
-    {"name":"rm_alec_minidung","order":6,"path":"rooms/rm_alec_minidung/rm_alec_minidung.yy",},
     {"name":"rm_lloyd_test","order":5,"path":"rooms/rm_lloyd_test/rm_lloyd_test.yy",},
     {"name":"rmAlecDev","order":4,"path":"rooms/rmAlecDev/rmAlecDev.yy",},
     {"name":"rmCentralHub","order":3,"path":"rooms/rmCentralHub/rmCentralHub.yy",},

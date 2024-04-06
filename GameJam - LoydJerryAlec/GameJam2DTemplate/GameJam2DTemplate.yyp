@@ -198,7 +198,6 @@
     {"id":{"name":"OLD_obj_player","path":"objects/OLD_obj_player/OLD_obj_player.yy",},},
     {"id":{"name":"USETHISONE_obj_shield_beetle","path":"objects/USETHISONE_obj_shield_beetle/USETHISONE_obj_shield_beetle.yy",},},
     {"id":{"name":"WIP_obj_rising_water","path":"objects/WIP_obj_rising_water/WIP_obj_rising_water.yy",},},
-    {"id":{"name":"rm_alec_minidung","path":"rooms/rm_alec_minidung/rm_alec_minidung.yy",},},
     {"id":{"name":"rm_lloyd_test","path":"rooms/rm_lloyd_test/rm_lloyd_test.yy",},},
     {"id":{"name":"rmAlecDev","path":"rooms/rmAlecDev/rmAlecDev.yy",},},
     {"id":{"name":"rmCentralHub","path":"rooms/rmCentralHub/rmCentralHub.yy",},},
@@ -419,7 +418,6 @@
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rmAlecDev","path":"rooms/rmAlecDev/rmAlecDev.yy",},},
     {"roomId":{"name":"rm_lloyd_test","path":"rooms/rm_lloyd_test/rm_lloyd_test.yy",},},
-    {"roomId":{"name":"rm_alec_minidung","path":"rooms/rm_alec_minidung/rm_alec_minidung.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
