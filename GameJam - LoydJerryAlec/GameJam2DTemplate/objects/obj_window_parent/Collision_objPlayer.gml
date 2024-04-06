@@ -2,7 +2,7 @@ if(other.key_interact){
 	if(image_index != 0 + offset){ // Check if window is broken
 		if(interact_timer == 0){
 			if(obj_inventory.scrap_amount >= scrap_to_fix && obj_inventory.rivet_amount >= rivets_to_fix){
-				image_index = 0 + offset; // Set window to fixed
+				image_index -= 1; // Set window to previous damage level
 				alarm[0] = random_range(20,60); // Reset timer
 				obj_inventory.scrap_amount--;
 				obj_inventory.rivet_amount -= 2;
