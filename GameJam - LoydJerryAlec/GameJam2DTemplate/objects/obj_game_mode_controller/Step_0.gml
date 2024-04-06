@@ -37,11 +37,22 @@ if (phase == "Defense") {
 		}
 		wave_remaining = wave_remaining_max;
 		wave_began = true;
+		tentacles[0] = instance_create(spawn_tentacles_x[0], spawn_tentacles_y, obj_leviathan_tentacle);
+		tentacles[1] = instance_create(spawn_tentacles_x[1], spawn_tentacles_y, obj_leviathan_tentacle);
+		for (var i=0; i<array_length(tentacles);i++) {
+			tentacles[i].image_xscale = tentacle_width;
+			tentacles[i].image_yscale = tentacle_height;
+		}
+		tentacles[0].image_xscale = -tentacle_width;
+		audio_play_sound(snd_snarling_growl, 1, 0, 0.9, 0, random_range(0.5, 0.75));
 	}
 	else if (wave_remaining == 0){
 		//phase = "Gather";
 		//wave++;
 		//wave_began = false;
+		for (var i=0; i<array_length(tentacles);i++) {
+			instance_destroy(tentacles[i]);
+		}
 	}
 }
 else if (phase == "Gather") {

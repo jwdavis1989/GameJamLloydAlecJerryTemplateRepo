@@ -6,6 +6,9 @@ dungeon_lloyd_cleared = false;
 dungeon_jerry_cleared = false;
 submarine_max_hp = 100;
 submarine_hp = submarine_max_hp;
+tentacles = [];
+tentacle_width = 3;
+tentacle_height = 3;
 /*
 Phase String List:
 Defense: Spawning enemies
@@ -25,7 +28,7 @@ if (phase == "Defense") {
 minimum_spawn_cooldown = 30;
 maximum_spawn_cooldown = 120;
 spawn_timer = random_range(minimum_spawn_cooldown, maximum_spawn_cooldown);
-spawn_tentacles_x = [192, 768];
+spawn_tentacles_x = [192, 832];
 spawn_tentacles_y = 384;
 
 /*
@@ -37,7 +40,7 @@ spawn_time_interval: Period between each spawn.
 */
 //current_wave = [{unit: noone, count: -1, spawn_time_interval: -1}, {unit: noone, count: -1, spawn_time_interval: -1}];
 current_wave_1 = [{unit: obj_maggot, count: 10, spawn_time_interval: 15},
-		  {unit: USETHISONE_obj_shield_beetle, count: 1, spawn_time_interval: 15}];
+		  {unit: objOrb, count: 1, spawn_time_interval: 15}];
 wave_1 = [{unit: obj_maggot, count: 10, spawn_time_interval: 15},
 		  {unit: objOrb, count: 2, spawn_time_interval: 60}];
 wave_2 = [{unit: USETHISONE_obj_shield_beetle, count: 1, spawn_time_interval: 30}, 
