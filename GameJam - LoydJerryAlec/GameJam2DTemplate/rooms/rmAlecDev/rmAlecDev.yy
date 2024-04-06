@@ -7,7 +7,6 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_EE386C4F_1_1","path":"rooms/rmAlecDev/rmAlecDev.yy",},
-    {"name":"inst_F57DBCED_1_1","path":"rooms/rmAlecDev/rmAlecDev.yy",},
     {"name":"inst_477AAA2E_1_1","path":"rooms/rmAlecDev/rmAlecDev.yy",},
     {"name":"inst_22B8DA22_1_1","path":"rooms/rmAlecDev/rmAlecDev.yy",},
     {"name":"inst_2F8B0BEA_1_1","path":"rooms/rmAlecDev/rmAlecDev.yy",},
@@ -146,6 +145,9 @@
         {"$GMRInstance":"","%Name":"inst_114839F2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_114839F2","objectId":{"name":"objInvisibleCollisionBlock","path":"objects/objInvisibleCollisionBlock/objInvisibleCollisionBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":11.125,"x":2880.0,"y":0.0,},
         {"$GMRInstance":"","%Name":"inst_5C902712","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5C902712","objectId":{"name":"objInvisibleCollisionBlock","path":"objects/objInvisibleCollisionBlock/objInvisibleCollisionBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":8.0,"scaleY":1.0,"x":544.0,"y":560.0,},
       ],"layers":[],"name":"Terrain_Collision_Masks","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"Control_Layer","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"","%Name":"inst_EE386C4F_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_EE386C4F_1_1","objectId":{"name":"objChest","path":"objects/objChest/objChest.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":480.0,},
+      ],"layers":[],"name":"Control_Layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Very_Rusty_Tiles_Foreground","depth":6,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Very_Rusty_Tiles_Foreground","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":64,"TileCompressedData":[
           -32,0,-32,-2147483648,-32,0,-32,-2147483648,-32,0,-32,-2147483648,-32,0,-32,-2147483648,-32,0,-32,-2147483648,
           -32,0,-32,-2147483648,-32,0,-32,-2147483648,-32,0,-32,-2147483648,-32,0,-32,-2147483648,-32,0,-32,-2147483648,

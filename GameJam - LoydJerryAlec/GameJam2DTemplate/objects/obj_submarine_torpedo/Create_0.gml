@@ -6,10 +6,10 @@ y_anchor = 384;
 image_speed = 0.5;
 movement_speed = 16;
 scale = 3;
-explosion_scale = 2;
+explosion_scale = 1.5;
 image_xscale = scale;
 image_yscale = scale;
-distance_shrink_rate = 6 / 30;
+distance_shrink_rate = 12 / 30;
 object_play_3d_sound(snd_bottle_rocket, 0.5, 0.75, 1, 0.9);
 if (x < x_anchor_base) {
 	left_side = true;	
