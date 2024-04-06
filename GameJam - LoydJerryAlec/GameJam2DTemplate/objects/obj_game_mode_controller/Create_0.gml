@@ -1,9 +1,11 @@
 audio_stop_all();
 audio_play_sound(bgm_SCPx2x, 3, 1, 0.75, 0, 0.75);
 game_set_speed(30, gamespeed_fps);
+objNightVisionCamera.visible = false;
 debug = false;
 current_round = 1;
-gather_timer = 30 * 60;
+gather_timer = 30 * 120;
+repair_timer = 15;
 dungeon_alec_cleared = false;
 dungeon_lloyd_cleared = false;
 dungeon_jerry_cleared = false;
@@ -24,6 +26,7 @@ Gather: Gives timer until next defense round
 Repair: Gives pause so player can repair sub
 */
 phase = "Defense";
+message = noone;
 wave = 1;
 wave_began = false;
 wave_remaining = 0;
@@ -40,6 +43,9 @@ if (phase == "Defense") {
 	alarm[1] = leviathan_attack_animation_timer;
 	instance_create(room_center_x, spawn_tentacles_y, obj_leviathan);
 	alarm[5] = boss_approaching_timer;
+	audio_play_sound(snd_error, 2, 0, 1, 0);
+	message = create_static_message_at_depth("WARNING!", c_red, obj_helm.x - sprite_get_width(spr_helm)/2 + 6, 
+		obj_helm.y - sprite_get_height(spr_helm) / 2 - 10, 1, 1, -1001);
 }
 
 current_wave_1 = [{unit: obj_maggot, count: 10, spawn_time_interval: 15},

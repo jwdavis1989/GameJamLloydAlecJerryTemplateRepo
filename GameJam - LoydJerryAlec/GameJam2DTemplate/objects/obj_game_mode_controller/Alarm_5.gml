@@ -7,3 +7,10 @@ for (var i=0; i<array_length(tentacles);i++) {
 	tentacles[i].image_yscale = tentacle_height;
 }
 tentacles[0].image_xscale = -tentacle_width;
+objNightVisionCamera.visible = true;
+audio_play_sound(snd_heal_2, 10, false, 2.5, 1.08, 0.5);
+audio_play_sound(snd_heal_2, 10, false, 2.5, 1.08, 1);
+instance_destroy(message);
+message = noone;
+message = create_static_message_at_depth("DEFEND YOURSELF!", c_red, obj_helm.x - sprite_get_width(spr_helm) - 12, 
+		obj_helm.y - sprite_get_height(spr_helm) / 2 - 10, 1, 1, -1001);
