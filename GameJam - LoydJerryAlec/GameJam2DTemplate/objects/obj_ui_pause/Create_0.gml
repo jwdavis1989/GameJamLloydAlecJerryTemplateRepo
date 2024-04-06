@@ -10,4 +10,12 @@ resH=768;
 
 //audio control
 audio_group_load(audiogroup_default);
+audio_group_load(audiogroup_music);
 volume = 1;
+vol_max = 2 //double
+volume_slider = -1 //slider object
+vol_slider_current = 50 //percentage of way through slide
+
+volume_music = 1;
+volume_slider_music = -1 //slider object
+vol_slider_current_music = 50 //percentage of way through slide
