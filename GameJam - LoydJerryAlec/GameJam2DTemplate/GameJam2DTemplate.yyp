@@ -3,6 +3,7 @@
   "%Name":"GameJam2DTemplate",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"","%Name":"audiogroup_music","name":"audiogroup_music","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -151,6 +152,7 @@
     {"id":{"name":"obj_shield_beetle_glow","path":"objects/obj_shield_beetle_glow/obj_shield_beetle_glow.yy",},},
     {"id":{"name":"obj_shield_beetle_shield","path":"objects/obj_shield_beetle_shield/obj_shield_beetle_shield.yy",},},
     {"id":{"name":"obj_shield_beetle","path":"objects/obj_shield_beetle/obj_shield_beetle.yy",},},
+    {"id":{"name":"obj_slider","path":"objects/obj_slider/obj_slider.yy",},},
     {"id":{"name":"obj_smoke","path":"objects/obj_smoke/obj_smoke.yy",},},
     {"id":{"name":"obj_static_message","path":"objects/obj_static_message/obj_static_message.yy",},},
     {"id":{"name":"obj_submarine","path":"objects/obj_submarine/obj_submarine.yy",},},
@@ -351,6 +353,7 @@
     {"id":{"name":"spr_trap_crush_piston","path":"sprites/spr_trap_crush_piston/spr_trap_crush_piston.yy",},},
     {"id":{"name":"spr_ui_flamethrower_tank","path":"sprites/spr_ui_flamethrower_tank/spr_ui_flamethrower_tank.yy",},},
     {"id":{"name":"spr_ui_spear","path":"sprites/spr_ui_spear/spr_ui_spear.yy",},},
+    {"id":{"name":"spr_ui_slider","path":"sprites/spr_ui_slider/spr_ui_slider.yy",},},
     {"id":{"name":"spr_very_rusty_scifi_brick_tileset","path":"sprites/spr_very_rusty_scifi_brick_tileset/spr_very_rusty_scifi_brick_tileset.yy",},},
     {"id":{"name":"spr_vision_radius_blue","path":"sprites/spr_vision_radius_blue/spr_vision_radius_blue.yy",},},
     {"id":{"name":"spr_water_falling","path":"sprites/spr_water_falling/spr_water_falling.yy",},},
@@ -365,6 +368,7 @@
     {"id":{"name":"sprIndividualBuckshotRed","path":"sprites/sprIndividualBuckshotRed/sprIndividualBuckshotRed.yy",},},
     {"id":{"name":"sprite27","path":"sprites/sprite27/sprite27.yy",},},
     {"id":{"name":"spr_health_pack","path":"sprites/spr_health_pack/spr_health_pack.yy",},},
+    {"id":{"name":"spr_ui_slider_knob","path":"sprites/spr_ui_slider_knob/spr_ui_slider_knob.yy",},},
     {"id":{"name":"sprMuzzleExplosion","path":"sprites/sprMuzzleExplosion/sprMuzzleExplosion.yy",},},
     {"id":{"name":"sprOrbBody","path":"sprites/sprOrbBody/sprOrbBody.yy",},},
     {"id":{"name":"sprOrbGlow","path":"sprites/sprOrbGlow/sprOrbGlow.yy",},},
