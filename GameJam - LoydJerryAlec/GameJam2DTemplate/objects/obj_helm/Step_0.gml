@@ -11,8 +11,8 @@ if(interact_timer > 0){
 }
 
 if (instance_exists(objPlayer)) {
-	if(obj_game_mode_controller.phase != "Defense" && message == noone){
-		message = create_static_message_at_depth("[E] Choose Destination", c_white, x, 
+	if(obj_game_mode_controller.phase == "Gather" && message == noone){
+		message = create_static_message_at_depth("[E] Choose Destination", c_white, x - sprite_get_width(spr_helm) - 12, 
 		y - sprite_get_height(spr_helm) / 2 - 10, 1, 1, -1001);
 	}
 }
