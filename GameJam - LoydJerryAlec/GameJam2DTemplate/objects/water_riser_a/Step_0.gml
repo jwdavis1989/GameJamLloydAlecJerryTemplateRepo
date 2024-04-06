@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(abs(x-objPlayer.x) < 20)
 if(objPlayer.x > obj_door_auto_trap.x){
 	water_rising = true
 }

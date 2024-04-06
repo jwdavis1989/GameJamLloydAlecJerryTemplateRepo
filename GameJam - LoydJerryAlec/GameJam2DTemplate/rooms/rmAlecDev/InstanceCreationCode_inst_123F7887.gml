@@ -1,1 +1,0 @@
-loot=obj_med_kit
