@@ -6,7 +6,14 @@ if(obj_game_mode_controller.phase != "Defense" && message == noone){
 }
 */
 if(other.key_interact && interact_timer == 0){
-	// TO-DO: Map selection code here
 	show_debug_message("Open Map");
 	interact_timer = 5;
+	if (obj_game_mode_controller.phase == "Gather") {
+		room_goto(rm_map);
+	}
+	else if (obj_game_mode_controller.phase == "Repair") {
+		obj_game_mode_controller.phase == "Defense";
+		instance_destroy(message);
+		message = noone;
+	}
 }
