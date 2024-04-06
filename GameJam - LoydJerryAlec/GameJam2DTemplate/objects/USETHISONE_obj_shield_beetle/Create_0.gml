@@ -15,6 +15,7 @@ height = 2;
 movement_speed = 4;
 charge_movement_speed_multiplier = 6;
 melee_engagement_range = 128;
+melee_engagement_y_bound = 256;
 melee_attack_range = 128;
 melee_charge_speed = 45;
 currently_melee_charging = false;
