@@ -21,7 +21,7 @@ if (!currently_melee_charging) {
 	}
 
 	//Melee Charge-up
-	if (abs(x - objPlayer.x) < melee_engagement_range && !currently_melee_charging) {
+	if (abs(x - objPlayer.x) < melee_engagement_range && !currently_melee_charging && y > y - melee_engagement_y_bound && y < y + melee_engagement_y_bound) {
 		currently_melee_charging = true;
 		//Begin melee charging animation
 		audio_play_sound_at(snd_bug_noise, x, y, 0, 100, 300, 1, 0, 2, 1, 0, random_range(0.1, 0.3));

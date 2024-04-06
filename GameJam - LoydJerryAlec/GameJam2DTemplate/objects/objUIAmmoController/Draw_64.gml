@@ -30,8 +30,12 @@ if (obj_game_mode_controller.phase != "Defense") {
 		draw_text_colour(540 + (i * 3), anchorY, "I  ", c_blue, c_blue, c_blue, c_blue, 1);
 	}
 }
-//}
-
+if (objPlayer.equipped_weapon.currentAmmo < 1) {
+	var holdX = x
+	x = 22
+    draw_self();
+	x=holdX
+}
 // Keycard Display
 /* Top-Left Display
 for(var i = 0; i < obj_inventory.keycard_amount; i++){
