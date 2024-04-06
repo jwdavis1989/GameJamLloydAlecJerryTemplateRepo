@@ -9,6 +9,11 @@ submarine_hp = submarine_max_hp;
 tentacles = [];
 tentacle_width = 3;
 tentacle_height = 3;
+tentacle_velocity = 4;
+boss_receding = false;
+boss_approaching = true;
+boss_approaching_timer = 60;
+boss_receding_timer = 60;
 /*
 Phase String List:
 Defense: Spawning enemies
@@ -24,6 +29,7 @@ wave_remaining_max = 0;
 leviathan_attack_animation_timer = 120;
 if (phase == "Defense") {
 	alarm[1] = leviathan_attack_animation_timer;
+	alarm[5] = boss_approaching_timer;
 }
 minimum_spawn_cooldown = 30;
 maximum_spawn_cooldown = 120;
@@ -31,14 +37,6 @@ spawn_timer = random_range(minimum_spawn_cooldown, maximum_spawn_cooldown);
 spawn_tentacles_x = [192, 832];
 spawn_tentacles_y = 384;
 
-/*
-Wave Object Structure:
-unit: Unit type to spawn.
-(Removed and replaced with pick_one(-1, 1))side: Which tentacle to spawn from. Left, Right, or Alternate between Left then Right.
-count: Number to spawn.
-spawn_time_interval: Period between each spawn.
-*/
-//current_wave = [{unit: noone, count: -1, spawn_time_interval: -1}, {unit: noone, count: -1, spawn_time_interval: -1}];
 current_wave_1 = [{unit: obj_maggot, count: 10, spawn_time_interval: 15},
 		  {unit: objOrb, count: 1, spawn_time_interval: 15}];
 wave_1 = [{unit: obj_maggot, count: 10, spawn_time_interval: 15},

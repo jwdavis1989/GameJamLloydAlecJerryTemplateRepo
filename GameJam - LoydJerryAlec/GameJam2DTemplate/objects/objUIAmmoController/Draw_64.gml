@@ -22,11 +22,13 @@ if (instance_exists(objPlayer)) {
 
 //Oxygen Bar GUI
 //if(objPlayer.oxygen_missing > 0){ // Only display while player is missing oxygen
-draw_text_colour(500, anchorY - 15, "OXYGEN", c_blue, c_blue, c_blue, c_blue, 1);
-var oxygen_percentage = (objPlayer.oxygen_max - objPlayer.oxygen_missing) / objPlayer.oxygen_max
-draw_text_colour(500, anchorY, string(round(oxygen_percentage * 100)) +" %", c_blue, c_blue, c_blue, c_blue, 1)
-for(var i = 0; i < 100 * (oxygen_percentage); i++){
-	draw_text_colour(540 + (i * 3), anchorY, "I  ", c_blue, c_blue, c_blue, c_blue, 1);
+if (obj_game_mode_controller.phase != "Defense") {
+	draw_text_colour(500, anchorY - 15, "OXYGEN", c_blue, c_blue, c_blue, c_blue, 1);
+	var oxygen_percentage = (objPlayer.oxygen_max - objPlayer.oxygen_missing) / objPlayer.oxygen_max
+	draw_text_colour(500, anchorY, string(round(oxygen_percentage * 100)) +" %", c_blue, c_blue, c_blue, c_blue, 1)
+	for(var i = 0; i < 100 * (oxygen_percentage); i++){
+		draw_text_colour(540 + (i * 3), anchorY, "I  ", c_blue, c_blue, c_blue, c_blue, 1);
+	}
 }
 //}
 
