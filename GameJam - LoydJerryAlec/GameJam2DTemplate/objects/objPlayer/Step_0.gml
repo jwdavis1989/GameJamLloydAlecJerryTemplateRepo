@@ -6,10 +6,7 @@ if(hp <= 0){
 if( keyboard_check(ord("L"))){
 	 obj_game_mode_controller.phase = "Gather"
 	 obj_game_mode_controller.wave_remaining = 0;
-	//instance_create(0, 0, obj_ui_victory);
-	room_goto(rmAlecDev);
-	x=200
-	y=1000
+	room_goto(rm_map);
 }
 if (!control_locked) {
     key_right = keyboard_check(ord("D"));
