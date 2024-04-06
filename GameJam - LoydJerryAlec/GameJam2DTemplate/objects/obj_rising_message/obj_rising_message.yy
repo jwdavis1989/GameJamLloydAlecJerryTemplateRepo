@@ -10,8 +10,8 @@
   "name":"obj_rising_message",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI",
-    "path":"folders/Objects/UI.yy",
+    "name":"messages",
+    "path":"folders/Objects/UI/messages.yy",
   },
   "parentObjectId":null,
   "persistent":false,
