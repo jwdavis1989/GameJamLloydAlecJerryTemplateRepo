@@ -1,4 +1,4 @@
-/// @desc Creates a static messge
+/// @desc Creates a static messge on a specific layer
 /// @param message_to_send String to display
 /// @param color Text color
 /// @param x x coordinate to spawn at

@@ -1,6 +1,6 @@
-/// @description anchors, ui
-var anchorX = __view_get( e__VW.XView, 0 );//left side
-var anchorY = view_yview[0];//top
+///// @description anchors, ui
+var anchorX = __view_get( e__VW.XView, 0 );//left sid
+var anchorY = __view_get( e__VW.YView, 0 );
 var screen_width = window_get_width()
 var screen_height = window_get_height()
 

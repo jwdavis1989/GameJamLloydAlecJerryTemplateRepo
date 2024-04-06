@@ -43,6 +43,8 @@ if(keyboard_check_pressed(vk_escape)){
 		instance_activate_all()
 		if surface_exists(pauseSurf)
 			surface_free(pauseSurf)
+		if surface_exists(menuSurf)
+			surface_free(menuSurf)
 		if buffer_exists(pauseSurfBuffer) 
 			buffer_delete(pauseSurfBuffer)
 	}

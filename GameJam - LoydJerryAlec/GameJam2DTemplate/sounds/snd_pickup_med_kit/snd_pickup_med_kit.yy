@@ -2,8 +2,8 @@
   "$GMSound":"",
   "%Name":"snd_pickup_med_kit",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"audiogroup_effects",
+    "path":"audiogroups/audiogroup_effects",
   },
   "bitDepth":1,
   "bitRate":128,

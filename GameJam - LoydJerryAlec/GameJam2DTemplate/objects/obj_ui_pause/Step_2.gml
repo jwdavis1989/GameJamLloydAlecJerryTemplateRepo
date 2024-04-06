@@ -1,9 +1,9 @@
 /// @description volume cntrl
 // You can write your code in this edit
-if(keyboard_check_pressed(vk_escape)){
-			//create volume slider
+if(keyboard_check_pressed(vk_escape) && !pause){
+	//create volume slider
 	var anchorX = __view_get( e__VW.XView, 0 );
-	var anchorY = view_yview[0];
+	var anchorY = __view_get( e__VW.YView, 0 );
 	volume_slider = instance_create(anchorX+175, anchorY+92, obj_slider);
 	volume_slider.amount_current = vol_slider_current
 	volume_slider_music = instance_create(anchorX+175, anchorY+162, obj_slider);

@@ -25,7 +25,6 @@
     {"name":"inst_60FCAA20_1","path":"rooms/rm_lloyd_dungeon/rm_lloyd_dungeon.yy",},
     {"name":"inst_46DEA113_1","path":"rooms/rm_lloyd_dungeon/rm_lloyd_dungeon.yy",},
     {"name":"inst_3B79A852_1","path":"rooms/rm_lloyd_dungeon/rm_lloyd_dungeon.yy",},
-    {"name":"inst_F57DBCED_1_1_1","path":"rooms/rm_lloyd_dungeon/rm_lloyd_dungeon.yy",},
     {"name":"inst_704E9AB","path":"rooms/rm_lloyd_dungeon/rm_lloyd_dungeon.yy",},
     {"name":"inst_55D99762","path":"rooms/rm_lloyd_dungeon/rm_lloyd_dungeon.yy",},
     {"name":"inst_71C3B75E","path":"rooms/rm_lloyd_dungeon/rm_lloyd_dungeon.yy",},
