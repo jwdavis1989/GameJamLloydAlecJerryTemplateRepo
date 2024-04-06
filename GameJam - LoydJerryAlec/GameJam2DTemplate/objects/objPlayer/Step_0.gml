@@ -211,7 +211,7 @@ if(buttonPressed){
 // Underwater Checks
 if(underwater){
 	if(oxygen_missing < oxygen_max){ //Lose oxygen while underwater
-		oxygen_missing += 1;
+		//oxygen_missing += 1;
 	}else if(oxygen_missing == oxygen_max){ // Lose 1 hp per second when out of oxygen
 		if(hp > 0){
 			hp -= 1; 
