@@ -1,0 +1,3 @@
+if(falling){
+	y += grav;
+}

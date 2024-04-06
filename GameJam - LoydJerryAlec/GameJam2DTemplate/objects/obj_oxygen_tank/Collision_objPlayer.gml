@@ -10,3 +10,8 @@ if(other.key_interact && interact_timer == 0){
 	}
 	interact_timer = 5;
 }
+
+if(message == noone){
+	message = create_static_message("[E] Refill Oxygen", c_white, x - sprite_get_width(spr_oxygen_tank) - 12, 
+	y - sprite_get_height(spr_oxygen_tank) / 2 - 10, 1, 1);
+}

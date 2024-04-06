@@ -327,7 +327,6 @@
     {"id":{"name":"spr_game_over_background","path":"sprites/spr_game_over_background/spr_game_over_background.yy",},},
     {"id":{"name":"spr_health_drop","path":"sprites/spr_health_drop/spr_health_drop.yy",},},
     {"id":{"name":"spr_helm","path":"sprites/spr_helm/spr_helm.yy",},},
-    {"id":{"name":"spr_health_pack","path":"sprites/spr_health_pack/spr_health_pack.yy",},},
     {"id":{"name":"spr_junk_box","path":"sprites/spr_junk_box/spr_junk_box.yy",},},
     {"id":{"name":"spr_junk_bug_chomp","path":"sprites/spr_junk_bug_chomp/spr_junk_bug_chomp.yy",},},
     {"id":{"name":"spr_junk_bug","path":"sprites/spr_junk_bug/spr_junk_bug.yy",},},
