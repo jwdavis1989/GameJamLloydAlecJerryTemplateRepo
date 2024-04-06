@@ -37,11 +37,21 @@ if (objPlayer.equipped_weapon.currentAmmo < 1) {
 	x=holdX
 }
 // Keycard Display
+/* Top-Left Display
 for(var i = 0; i < obj_inventory.keycard_amount; i++){
 	if(obj_inventory.keycards[i]){ // Player has keycard
 		draw_sprite(spr_keycard, i, view_get_xport(0) 
 		+ sprite_get_width(spr_keycard) * i, view_get_yport(0));
 	}
+}
+*/
+// Right of Oxygen Display
+if(obj_inventory.keycards[2]){ // Player has level 3 keycard
+	draw_sprite(spr_keycard, 2, 500 + 380, anchorY - sprite_get_height(spr_keycard) / 2 + 5);
+}else if(obj_inventory.keycards[1]){ // Player has level 2 keycard
+	draw_sprite(spr_keycard, 1, 500 + 380, anchorY - sprite_get_height(spr_keycard) / 2 + 5);
+}else if(obj_inventory.keycards[0]){ // Player has level 1 keycard
+	draw_sprite(spr_keycard, 0, 500 + 380, anchorY - sprite_get_height(spr_keycard) / 2 + 5);
 }
 
 // Scrap Display

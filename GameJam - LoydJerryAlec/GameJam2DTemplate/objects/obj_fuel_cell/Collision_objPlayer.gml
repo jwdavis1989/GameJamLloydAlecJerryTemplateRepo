@@ -1,6 +1,6 @@
 /// @description Picking up fuel cells
 if(message == noone){
-	message = create_static_message("[V] Pick-Up", c_white, x - sprite_get_width(spr_fuel_cell) / 2 + 2, 
+	message = create_static_message("[V] Pick-Up", c_white, x, 
 	y - sprite_get_height(spr_fuel_cell) / 2 - 10, 1, 1);
 }
 
