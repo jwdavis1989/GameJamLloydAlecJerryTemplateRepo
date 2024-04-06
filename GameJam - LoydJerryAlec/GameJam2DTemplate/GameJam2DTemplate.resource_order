@@ -131,7 +131,7 @@
     {"name":"objEnemyProjectileParent","order":5,"path":"objects/objEnemyProjectileParent/objEnemyProjectileParent.yy",},
     {"name":"objFlamethrowerProjectile","order":5,"path":"objects/objFlamethrowerProjectile/objFlamethrowerProjectile.yy",},
     {"name":"objFogBackground","order":1,"path":"objects/objFogBackground/objFogBackground.yy",},
-    {"name":"objGrappleHook","order":2,"path":"objects/objGrappleHook/objGrappleHook.yy",},
+    {"name":"obj_submarine_torpedo","order":2,"path":"objects/obj_submarine_torpedo/obj_submarine_torpedo.yy",},
     {"name":"objInvisibleCollisionBlock","order":1,"path":"objects/objInvisibleCollisionBlock/objInvisibleCollisionBlock.yy",},
     {"name":"objMuzzleFlare","order":1,"path":"objects/objMuzzleFlare/objMuzzleFlare.yy",},
     {"name":"objNightVisionCamera","order":1,"path":"objects/objNightVisionCamera/objNightVisionCamera.yy",},

@@ -174,7 +174,7 @@
     {"id":{"name":"objFactoryBackground","path":"objects/objFactoryBackground/objFactoryBackground.yy",},},
     {"id":{"name":"objFlamethrowerProjectile","path":"objects/objFlamethrowerProjectile/objFlamethrowerProjectile.yy",},},
     {"id":{"name":"objFogBackground","path":"objects/objFogBackground/objFogBackground.yy",},},
-    {"id":{"name":"objGrappleHook","path":"objects/objGrappleHook/objGrappleHook.yy",},},
+    {"id":{"name":"obj_submarine_torpedo","path":"objects/obj_submarine_torpedo/obj_submarine_torpedo.yy",},},
     {"id":{"name":"objIndividualBuckshot","path":"objects/objIndividualBuckshot/objIndividualBuckshot.yy",},},
     {"id":{"name":"objInvisibleCollisionBlock","path":"objects/objInvisibleCollisionBlock/objInvisibleCollisionBlock.yy",},},
     {"id":{"name":"objMuzzleFlare","path":"objects/objMuzzleFlare/objMuzzleFlare.yy",},},

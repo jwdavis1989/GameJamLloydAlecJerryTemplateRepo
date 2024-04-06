@@ -10,7 +10,7 @@ if (phase == "Defense") {
 		else if (wave == 3) {
 			current_wave = wave_3;
 		}
-		else if (wave == 4) {
+		else {
 			current_wave = wave_4;
 		}
 	
@@ -26,17 +26,22 @@ if (phase == "Defense") {
 			  {unit: USETHISONE_obj_shield_beetle, count: 4, spawn_time_interval: 15}];
 		*/
 		wave_remaining = 0;
+		wave_remaining_max = 0;
 		for (var i=0; i<array_length(current_wave);i++) {
 			if (current_wave[i].count > 0) {
 				alarm[i + 2] = current_wave[i].spawn_time_interval;	
-				wave_remaining += current_wave[i].count;
+				wave_remaining_max += current_wave[i].count;
+				spawn_monster_with_aggro(spawn_tentacles_x[choose(0, 1)], spawn_tentacles_y, current_wave[i].unit);
 				current_wave[i].count--;
 			}
 		}
+		wave_remaining = wave_remaining_max;
 		wave_began = true;
 	}
 	else if (wave_remaining == 0){
-		phase = "Gather";
+		//phase = "Gather";
+		//wave++;
+		//wave_began = false;
 	}
 }
 else if (phase == "Gather") {

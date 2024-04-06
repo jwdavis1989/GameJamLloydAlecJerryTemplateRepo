@@ -18,3 +18,4 @@ image_yscale = height;
 ascending = false;
 ascending_duration = 15;
 y -= 30;
+orb = noone;

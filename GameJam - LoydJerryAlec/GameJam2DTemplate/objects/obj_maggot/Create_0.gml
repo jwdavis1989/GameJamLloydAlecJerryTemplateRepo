@@ -23,3 +23,4 @@ else {
 }
 image_xscale = width;
 image_yscale = height;
+cocoon = noone;
