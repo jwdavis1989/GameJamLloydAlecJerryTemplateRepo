@@ -4,10 +4,10 @@ if(hp <= 0){
 }
 	
 if( keyboard_check(ord("L"))){
-	instance_create(0, 0, obj_ui_victory);
-	//room_goto(rmAlecDev);
-	//x=200
-	//y=200
+	//instance_create(0, 0, obj_ui_victory);
+	room_goto(rmAlecDev);
+	x=200
+	y=1000
 }
 if (!control_locked) {
     key_right = keyboard_check(ord("D"));

@@ -2,7 +2,18 @@
 weapons = []
 weapons_count = 0;
 current_weapon = 0
+current_keycards = 0;
 
+drop_keycard = function (_x, _y){
+	current_keycards++;
+	if(current_keycards <=0){
+		instance_create(_x, _y, obj_keycard_1);
+	}else if (current_keycards==1){
+		instance_create(_x, _y, obj_keycard_2);
+	}else{
+		instance_create(_x, _y, obj_keycard_3);
+	}
+}
 // adds and equips the passed weapon
 add_weapon = function (_add_val) 
 {
