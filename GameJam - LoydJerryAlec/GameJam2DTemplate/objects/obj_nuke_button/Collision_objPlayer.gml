@@ -4,5 +4,5 @@ if(message == noone){
 	y - sprite_get_height(spr_nuke_button) / 2 - 10, 1, 1);
 }
 if(other.key_interact){
-	// Win game
+	obj_nuke.image_speed = 1;
 }
