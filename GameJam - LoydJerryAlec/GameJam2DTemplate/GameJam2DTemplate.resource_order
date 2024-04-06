@@ -189,6 +189,7 @@
     {"name":"room_transition","order":1,"path":"scripts/room_transition/room_transition.yy",},
     {"name":"scr_rising_message","order":1,"path":"scripts/scr_rising_message/scr_rising_message.yy",},
     {"name":"scr_static_message","order":5,"path":"scripts/scr_static_message/scr_static_message.yy",},
+    {"name":"scr_static_message_at_depth","order":7,"path":"scripts/scr_static_message_at_depth/scr_static_message_at_depth.yy",},
     {"name":"screen_shake","order":2,"path":"scripts/screen_shake/screen_shake.yy",},
     {"name":"spawn_monster_with_aggro","order":1,"path":"scripts/spawn_monster_with_aggro/spawn_monster_with_aggro.yy",},
     {"name":"twerk_transitions_dependencies","order":2,"path":"scripts/twerk_transitions_dependencies/twerk_transitions_dependencies.yy",},

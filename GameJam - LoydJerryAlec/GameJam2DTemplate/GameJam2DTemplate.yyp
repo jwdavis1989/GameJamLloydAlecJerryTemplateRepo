@@ -245,6 +245,7 @@
     {"id":{"name":"room_transition","path":"scripts/room_transition/room_transition.yy",},},
     {"id":{"name":"scr_rising_message","path":"scripts/scr_rising_message/scr_rising_message.yy",},},
     {"id":{"name":"scr_static_message","path":"scripts/scr_static_message/scr_static_message.yy",},},
+    {"id":{"name":"scr_static_message_at_depth","path":"scripts/scr_static_message_at_depth/scr_static_message_at_depth.yy",},},
     {"id":{"name":"screen_shake","path":"scripts/screen_shake/screen_shake.yy",},},
     {"id":{"name":"spawn_elite_monster_with_aggro","path":"scripts/spawn_elite_monster_with_aggro/spawn_elite_monster_with_aggro.yy",},},
     {"id":{"name":"spawn_monster_with_aggro","path":"scripts/spawn_monster_with_aggro/spawn_monster_with_aggro.yy",},},
