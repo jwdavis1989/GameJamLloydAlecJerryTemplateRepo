@@ -2,4 +2,5 @@
 if(falling){
 	y += grav;
 }
-
+x += velx;
+y -= vely;
