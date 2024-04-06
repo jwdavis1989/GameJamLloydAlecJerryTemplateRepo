@@ -56,7 +56,6 @@
     {"name":"inst_F31839A","path":"rooms/rmCentralHub/rmCentralHub.yy",},
     {"name":"inst_4C436DE6","path":"rooms/rmCentralHub/rmCentralHub.yy",},
     {"name":"inst_249E5ABC","path":"rooms/rmCentralHub/rmCentralHub.yy",},
-    {"name":"inst_19E31519","path":"rooms/rmCentralHub/rmCentralHub.yy",},
     {"name":"inst_238DC54B","path":"rooms/rmCentralHub/rmCentralHub.yy",},
   ],
   "isDnd":false,
