@@ -62,7 +62,7 @@ if (phase == "Defense") {
 			obj_leviathan.image_yscale--;
 			instance_destroy(message);
 			message = noone;
-			message = create_static_message_at_depth("Enemy Retreating . . .", c_green, obj_helm.x - sprite_get_width(spr_helm) - 12, 
+			message = create_static_message_at_depth("Enemy Retreating . . .", c_green, obj_helm.x, 
 		obj_helm.y - sprite_get_height(spr_helm) / 2 - 10, 1, 1, -1001);
 		}
 	}
