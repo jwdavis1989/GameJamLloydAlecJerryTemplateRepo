@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_nuke",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_nuke_sign",
+  "eventList":[],
   "managed":true,
-  "name":"obj_nuke",
+  "name":"obj_nuke_sign",
   "overriddenProperties":[],
   "parent":{
     "name":"nuke",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_nuke",
-    "path":"sprites/spr_nuke/spr_nuke.yy",
+    "name":"spr_nuke_sign",
+    "path":"sprites/spr_nuke_sign/spr_nuke_sign.yy",
   },
   "spriteMaskId":null,
   "visible":true,
