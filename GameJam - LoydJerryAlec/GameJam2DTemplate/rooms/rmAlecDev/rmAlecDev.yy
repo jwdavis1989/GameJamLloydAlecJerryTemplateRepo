@@ -33,13 +33,11 @@
     {"name":"inst_46DEA113","path":"rooms/rmAlecDev/rmAlecDev.yy",},
     {"name":"inst_5E10122","path":"rooms/rmAlecDev/rmAlecDev.yy",},
     {"name":"inst_3B79A852","path":"rooms/rmAlecDev/rmAlecDev.yy",},
-    {"name":"inst_76EE7799","path":"rooms/rmAlecDev/rmAlecDev.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"UI_Layer","depth":-1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_477AAA2E_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_477AAA2E_1_1","objectId":{"name":"objUIAmmoController","path":"objects/objUIAmmoController/objUIAmmoController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":384.0,},
-        {"$GMRInstance":"","%Name":"inst_76EE7799","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_76EE7799","objectId":{"name":"obj_slider","path":"objects/obj_slider/obj_slider.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":416.0,},
       ],"layers":[],"name":"UI_Layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMREffectLayer":"","%Name":"Effect_Screen_Shake","depth":-900,"effectEnabled":true,"effectType":"_filter_screenshake","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Effect_Screen_Shake","properties":[
         {"name":"g_Magnitude","type":0,"value":"10",},

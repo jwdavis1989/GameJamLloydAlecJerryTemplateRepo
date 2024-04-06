@@ -13,9 +13,12 @@ cursor = cr_none;
 amount_max = 100;
 amount_current = 50;
 is_being_dragged = false;
+
 draw = function(){
-	draw_self()	
+	draw_self()
+	var threshold = x + (0.05 * sprite_width);
+	var slideWidth = 0.9 * sprite_width;
 	var knob_amount = amount_current / amount_max;
-	var knob_x = x + (sprite_width * knob_amount);
-	draw_sprite(knob_sprite, 0, knob_x,y);
+	var knob_x = threshold + (slideWidth * knob_amount);
+	draw_sprite(knob_sprite, 0, knob_x,y); //, knob_width, knob_height)
 }

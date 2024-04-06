@@ -11,8 +11,8 @@
   "name":"objUIAmmoController",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI",
-    "path":"folders/Objects/UI.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -2,8 +2,8 @@
   "$GMSound":"",
   "%Name":"snd_ruin_door_open",
   "audioGroupId":{
-    "name":"audiogroup_music",
-    "path":"audiogroups/audiogroup_music",
+    "name":"audiogroup_effects",
+    "path":"audiogroups/audiogroup_effects",
   },
   "bitDepth":1,
   "bitRate":192,

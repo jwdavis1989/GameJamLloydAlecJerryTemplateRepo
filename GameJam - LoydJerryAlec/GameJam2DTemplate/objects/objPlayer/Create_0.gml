@@ -18,12 +18,12 @@ nightVision = true;
 
 // Underwater-related Variables
 oxygen_missing = 0;
-oxygen_max = 150;
+oxygen_max = 200;
 underwater = false;
 breathing_sound = noone; // Replaced by id for breathing sound in water collison event
 drowning_sound = noone; // Replaced by id for drowning sound in step event
 
-sub_tank_interact_timer = 5;
+fuel_cell_interact_timer = 5;
 
 if (nightVision) {
 	instance_create(x, y, objNightVisionCamera);
