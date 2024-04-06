@@ -1,3 +1,6 @@
+audio_stop_all();
+audio_play_sound(bgm_SCPx2x, 3, 1, 0.75, 0, 0.75);
+game_set_speed(30, gamespeed_fps);
 debug = false;
 current_round = 1;
 gather_timer = 30 * 60;
@@ -25,17 +28,19 @@ wave = 1;
 wave_began = false;
 wave_remaining = 0;
 wave_remaining_max = 0;
-//Gives Leviathan time to grow sprite and latch onto sub, then attack begins!
-leviathan_attack_animation_timer = 120;
-if (phase == "Defense") {
-	alarm[1] = leviathan_attack_animation_timer;
-	alarm[5] = boss_approaching_timer;
-}
 minimum_spawn_cooldown = 30;
 maximum_spawn_cooldown = 120;
 spawn_timer = random_range(minimum_spawn_cooldown, maximum_spawn_cooldown);
 spawn_tentacles_x = [192, 832];
 spawn_tentacles_y = 384;
+room_center_x = 512;
+//Gives Leviathan time to grow sprite and latch onto sub, then attack begins!
+leviathan_attack_animation_timer = 120;
+if (phase == "Defense") {
+	alarm[1] = leviathan_attack_animation_timer;
+	instance_create(room_center_x, spawn_tentacles_y, obj_leviathan);
+	alarm[5] = boss_approaching_timer;
+}
 
 current_wave_1 = [{unit: obj_maggot, count: 10, spawn_time_interval: 15},
 		  {unit: objOrb, count: 1, spawn_time_interval: 15}];
