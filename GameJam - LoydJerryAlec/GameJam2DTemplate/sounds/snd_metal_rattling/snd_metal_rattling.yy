@@ -2,14 +2,14 @@
   "$GMSound":"",
   "%Name":"snd_metal_rattling",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"audiogroup_music",
+    "path":"audiogroups/audiogroup_music",
   },
   "bitDepth":1,
   "bitRate":192,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":10.682449,
   "name":"snd_metal_rattling",
   "parent":{
     "name":"Sounds",

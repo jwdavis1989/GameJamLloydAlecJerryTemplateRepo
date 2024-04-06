@@ -15,12 +15,16 @@ air_dashes = base_air_dashes;
 image_speed = 0.1
 grounded = false
 nightVision = true;
+
+// Underwater-related Variables
 oxygen_missing = 0;
-oxygen_max = 100;
-keycards[0] = false;
-keycards[1] = false;
-keycards[2] = false;
+oxygen_max = 150;
 underwater = false;
+breathing_sound = noone; // Replaced by id for breathing sound in water collison event
+drowning_sound = noone; // Replaced by id for drowning sound in step event
+
+sub_tank_interact_timer = 5;
+
 if (nightVision) {
 	instance_create(x, y, objNightVisionCamera);
 }

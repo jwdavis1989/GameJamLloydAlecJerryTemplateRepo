@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_oxygen_tank_release",
+  "audioGroupId":{
+    "name":"audiogroup_music",
+    "path":"audiogroups/audiogroup_music",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.392,
+  "name":"snd_oxygen_tank_release",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_oxygen_tank_release.mp3",
+  "type":0,
+  "volume":1.0,
+}

@@ -2,14 +2,14 @@
   "$GMSound":"",
   "%Name":"snd_rifle_fire",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"audiogroup_music",
+    "path":"audiogroups/audiogroup_music",
   },
   "bitDepth":1,
   "bitRate":192,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":3.923447,
   "name":"snd_rifle_fire",
   "parent":{
     "name":"Sounds",

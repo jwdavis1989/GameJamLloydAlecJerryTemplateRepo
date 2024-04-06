@@ -9,7 +9,7 @@
   "bitRate":192,
   "compression":3,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":66.904915,
   "name":"snd_spark_and_crackle_music",
   "parent":{
     "name":"Sounds",

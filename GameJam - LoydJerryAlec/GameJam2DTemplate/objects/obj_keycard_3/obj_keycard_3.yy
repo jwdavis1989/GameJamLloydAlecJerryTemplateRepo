@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_keycard_3",
-    "path":"sprites/spr_keycard_3/spr_keycard_3.yy",
+    "name":"spr_keycard",
+    "path":"sprites/spr_keycard/spr_keycard.yy",
   },
   "spriteMaskId":null,
   "visible":true,

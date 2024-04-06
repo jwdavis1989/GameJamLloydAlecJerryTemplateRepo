@@ -2,14 +2,14 @@
   "$GMSound":"",
   "%Name":"snd_scary_bug_boss",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"audiogroup_music",
+    "path":"audiogroups/audiogroup_music",
   },
   "bitDepth":1,
   "bitRate":192,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":57.706486,
   "name":"snd_scary_bug_boss",
   "parent":{
     "name":"Sounds",

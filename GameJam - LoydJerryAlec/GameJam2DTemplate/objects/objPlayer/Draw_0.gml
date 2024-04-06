@@ -1,3 +1,14 @@
+// Draw oxygen tank if player has one
+if(obj_inventory.oxygen_tanks > 0){
+	if(facing = "right"){
+		draw_sprite_ext(spr_oxygen_tank_submarine, 0, x - sprite_get_width(spr_oxygen_tank_submarine) / 4, 
+			y - sprite_get_height(spr_oxygen_tank_submarine) / 4, 0.8, 0.8, image_angle, c_white, 1);
+	}else if(facing = "left"){
+		draw_sprite_ext(spr_oxygen_tank_submarine, 0, x + sprite_get_width(spr_oxygen_tank_submarine) / 4, 
+			y - sprite_get_height(spr_oxygen_tank_submarine) / 4, 0.8, 0.8, image_angle, c_white, 1);
+	}
+}
+
 //Invulnerability Flicker
 if (alarm[10] > 0 and alarm[10]%4 == 0) {
     //
@@ -7,7 +18,9 @@ if (alarm[10] > 0 and alarm[10]%4 == 0) {
 }
 else {
     draw_self();
-	/*
+}
+
+/*
 	// OXYGEN METER TEST
 	if(y > 540){ // If below water height in scratchpad room
 		draw_rectangle(x - 50, y - 75, x + 50 - oxygen_missing, y - 50, false); // bar gets shorter while in water
@@ -22,6 +35,9 @@ else {
 
 	*/
 	
+	
+	// Oxygen Bar Display
+	/*
 	if(underwater){
 		// ORIGINAL OXYGEN BAR
 		
@@ -31,16 +47,16 @@ else {
 			oxygen_missing += 1;
 		}
 		
-		/*
 		// OXYGEN TANK OXYGEN BAR TEST
 		draw_sprite_part(spr_oxygen_tank, 0, 0, 0, sprite_get_width(spr_oxygen_tank), 
 			oxygen_max - oxygen_missing, x - 50 , y - 50);
 		if(oxygen_missing < oxygen_max){
 			oxygen_missing += 1;
 		}
-		*/
 		
 	}
+	*/
+	
 	
 	/*
 	// KEYCARD DISPLAY TEST CODE
@@ -51,4 +67,3 @@ else {
 		draw_sprite(spr_keycard_2, 0, x - 150, y - 100);
 	}
 	*/
-}

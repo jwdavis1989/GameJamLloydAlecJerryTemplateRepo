@@ -2,14 +2,14 @@
   "$GMSound":"",
   "%Name":"snd_menu_toggle",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"audiogroup_music",
+    "path":"audiogroups/audiogroup_music",
   },
   "bitDepth":1,
   "bitRate":192,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.417959,
   "name":"snd_menu_toggle",
   "parent":{
     "name":"Sounds",
