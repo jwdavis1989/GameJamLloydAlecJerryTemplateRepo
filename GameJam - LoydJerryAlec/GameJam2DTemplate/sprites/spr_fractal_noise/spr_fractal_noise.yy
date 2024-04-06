@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"SFX",
-    "path":"folders/Sprites/SFX.yy",
+    "path":"folders/Sprites/Projectiles/SFX.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -5,6 +5,7 @@ if(hp <= 0){
 	
 if( keyboard_check(ord("L"))){
 	 obj_game_mode_controller.phase = "Gather"
+	 obj_game_mode_controller.wave_remaining = 0;
 	//instance_create(0, 0, obj_ui_victory);
 	room_goto(rmAlecDev);
 	x=200
@@ -211,7 +212,7 @@ if(buttonPressed){
 // Underwater Checks
 if(underwater){
 	if(oxygen_missing < oxygen_max){ //Lose oxygen while underwater
-		oxygen_missing += 1;
+		//oxygen_missing += 1;
 	}else if(oxygen_missing == oxygen_max){ // Lose 1 hp per second when out of oxygen
 		if(hp > 0){
 			hp -= 1; 
