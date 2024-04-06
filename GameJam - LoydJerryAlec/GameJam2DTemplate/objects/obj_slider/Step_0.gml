@@ -1,8 +1,10 @@
-/// @description 
+/// @description calc %
 if(is_being_dragged){
-	if(mouse_x > x){
-		var xx = abs(x - mouse_x);
-		var amount = xx / sprite_width;
+	var threshold = x + (0.05 * sprite_width);
+	var slideWidth = 0.9 * sprite_width;
+	if(mouse_x > threshold){
+		var xx = abs(threshold - mouse_x);
+		var amount = xx / slideWidth;
 		amount = clamp(amount,0,1);
 		amount_current = amount*100;
 	}else{
