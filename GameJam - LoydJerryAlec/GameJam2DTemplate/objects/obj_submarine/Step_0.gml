@@ -26,8 +26,8 @@ if point_distance(x, y, move_x, move_y) > 1
 		objPlayer.x = 350
 		objPlayer.y = 1050
 	}else if (obj_inventory.current_keycards == 1){
-		objPlayer.x = 200
-		objPlayer.y = 420
+		objPlayer.x = 192;
+		objPlayer.y = 512;
 		room_goto(rm_lloyd_dungeon);
 	}else{
 		room_goto(rmAlecDev);
