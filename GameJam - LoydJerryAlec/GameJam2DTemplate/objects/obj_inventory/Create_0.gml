@@ -3,6 +3,7 @@ weapons = []
 weapons_count = 0;
 current_weapon = 0
 current_keycards = 0;
+last_dungeon = -1;
 
 drop_keycard = function (_x, _y){
 	if(current_keycards <=0){

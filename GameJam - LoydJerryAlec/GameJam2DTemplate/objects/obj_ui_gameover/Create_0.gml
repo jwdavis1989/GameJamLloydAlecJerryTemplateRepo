@@ -18,7 +18,7 @@ depth = obj_ui_pause.depth
 
 instance_deactivate_all(true);
 //activate button
-restart_button = instance_create(anchorX, anchorY, obj_ui_button);
+restart_button = instance_create(anchorX, anchorY, ui_button_parent);
 
 //capture moment
 gameoverSurf = surface_create(resW,display_get_height());
