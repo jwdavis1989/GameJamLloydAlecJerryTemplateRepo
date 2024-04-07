@@ -48,8 +48,8 @@ if (phase == "Defense") {
 			}
 		}
 		else if (boss_approaching && alarm[5] > 0) {
-				obj_leviathan.image_xscale++;
-				obj_leviathan.image_yscale++;
+				boss.image_xscale++;
+				boss.image_yscale++;
 		}
 	}
 	else if (boss_receding) {
@@ -58,8 +58,8 @@ if (phase == "Defense") {
 			audio_play_sound(snd_heal_2, 10, false, 2.5, 1.08, 1);	
 		}
 		if (alarm[6] > 0) {
-			obj_leviathan.image_xscale--;
-			obj_leviathan.image_yscale--;
+			boss.image_xscale--;
+			boss.image_yscale--;
 			instance_destroy(message);
 			message = noone;
 			message = create_static_message_at_depth("Enemy Retreating . . .", c_green, obj_helm.x, 
@@ -76,4 +76,12 @@ else if (phase == "Gather") {
 else if (phase == "Repair") {
 	//Repair submarine grace-period before next wave
 	//When timer ends, increment wave to (wave + 1), then begin defense phase.
+	if (repair_timer < 1) { 
+		alarm[1] = leviathan_attack_animation_timer;
+		boss.visible = true;
+		alarm[5] = boss_approaching_timer;
+		audio_play_sound(snd_snarling_growl, 2, 0, 1, 0, 2);
+		message = create_static_message_at_depth("WARNING!", c_red, obj_helm.x, 
+		obj_helm.y - sprite_get_height(spr_helm) / 2 - 10, 1, 1, -1001);
+	}
 }

@@ -39,10 +39,11 @@ spawn_tentacles_x = [192, 832];
 spawn_tentacles_y = 384;
 room_center_x = 512;
 //Gives Leviathan time to grow sprite and latch onto sub, then attack begins!
-leviathan_attack_animation_timer = 120;
+leviathan_attack_animation_timer = 0;
+//First time Defense set-up;
 if (phase == "Defense") {
 	alarm[1] = leviathan_attack_animation_timer;
-	instance_create(room_center_x, spawn_tentacles_y, obj_leviathan);
+	boss = instance_create(room_center_x, spawn_tentacles_y, obj_leviathan);
 	alarm[5] = boss_approaching_timer;
 	audio_play_sound(snd_snarling_growl, 2, 0, 1, 0, 2);
 	message = create_static_message_at_depth("WARNING!", c_red, obj_helm.x, 
