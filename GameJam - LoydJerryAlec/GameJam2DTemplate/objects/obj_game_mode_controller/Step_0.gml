@@ -80,7 +80,7 @@ if (phase == "Defense") {
 			instance_destroy(message);
 			message = noone;
 			message = create_static_message_at_depth("Leviathan Retreating . . .", c_green, obj_helm.x, 
-		obj_helm.y - sprite_get_height(spr_helm) / 2 - 10, 1, 1, -1001);
+			text_y, 1, 1, -1001);
 		}
 	}
 }
@@ -120,7 +120,7 @@ else if (phase == "Repair") {
 		alarm[5] = boss_approaching_timer;
 		audio_play_sound(snd_snarling_growl, 2, 0, 1, 0, 2);
 		message = create_static_message_at_depth("WARNING!", c_red, obj_helm.x, 
-		obj_helm.y - sprite_get_height(spr_helm) / 2 - 10, 1, 1, -1001);
+		text_y, 1, 1, -1001);
 		phase = "Defense";
 		repair_timer = repair_timer_max;
 		wave_began = false;
