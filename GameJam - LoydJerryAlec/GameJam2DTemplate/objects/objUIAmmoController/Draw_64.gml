@@ -23,11 +23,11 @@ if (instance_exists(objPlayer)) {
 //Oxygen Bar GUI
 //if(objPlayer.oxygen_missing > 0){ // Only display while player is missing oxygen
 if (room_get_name(room) != "rmCentralHub") { 
-	draw_text_colour(500, anchorY - 15, "OXYGEN", c_blue, c_blue, c_blue, c_blue, 1);
+	draw_text_colour(500, anchorY - 15, "OXYGEN", c_aqua, c_aqua, c_aqua, c_aqua, 1);
 	var oxygen_percentage = (objPlayer.oxygen_max - objPlayer.oxygen_missing) / objPlayer.oxygen_max
-	draw_text_colour(500, anchorY, string(round(oxygen_percentage * 100)) +" %", c_blue, c_blue, c_blue, c_blue, 1)
+	draw_text_colour(500, anchorY, string(round(oxygen_percentage * 100)) +" %", c_aqua, c_aqua, c_aqua, c_aqua, 1)
 	for(var i = 0; i < 100 * (oxygen_percentage); i++){
-		draw_text_colour(540 + (i * 3), anchorY, "I  ", c_blue, c_blue, c_blue, c_blue, 1);
+		draw_text_colour(540 + (i * 3), anchorY, "I  ", c_aqua, c_aqua, c_aqua, c_aqua, 1);
 	}
 }
 if (objPlayer.equipped_weapon.currentAmmo < 1) {
