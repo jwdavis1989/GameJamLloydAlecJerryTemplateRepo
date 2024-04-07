@@ -58,7 +58,6 @@
     {"name":"inst_1298056F","path":"rooms/rmCentralHub/rmCentralHub.yy",},
     {"name":"inst_3CBA47FD","path":"rooms/rmCentralHub/rmCentralHub.yy",},
     {"name":"inst_238DC54B","path":"rooms/rmCentralHub/rmCentralHub.yy",},
-    {"name":"inst_46F06E53","path":"rooms/rmCentralHub/rmCentralHub.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -151,7 +150,6 @@
         {"$GMRInstance":"","%Name":"inst_30FA165E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_30FA165E","objectId":{"name":"obj_nuke","path":"objects/obj_nuke/obj_nuke.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5,"scaleY":2.75,"x":560.0,"y":921.0,},
         {"$GMRInstance":"","%Name":"inst_57139D6F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_57139D6F","objectId":{"name":"obj_nuke_button","path":"objects/obj_nuke_button/obj_nuke_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":1001.0,},
         {"$GMRInstance":"","%Name":"inst_622DADA5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_622DADA5","objectId":{"name":"obj_nuke_sign","path":"objects/obj_nuke_sign/obj_nuke_sign.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0666666,"scaleY":2.0666666,"x":496.0,"y":912.0,},
-        {"$GMRInstance":"","%Name":"inst_46F06E53","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_46F06E53","objectId":{"name":"obj_nuke_button","path":"objects/obj_nuke_button/obj_nuke_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":592.0,},
       ],"layers":[],"name":"Control_Layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Metal_Tiles_Isometric","depth":2,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Metal_Tiles_Isometric","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":32,"TileCompressedData":[
           -33,-2147483648,1,18,-12,-2147483648,1,19,-31,-2147483648,1,23,-31,-2147483648,2,23,24,-11,-2147483648,
