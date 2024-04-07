@@ -66,6 +66,7 @@
     {"name":"inst_2477AEFE","path":"rooms/rmDungeon3/rmDungeon3.yy",},
     {"name":"inst_15187D9B","path":"rooms/rmDungeon3/rmDungeon3.yy",},
     {"name":"inst_51A64790","path":"rooms/rmDungeon3/rmDungeon3.yy",},
+    {"name":"inst_2F0075CB","path":"rooms/rmDungeon3/rmDungeon3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -151,6 +152,7 @@
         {"$GMRInstance":"","%Name":"inst_404262E7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_404262E7","objectId":{"name":"obj_rivet","path":"objects/obj_rivet/obj_rivet.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1664.0,"y":1184.0,},
         {"$GMRInstance":"","%Name":"inst_29FB5EFA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_29FB5EFA","objectId":{"name":"obj_scrap","path":"objects/obj_scrap/obj_scrap.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1376.0,"y":1056.0,},
         {"$GMRInstance":"","%Name":"inst_5962768D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5962768D","objectId":{"name":"obj_scrap","path":"objects/obj_scrap/obj_scrap.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1568.0,"y":1056.0,},
+        {"$GMRInstance":"","%Name":"inst_2F0075CB","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2F0075CB","objectId":{"name":"obj_junk_box","path":"objects/obj_junk_box/obj_junk_box.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1824.0,"y":1152.0,},
       ],"layers":[],"name":"Control_Layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Metal_Tiles","depth":3,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Metal_Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":64,"TileCompressedData":[
           -65,24,1,18,-40,24,-3,33,1,19,-359,24,-4,0,-232,24,1,18,-11,33,-4,24,-12,33,1,19,-35,24,1,25,-10,0,1,
