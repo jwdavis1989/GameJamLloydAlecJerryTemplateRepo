@@ -1,5 +1,4 @@
-/// @description Use Med-Kit (Temporary)
-// IMPORTANT: Change to F Key (or another easy to use key) for full game
+/// @description Use Med-Kit
 
 if(hp < max_hp){ // Player missing hp
 	if(obj_inventory.med_kits > 0){ // Player has health kit(s)
@@ -10,10 +9,10 @@ if(hp < max_hp){ // Player missing hp
 			hp = max_hp;
 		}
 	}else{
-		create_rising_message("No Med-Kits", c_white, 38, objPlayer.x - sprite_get_width(spr_character_idle) / 2, 
+		create_rising_message("No Med-Kits", c_white, 38, objPlayer.x, 
 		objPlayer.y - sprite_get_height(spr_character_idle) / 2, 1.2, 1.2);
 	}
 }else{ 
-	create_rising_message("Health Full", c_white, 38, objPlayer.x - sprite_get_width(spr_character_idle) / 2, 
+	create_rising_message("Health Full", c_white, 38, objPlayer.x, 
 		objPlayer.y - sprite_get_height(spr_character_idle) / 2, 1.2, 1.2);
 }
