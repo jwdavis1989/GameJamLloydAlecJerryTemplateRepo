@@ -19,7 +19,7 @@ audio_play_sound(snd_heal_2, 10, false, 2.5, 1.08, 1);
 audio_play_sound(snd_metal_rattling, 9, true, 0.75, 0, random_range(0.4, 0.7));
 instance_destroy(message);
 message = noone;
-message = create_static_message_at_depth("Killing enemies fires torpedoes at the Leviathan. Drive it away!", c_red, obj_helm.x, 
+message = create_static_message_at_depth(string_hash_to_newline("Killing enemies fires torpedoes at the Leviathan.#Use [E] on the windows to spend Scrap#& Rivets to repair the Submarine."), c_red, obj_helm.x, 
 		text_y, 1, 1, -1001);
 leviathan_attack_animation_timer = 30 * 45;
 alarm[1] = 5;
