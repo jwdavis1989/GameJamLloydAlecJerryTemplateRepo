@@ -31,7 +31,7 @@ if point_distance(x, y, move_x, move_y) > 1
 		room_goto(rm_lloyd_dungeon);
 	}else{
 		room_goto(rmAlecDev);
-		objPlayer.x = 200
-		objPlayer.y=1000
+		objPlayer.x = 192;
+		objPlayer.y = 1168;
 	}
 }
