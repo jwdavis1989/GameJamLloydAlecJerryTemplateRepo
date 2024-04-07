@@ -1,5 +1,5 @@
 /// @description Insert description here
-depth = 1090;
+depth = 111;
 x_anchor_base = 512;
 x_anchor = [448, 576];
 y_anchor = 384;
@@ -13,12 +13,12 @@ distance_shrink_rate = 12 / 30;
 object_play_3d_sound(snd_bottle_rocket, 0.5, 0.75, 1, 0.9);
 if (x < x_anchor_base) {
 	left_side = true;	
-	image_angle = point_direction(x, y, x+1, y - 1);
-	move_towards_point(x_anchor[0], y_anchor, movement_speed);
+	image_angle = point_direction(x, y, obj_game_mode_controller.room_center_x - 64, obj_game_mode_controller.spawn_tentacles_y) + 180;
+	move_towards_point(obj_game_mode_controller.room_center_x - 64, obj_game_mode_controller.spawn_tentacles_y, movement_speed);
 }
 else {
 	left_side = false;	
-	image_angle = point_direction(x, y, x-1, y - 1);
-	move_towards_point(x_anchor[1], y_anchor, movement_speed);
+	image_angle = point_direction(x, y, obj_game_mode_controller.room_center_x + 64, obj_game_mode_controller.spawn_tentacles_y) + 180;
+	move_towards_point(obj_game_mode_controller.room_center_x + 64, obj_game_mode_controller.spawn_tentacles_y, movement_speed);
 }
 explosion = noone;

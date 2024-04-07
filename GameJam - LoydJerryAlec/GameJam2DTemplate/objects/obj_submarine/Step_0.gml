@@ -18,6 +18,8 @@ if point_distance(x, y, move_x, move_y) > 1
     move_towards_point(move_x, move_y, 1)
 }else{
 	objNightVisionCamera.visible = true
+	objPlayer.visible = true;
+	obj_game_mode_controller.crack.visible = true;
 	if(obj_inventory.current_keycards == 0){
 		room_goto(rmDungeon3);
 		objPlayer.x = 350

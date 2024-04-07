@@ -10,4 +10,6 @@ if(obj_inventory.current_keycards == 0){
 	y = obj_dungeon_marker2.y
 }
 game_set_speed(30, gamespeed_fps);
-objNightVisionCamera.visible =false
+objNightVisionCamera.visible = false;
+objPlayer.visible = false;
+obj_game_mode_controller.crack.visible = false;

@@ -3,7 +3,7 @@ event_inherited();
 base_image_speed = 0.1;
 dashing_image_speed = 1;
 image_speed = base_image_speed;
-hp = 1200;
+hp = 600;
 base_grav = 0;
 grav = base_grav;
 vel_x = 1;

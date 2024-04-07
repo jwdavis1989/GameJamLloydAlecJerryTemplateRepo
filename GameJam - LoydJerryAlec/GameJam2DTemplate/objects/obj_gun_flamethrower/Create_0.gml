@@ -1,6 +1,6 @@
 event_inherited();
 //Weapon Stats
-damage = 0.5;
+damage = 1;
 maxAmmo = 75;
 currentAmmo = maxAmmo;
 reloading = false;

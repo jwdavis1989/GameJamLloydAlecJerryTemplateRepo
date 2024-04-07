@@ -7,13 +7,16 @@ for (var i=0; i<array_length(tentacles);i++) {
 	tentacles[i].image_yscale = tentacle_height;
 }
 tentacles[0].image_xscale = -tentacle_width;
-crack = instance_create(room_center_x, spawn_tentacles_y, obj_window_crack);
-crack.depth = -998
-crack.image_xscale = 4;
-crack.image_yscale = 4;
+if (!crack) {
+	crack = instance_create(room_center_x, spawn_tentacles_y, obj_window_crack);
+	crack.depth = -998
+	crack.image_xscale = 4;
+	crack.image_yscale = 4;
+}
 objNightVisionCamera.visible = true;
 audio_play_sound(snd_heal_2, 10, false, 2.5, 1.08, 0.5);
 audio_play_sound(snd_heal_2, 10, false, 2.5, 1.08, 1);
+audio_play_sound(snd_metal_rattling, 9, true, 0.75, 0, random_range(0.4, 0.7));
 instance_destroy(message);
 message = noone;
 message = create_static_message_at_depth("DEFEND YOURSELF!", c_red, obj_helm.x, 
