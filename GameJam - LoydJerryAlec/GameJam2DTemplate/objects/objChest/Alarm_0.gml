@@ -6,4 +6,6 @@ image_speed = 0;
 
 if(loot)
 	obj_inventory.add_weapon(loot);
+	create_rising_message("Got" + loot.name, c_white, 38, objPlayer.x, 
+	objPlayer.y - sprite_get_height(spr_character_idle) / 2, 1.2, 1.2);
 // obj_inventory.add_weapon(obj_gun_flamethrower);

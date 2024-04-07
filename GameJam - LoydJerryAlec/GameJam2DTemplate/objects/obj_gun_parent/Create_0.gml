@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 //Weapon Stats
+name = "Shotgun"; // To be replaced by child
 damage = 5;
 maxAmmo = 2;
 currentAmmo = maxAmmo;

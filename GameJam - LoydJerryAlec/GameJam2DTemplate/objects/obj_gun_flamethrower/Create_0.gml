@@ -1,5 +1,6 @@
 event_inherited();
 //Weapon Stats
+name = "Flamethrower";
 damage = 1;
 maxAmmo = 75;
 currentAmmo = maxAmmo;
