@@ -30,6 +30,7 @@ if (nightVision) {
 }
 facing = "right";
 invulnerable = false;
+invulnerable_duration = 30;
 control_locked = false;
 permanent_echo = false;
 glow = instance_create(x, y, obj_player_glow);
