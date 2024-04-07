@@ -1,6 +1,6 @@
 /// @description Sub Warp
 // Sub warp
-if(obj_game_mode_controller.phase == "Gather"){
+if(obj_game_mode_controller.phase == "Gather" && room != rmCentralHub && !control_locked){
 	room_goto(rmCentralHub);
 	obj_game_mode_controller.phase = "Repair";
 	x = 512;
