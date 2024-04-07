@@ -29,3 +29,4 @@ surface_reset_target()
 if(buffer_exists(gameoverSurfBuffer)) buffer_delete(gameoverSurfBuffer)
 gameoverSurfBuffer = buffer_create(resW*resH*4,buffer_fixed,1);
 buffer_get_surface(gameoverSurfBuffer, gameoverSurf, 0);
+soundPlayed = false;

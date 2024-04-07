@@ -19,7 +19,7 @@ if point_distance(x, y, move_x, move_y) > 1
 }else{
 	objNightVisionCamera.visible = true
 	if(obj_inventory.current_keycards == 0){
-		room_goto(rmAlecDev);
+		room_goto(rmDungeon3);
 		objPlayer.x = 200
 		objPlayer.y = 1000
 	}else if (obj_inventory.current_keycards == 1){

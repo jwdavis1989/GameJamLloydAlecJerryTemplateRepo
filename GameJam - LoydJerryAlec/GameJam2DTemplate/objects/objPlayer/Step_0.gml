@@ -6,7 +6,9 @@ if(hp <= 0){
 if( keyboard_check(ord("L"))){
 	 obj_game_mode_controller.phase = "Gather"
 	 obj_game_mode_controller.wave_remaining = 0;
-	room_goto(rm_map);
+	room_goto(rmDungeon3);
+	x=200
+	y=1000
 }
 if (!control_locked) {
     key_right = keyboard_check(ord("D"));
