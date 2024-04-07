@@ -42,6 +42,7 @@ spawn_timer = random_range(minimum_spawn_cooldown, maximum_spawn_cooldown);
 spawn_tentacles_x = [192, 832];
 spawn_tentacles_y = 384;
 room_center_x = 512;
+text_y = 680;
 //Gives Leviathan time to grow sprite and latch onto sub, then attack begins!
 leviathan_attack_animation_timer = 0;
 //First time Defense set-up;
@@ -55,7 +56,7 @@ if (phase == "Defense") {
 	alarm[5] = boss_approaching_timer;
 	audio_play_sound(snd_snarling_growl, 2, 0, 1, 0, 2);
 	message = create_static_message_at_depth("WARNING!", c_red, obj_helm.x, 
-		obj_helm.y - sprite_get_height(spr_helm) / 2 - 10, 1, 1, -1001);
+		text_y, 1, 1, -1001);
 }
 
 current_wave_1 = [{unit: obj_maggot, count: 10, spawn_time_interval: 15},

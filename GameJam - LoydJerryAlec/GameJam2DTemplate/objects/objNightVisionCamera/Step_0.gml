@@ -1,5 +1,5 @@
 //Update Current Location
-y = objPlayer.y;
+y = objPlayer.y - 64;
 
 if (objPlayer.facing == "right") {
     if (x < objPlayer.x + maxOffset - panBuffer) {
