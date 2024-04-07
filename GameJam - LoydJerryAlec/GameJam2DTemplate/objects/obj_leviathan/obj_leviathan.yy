@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_leviathan_brown",
-    "path":"sprites/spr_leviathan_brown/spr_leviathan_brown.yy",
+    "name":"spr_leviathan_brown_eye_mouth",
+    "path":"sprites/spr_leviathan_brown_eye_mouth/spr_leviathan_brown_eye_mouth.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -9,6 +9,7 @@ if(other.key_interact && interact_timer == 0){
 	show_debug_message("Open Map");
 	interact_timer = 5;
 	if (obj_game_mode_controller.phase == "Gather") {
+		objPlayer.control_locked = true;
 		room_goto(rm_map);
 	}
 	else if (obj_game_mode_controller.phase == "Repair") {

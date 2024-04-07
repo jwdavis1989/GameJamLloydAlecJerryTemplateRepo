@@ -10,4 +10,5 @@ if(obj_game_mode_controller.phase == "Gather"){
 	audio_stop_sound(snd_underwater_breathing);
 	audio_stop_sound(snd_underwater_drowning);
 	objNightVisionCamera.visible = false;
+	obj_game_mode_controller.crack.visible = true;
 }

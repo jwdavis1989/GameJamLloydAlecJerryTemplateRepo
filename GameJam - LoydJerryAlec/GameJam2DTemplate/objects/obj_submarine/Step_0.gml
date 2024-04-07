@@ -19,18 +19,19 @@ if point_distance(x, y, move_x, move_y) > 1
 }else{
 	objNightVisionCamera.visible = true
 	objPlayer.visible = true;
-	obj_game_mode_controller.crack.visible = true;
+	objPlayer.image_xscale = 1;
+	objPlayer.control_locked = false;
 	if(obj_inventory.current_keycards == 0){
 		room_goto(rmDungeon3);
 		objPlayer.x = 350
 		objPlayer.y = 1050
 	}else if (obj_inventory.current_keycards == 1){
-		objPlayer.x = 200
-		objPlayer.y = 420
+		objPlayer.x = 192;
+		objPlayer.y = 512;
 		room_goto(rm_lloyd_dungeon);
 	}else{
 		room_goto(rmAlecDev);
-		objPlayer.x = 200
-		objPlayer.y=1000
+		objPlayer.x = 192;
+		objPlayer.y = 1168;
 	}
 }

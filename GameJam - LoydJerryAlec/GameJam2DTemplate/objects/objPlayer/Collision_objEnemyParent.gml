@@ -5,7 +5,7 @@ if (!invulnerable) {
         audio_play_sound(snd_explosion, 1, 0);
         hp -= other.melee_damage;
         //Set invulnerability timer
-        alarm[10] = 15;
+        alarm[10] = invulnerable_duration;
         invulnerable = true;
     }
 }
