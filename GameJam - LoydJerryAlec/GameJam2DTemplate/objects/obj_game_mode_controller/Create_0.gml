@@ -5,13 +5,14 @@ objNightVisionCamera.visible = false;
 debug = false;
 current_round = 1;
 gather_timer = 30 * 120;
-repair_timer = 15;
+repair_timer = 30 * 45;
 dungeon_alec_cleared = false;
 dungeon_lloyd_cleared = false;
 dungeon_jerry_cleared = false;
 submarine_max_hp = 100;
 submarine_hp = submarine_max_hp;
 tentacles = [];
+crack = noone;
 tentacle_width = 3;
 tentacle_height = 3;
 tentacle_velocity = 4;
@@ -43,8 +44,8 @@ if (phase == "Defense") {
 	alarm[1] = leviathan_attack_animation_timer;
 	instance_create(room_center_x, spawn_tentacles_y, obj_leviathan);
 	alarm[5] = boss_approaching_timer;
-	audio_play_sound(snd_error, 2, 0, 1, 0);
-	message = create_static_message_at_depth("WARNING!", c_red, obj_helm.x - sprite_get_width(spr_helm)/2 + 6, 
+	audio_play_sound(snd_snarling_growl, 2, 0, 1, 0, 2);
+	message = create_static_message_at_depth("WARNING!", c_red, obj_helm.x, 
 		obj_helm.y - sprite_get_height(spr_helm) / 2 - 10, 1, 1, -1001);
 }
 
