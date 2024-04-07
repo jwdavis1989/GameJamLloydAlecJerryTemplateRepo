@@ -26,6 +26,9 @@ if(selected_dungeon == -1 && obj_inventory.current_keycards == 0){
 {
     move_towards_point(move_x, move_y, 1)
 }else{
+	if(instance_exists(objUIAmmoController)){
+		objUIAmmoController.visible = true;
+	}
 	objNightVisionCamera.visible = true
 	objPlayer.visible = true;
 	objPlayer.image_xscale = 1;

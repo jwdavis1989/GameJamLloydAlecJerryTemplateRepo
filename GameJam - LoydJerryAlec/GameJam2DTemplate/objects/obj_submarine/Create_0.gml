@@ -7,10 +7,12 @@ game_set_speed(30, gamespeed_fps);
 objNightVisionCamera.visible = false;
 objPlayer.visible = false;
 obj_game_mode_controller.crack.visible = false;
+if(instance_exists(objUIAmmoController)){
+	objUIAmmoController.visible = false;
+}
 selected_dungeon = -1;
-if(obj_inventory.current_keycards>2){
-	image_xscale = -1;
-}else if (obj_inventory.last_dungeon == 1){
+
+if (obj_inventory.last_dungeon == 1){
 	image_xscale = -1
 	x = obj_dungeon_marker.x
 	y = obj_dungeon_marker.y
@@ -20,4 +22,7 @@ if(obj_inventory.current_keycards>2){
 	y = obj_dungeon_marker2.y
 }else{
 	image_xscale = -1
+}
+if(obj_inventory.current_keycards==2){
+	image_xscale = -1;
 }
