@@ -12,8 +12,6 @@ if(other.key_interact && interact_timer == 0){
 		room_goto(rm_map);
 	}
 	else if (obj_game_mode_controller.phase == "Repair") {
-		obj_game_mode_controller.phase == "Defense";
-		instance_destroy(message);
-		message = noone;
+		obj_game_mode_controller.repair_timer = 0;
 	}
 }
