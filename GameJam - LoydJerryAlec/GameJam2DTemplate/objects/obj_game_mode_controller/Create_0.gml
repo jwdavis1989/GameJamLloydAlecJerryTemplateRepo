@@ -5,7 +5,8 @@ objNightVisionCamera.visible = false;
 debug = false;
 current_round = 1;
 gather_timer = 30 * 120;
-repair_timer = 30 * 45;
+repair_timer_max = 30 * 45;
+repair_timer = repair_timer_max;
 dungeon_alec_cleared = false;
 dungeon_lloyd_cleared = false;
 dungeon_jerry_cleared = false;
@@ -55,8 +56,8 @@ current_wave_1 = [{unit: obj_maggot, count: 10, spawn_time_interval: 15},
 wave_1 = [{unit: obj_maggot, count: 10, spawn_time_interval: 15},
 		  {unit: objOrb, count: 2, spawn_time_interval: 60}];
 wave_2 = [{unit: USETHISONE_obj_shield_beetle, count: 1, spawn_time_interval: 30}, 
-          {unit: objOrb, count: 10, spawn_time_interval: 45}];
+          {unit: obj_maggot, count: 10, spawn_time_interval: 45}];
 wave_3 = [{unit: obj_maggot, count: 20, spawn_time_interval: 15}, 
 		  {unit: USETHISONE_obj_shield_beetle, count: 2, spawn_time_interval: 15}];
-wave_4 = [{unit: obj_maggot, count: 20, spawn_time_interval: 15}, 
+wave_4 = [{unit: obj_maggot, count: 30, spawn_time_interval: 15}, 
 		  {unit: USETHISONE_obj_shield_beetle, count: 4, spawn_time_interval: 15}];

@@ -14,3 +14,4 @@ if (phase == "Defense") {
 		crack.image_index = 1;	
 	}
 }
+objNightVisionCamera.visible = true;
