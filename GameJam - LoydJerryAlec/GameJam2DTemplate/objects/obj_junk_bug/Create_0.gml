@@ -3,7 +3,7 @@ event_inherited();
 transform_image_speed = 0.1;
 chomp_image_speed = 1;
 dashing_image_speed = 1;
-aggroRange = 64;
+aggroRange = 128;
 jumping = false;
 jump_duration = 30;
 jump_speed = 6;

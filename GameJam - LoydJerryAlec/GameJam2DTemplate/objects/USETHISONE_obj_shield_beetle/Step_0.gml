@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+event_inherited();
+
 //Handle Death
 if (hp < 1) {
 	monster_death_handle_supply(self);
@@ -10,57 +12,58 @@ if (hp < 1) {
 }
 
 //States
-if (!currently_melee_charging) {
+if (aggro || spawned) {
+	if (!currently_melee_charging) {
 
-	//Chasing
-	if (objPlayer.x > x) {
-		vel_x = movement_speed;
-	}
-	else {
-			vel_x = -movement_speed;
-	}
+		//Chasing
+		if (objPlayer.x > x) {
+			vel_x = movement_speed;
+		}
+		else {
+				vel_x = -movement_speed;
+		}
 
-	//Melee Charge-up
-	if (abs(x - objPlayer.x) < melee_engagement_range && !currently_melee_charging && y > y - melee_engagement_y_bound && y < y + melee_engagement_y_bound) {
-		currently_melee_charging = true;
-		//Begin melee charging animation
-		audio_play_sound_at(snd_bug_noise, x, y, 0, 100, 300, 1, 0, 2, 1, 0, random_range(0.1, 0.3));
-		audio_play_sound_at(snd_bug_noise, x, y, 0, 100, 300, 1, 0, 3, 1, 0, random_range(0.5, 1));
-		alarm[0] = melee_animation_duration;
-		vel_x = 0;
-		image_speed = 1;
-		sprite_index = spr_shield_beetle_wing_flap;
-		image_index = 0;
-		effect_create_depth(-1003, ef_flare, x, y, 2, c_red);
-		attack_direction = (x < objPlayer.x);
-	}
+		//Melee Charge-up
+		if (abs(x - objPlayer.x) < melee_engagement_range && !currently_melee_charging && y > y - melee_engagement_y_bound && y < y + melee_engagement_y_bound) {
+			currently_melee_charging = true;
+			//Begin melee charging animation
+			audio_play_sound_at(snd_bug_noise, x, y, 0, 100, 300, 1, 0, 2, 1, 0, random_range(0.1, 0.3));
+			audio_play_sound_at(snd_bug_noise, x, y, 0, 100, 300, 1, 0, 3, 1, 0, random_range(0.5, 1));
+			alarm[0] = melee_animation_duration;
+			vel_x = 0;
+			image_speed = 1;
+			sprite_index = spr_shield_beetle_wing_flap;
+			image_index = 0;
+			effect_create_depth(-1003, ef_flare, x, y, 2, c_red);
+			attack_direction = (x < objPlayer.x);
+		}
 	
-    //Animation
-	else if (vel_x < 0) {
-		image_xscale = width;
-		sprite_index = spr_shield_beetle_walking;
-		image_speed = base_image_speed;
-	}
-	else if (vel_x > 0) {
-		image_xscale = -width;	
-		sprite_index = spr_shield_beetle_walking;
-		image_speed = base_image_speed;
-	}
-	else {
-		sprite_index = spr_shield_beetle_idle;
-	}
+	    //Animation
+		else if (vel_x < 0) {
+			image_xscale = width;
+			sprite_index = spr_shield_beetle_walking;
+			image_speed = base_image_speed;
+		}
+		else if (vel_x > 0) {
+			image_xscale = -width;	
+			sprite_index = spr_shield_beetle_walking;
+			image_speed = base_image_speed;
+		}
+		else {
+			sprite_index = spr_shield_beetle_idle;
+		}
 		
 	
-}
-else {
-	instance_create_depth(x, y, -1003, obj_shield_beetle_echo);
-	//effect_create_depth(-1002, ef_flare, x, y, 1, c_red);
-	nearest_echo = instance_nearest(x, y, obj_shield_beetle_echo);
-	if (attack_direction) {
-		nearest_echo.image_xscale = -width;
 	}
 	else {
-		nearest_echo.image_xscale = width;
+		instance_create_depth(x, y, -1003, obj_shield_beetle_echo);
+		nearest_echo = instance_nearest(x, y, obj_shield_beetle_echo);
+		if (attack_direction) {
+			nearest_echo.image_xscale = -width;
+		}
+		else {
+			nearest_echo.image_xscale = width;
+		}
 	}
 }
 
@@ -100,4 +103,5 @@ if (place_meeting(x,y+vel_y,obj_wall_parent))
     }
     vel_y = 0;
 }
+
 y += vel_y;
