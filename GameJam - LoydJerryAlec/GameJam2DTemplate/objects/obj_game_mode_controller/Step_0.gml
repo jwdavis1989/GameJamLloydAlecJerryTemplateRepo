@@ -52,8 +52,17 @@ if (phase == "Defense") {
 			}
 		}
 		else if (boss_approaching && alarm[5] > 0) {
-				boss.image_xscale++;
-				boss.image_yscale++;
+			if (boss.image_xscale < 10) {
+				boss.image_xscale+= 0.2;
+				boss.image_yscale+= 0.2;
+			}
+			if (boss.image_xscale == 2) {
+				audio_play_sound(snd_snarling_growl, 1, 0, 0.9, 1, random_range(0.75, 1));
+				audio_play_sound(snd_snarling_growl, 1, 0, 0.9, 1, random_range(0.5, 0.75));
+			}
+			if (boss.image_xscale == 8.8) {
+				top_eyes_glow.visible = false;	
+			}
 		}
 	}
 	else if (boss_receding) {
@@ -61,12 +70,16 @@ if (phase == "Defense") {
 			audio_play_sound(snd_heal_2, 10, false, 2.5, 1.08, 0.5);
 			audio_play_sound(snd_heal_2, 10, false, 2.5, 1.08, 1);	
 		}
-		if (alarm[6] > 0) {
-			boss.image_xscale--;
-			boss.image_yscale--;
+		if (alarm[6] > 0) && boss.image_xscale > 0 {
+			boss.image_xscale-= 0.2;
+			boss.image_yscale-= 0.2;
+			if (boss.image_xscale == 8.6) {
+				top_eyes_glow.visible = true;	
+			}
+			audio_stop_sound(snd_metal_rattling);
 			instance_destroy(message);
 			message = noone;
-			message = create_static_message_at_depth("Enemy Retreating . . .", c_green, obj_helm.x, 
+			message = create_static_message_at_depth("Leviathan Retreating . . .", c_green, obj_helm.x, 
 		obj_helm.y - sprite_get_height(spr_helm) / 2 - 10, 1, 1, -1001);
 		}
 	}

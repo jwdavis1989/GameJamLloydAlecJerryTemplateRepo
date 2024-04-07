@@ -6,7 +6,7 @@ debug = false;
 current_round = 1;
 gather_timer_max = 30 * 120;
 gather_timer = gather_timer_max;
-repair_timer_max = 30 * 45;
+repair_timer_max = 30 * 120;
 repair_timer = repair_timer_max;
 dungeon_alec_cleared = false;
 dungeon_lloyd_cleared = false;
@@ -20,8 +20,10 @@ tentacle_height = 3;
 tentacle_velocity = 4;
 boss_receding = false;
 boss_approaching = true;
-boss_approaching_timer = 60;
-boss_receding_timer = 60;
+//boss_approaching_timer = 60;
+boss_approaching_timer = 120;
+//boss_receding_timer = 60;
+boss_receding_timer = 120;
 /*
 Phase String List:
 Defense: Spawning enemies
@@ -46,6 +48,10 @@ leviathan_attack_animation_timer = 0;
 if (phase == "Defense") {
 	alarm[1] = leviathan_attack_animation_timer;
 	boss = instance_create(room_center_x, spawn_tentacles_y, obj_leviathan);
+	boss.image_xscale = 0.2;
+	boss.image_yscale = 0.2;
+	top_eyes_glow = instance_create(room_center_x, spawn_tentacles_y, obj_leviathan_top_eyes_glow);
+	mouth_eye_glow = instance_create(room_center_x, spawn_tentacles_y, obj_leviathan_mouth_eye_glow);
 	alarm[5] = boss_approaching_timer;
 	audio_play_sound(snd_snarling_growl, 2, 0, 1, 0, 2);
 	message = create_static_message_at_depth("WARNING!", c_red, obj_helm.x, 

@@ -1,18 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_leviathan",
+  "%Name":"obj_leviathan_top_eyes_glow",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_leviathan",
+  "name":"obj_leviathan_top_eyes_glow",
   "overriddenProperties":[],
   "parent":{
     "name":"NPCs",
     "path":"folders/Objects/NPCs.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_leviathan_brown_eye_mouth",
-    "path":"sprites/spr_leviathan_brown_eye_mouth/spr_leviathan_brown_eye_mouth.yy",
+    "name":"spr_leviathan_top_eyes_glow",
+    "path":"sprites/spr_leviathan_top_eyes_glow/spr_leviathan_top_eyes_glow.yy",
   },
   "spriteMaskId":null,
   "visible":true,

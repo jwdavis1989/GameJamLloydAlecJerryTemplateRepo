@@ -13,13 +13,13 @@ if (!crack) {
 	crack.image_xscale = 4;
 	crack.image_yscale = 4;
 }
-objNightVisionCamera.visible = true;
+//objNightVisionCamera.visible = true;
 audio_play_sound(snd_heal_2, 10, false, 2.5, 1.08, 0.5);
 audio_play_sound(snd_heal_2, 10, false, 2.5, 1.08, 1);
 audio_play_sound(snd_metal_rattling, 9, true, 0.75, 0, random_range(0.4, 0.7));
 instance_destroy(message);
 message = noone;
-message = create_static_message_at_depth("DEFEND YOURSELF!", c_red, obj_helm.x, 
+message = create_static_message_at_depth("Killing Enemies Fires Torpedoes at the Leviathan", c_red, obj_helm.x, 
 		obj_helm.y - sprite_get_height(spr_helm) / 2 - 10, 1, 1, -1001);
 leviathan_attack_animation_timer = 30 * 45;
 alarm[1] = 5;
