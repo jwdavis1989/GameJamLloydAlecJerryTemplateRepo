@@ -1,8 +1,8 @@
 {
   "$GMSprite":"",
   "%Name":"spr_shield_beetle_idle",
-  "bboxMode":0,
-  "bbox_bottom":59,
+  "bboxMode":2,
+  "bbox_bottom":61,
   "bbox_left":4,
   "bbox_right":58,
   "bbox_top":23,

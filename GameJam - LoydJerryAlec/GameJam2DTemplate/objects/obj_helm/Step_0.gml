@@ -18,8 +18,8 @@ if (instance_exists(objPlayer)) {
 	else if (obj_game_mode_controller.phase == "Repair") {
 		instance_destroy(message);
 		message = noone;
-		message = create_static_message_at_depth("[E] on window to repair, then when ready, [E] on helm to begin next phase.", c_red, x, 
-		y - sprite_get_height(spr_helm) / 2 - 10, 1, 1, -1001);
+		message = create_static_message_at_depth("[E] on window to repair. When ready, [E] on helm to begin next battle with the Leviathan.", c_red, x, 
+		obj_game_mode_controller.text_y, 1, 1, -1001);
 	}
 	else if (obj_game_mode_controller.phase == "Defense") {
 		instance_destroy(message);
