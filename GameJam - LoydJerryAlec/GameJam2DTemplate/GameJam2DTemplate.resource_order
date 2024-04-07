@@ -356,7 +356,6 @@
     {"name":"sprGrapplingHook","order":10,"path":"sprites/sprGrapplingHook/sprGrapplingHook.yy",},
     {"name":"sprIndividualBuckshot","order":8,"path":"sprites/sprIndividualBuckshot/sprIndividualBuckshot.yy",},
     {"name":"sprIndividualBuckshotRed","order":9,"path":"sprites/sprIndividualBuckshotRed/sprIndividualBuckshotRed.yy",},
-    {"name":"Sprite125","order":17,"path":"sprites/Sprite125/Sprite125.yy",},
     {"name":"sprite27","order":7,"path":"sprites/sprite27/sprite27.yy",},
     {"name":"sprMuzzleExplosion","order":3,"path":"sprites/sprMuzzleExplosion/sprMuzzleExplosion.yy",},
     {"name":"sprMuzzleExplosionCentered","order":18,"path":"sprites/sprMuzzleExplosionCentered/sprMuzzleExplosionCentered.yy",},

@@ -1,5 +1,9 @@
 /// @description Play explosion
 audio_play_sound(snd_explosion, 10, false);
+var explosion = instance_create(x + sprite_get_width(spr_explosive_shell) / 2, y, objExplosion);
+explosion.image_xscale = 9.375;
+explosion.image_yscale = 9.375;
+
 var enemy_count = instance_number(objEnemyParent)
 var enemy_list;
 for(var i = 0; i < enemy_count; i++){
