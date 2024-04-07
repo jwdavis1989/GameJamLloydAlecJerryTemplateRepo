@@ -12,12 +12,14 @@
     {"name":"inst_33E74EAC","path":"rooms/rm_map/rm_map.yy",},
     {"name":"inst_71183A51","path":"rooms/rm_map/rm_map.yy",},
     {"name":"inst_987D194","path":"rooms/rm_map/rm_map.yy",},
+    {"name":"inst_762D45A6","path":"rooms/rm_map/rm_map.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"UI_Layer","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_71183A51","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_71183A51","objectId":{"name":"obj_map_button","path":"objects/obj_map_button/obj_map_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":176.0,},
         {"$GMRInstance":"","%Name":"inst_987D194","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_987D194","objectId":{"name":"obj_map_button","path":"objects/obj_map_button/obj_map_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":112.0,},
+        {"$GMRInstance":"","%Name":"inst_762D45A6","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_762D45A6","objectId":{"name":"obj_map_button","path":"objects/obj_map_button/obj_map_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":256.0,},
       ],"layers":[],"name":"UI_Layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMREffectLayer":"","%Name":"Heat_Haze_Layer","depth":100,"effectEnabled":true,"effectType":"_filter_heathaze","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Heat_Haze_Layer","properties":[
         {"name":"g_Distort1Speed","type":0,"value":"0.004",},
