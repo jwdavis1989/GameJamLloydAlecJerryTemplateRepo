@@ -15,8 +15,14 @@ if (instance_exists(objPlayer)) {
 		message = create_static_message_at_depth("[E] Choose Destination", c_white, x, 
 		y - sprite_get_height(spr_helm) / 2 - 10, 1, 1, -1001);
 	}
-	else if (obj_game_mode_controller.phase == "Repair" && message == noone) {
+	else if (obj_game_mode_controller.phase == "Repair") {
+		instance_destroy(message);
+		message = noone;
 		message = create_static_message_at_depth("[E] Fight the Beast", c_red, x, 
 		y - sprite_get_height(spr_helm) / 2 - 10, 1, 1, -1001);
+	}
+	else if (obj_game_mode_controller.phase == "Defense") {
+		instance_destroy(message);
+		message = noone;
 	}
 }
