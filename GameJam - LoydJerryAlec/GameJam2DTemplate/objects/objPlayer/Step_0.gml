@@ -186,14 +186,14 @@ else if (key_shoot && equipped_weapon.currentAmmo > 0 && !equipped_weapon.reload
 }
 
 var buttonPressed = false;
-for(var i = 0; i < obj_inventory.weapons_count; i++){
+for(var i = 0; i < obj_inventory.weapons_count && !equipped_weapon.reloading; i++){
 	if(key_weapons[i]){
 		obj_inventory.switch_weapon_to(i+1)
 		buttonPressed = true;
 		break;
 	}
 }
-if(buttonPressed){
+if(buttonPressed || equipped_weapon.reloading){
 	
 }else if(key_weapon_down){
 	obj_inventory.switch_weapon_down();
