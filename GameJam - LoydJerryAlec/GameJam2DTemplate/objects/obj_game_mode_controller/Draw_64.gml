@@ -8,6 +8,15 @@ if (phase = "Defense") {
 		draw_text_colour(64 + (i * 3), camera_get_view_y(0) + 68, "I  ", c_red, c_red, c_red, c_red, 1);
 	}
 }
+else if (phase = "Gather"){
+	//Gather Timer Bar
+	draw_text_colour(64, camera_get_view_y(0) + 32, "GATHER TIME LEFT", c_red, c_red, c_red, c_red, 1);
+	var gather_timer_percentage = gather_timer / gather_timer_max;
+	draw_text_colour(64, camera_get_view_y(0) + 50, string(round(gather_timer_percentage * 100)) +" %", c_red, c_red, c_red, c_red, 1);
+	for(var i = 0; i < 100 * (gather_timer_percentage); i++){
+		draw_text_colour(64 + (i * 3), camera_get_view_y(0) + 68, "I  ", c_red, c_red, c_red, c_red, 1);
+	}
+}
 	//Submarine HP Bar
 if (room_get_name(room) == "rmCentralHub") {
 	draw_text_colour(500, objUIAmmoController.anchorY - 15, "SUBMARINE", c_blue, c_blue, c_blue, c_blue, 1);

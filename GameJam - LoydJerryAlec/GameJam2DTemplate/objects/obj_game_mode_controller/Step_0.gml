@@ -76,6 +76,18 @@ else if (phase == "Gather") {
 	//Once timer is over, switch to repair phase.
 	instance_destroy(message);
 	message = noone;
+	if (room_get_name(room) != "rmCentralHub"){
+		gather_timer--;
+	}
+	else {
+		gather_timer = gather_timer_max;	
+	}
+	if (gather_timer < 1) {
+		phase = "Repair";
+		room_goto(rmCentralHub);
+		objPlayer.x = 512;
+		objPlayer.y = 576;
+	}
 }
 else if (phase == "Repair") {
 	//Repair submarine grace-period before next wave
