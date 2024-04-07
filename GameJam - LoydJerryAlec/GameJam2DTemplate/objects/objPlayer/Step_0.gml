@@ -2,6 +2,11 @@
 if(hp <= 0){
 	instance_create(0, 0, obj_ui_gameover);
 }
+if(keyboard_check_pressed(ord("L"))){
+	obj_game_mode_controller.phase="Gather";
+	obj_game_mode_controller.wave_remaining=0;
+	room_goto(rm_start_menu)
+}
 	
 if (!control_locked) {
     key_right = keyboard_check(ord("D"));
