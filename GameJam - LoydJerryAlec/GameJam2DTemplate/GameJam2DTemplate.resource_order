@@ -144,6 +144,7 @@
     {"name":"obj_wide_room_dalle102","order":4,"path":"objects/obj_wide_room_dalle102/obj_wide_room_dalle102.yy",},
     {"name":"obj_window_crack","order":1,"path":"objects/obj_window_crack/obj_window_crack.yy",},
     {"name":"obj_window_parent","order":2,"path":"objects/obj_window_parent/obj_window_parent.yy",},
+    {"name":"obj_nuke_sign","order":2,"path":"objects/obj_nuke_sign/obj_nuke_sign.yy",},
     {"name":"objEnemyParent","order":3,"path":"objects/objEnemyParent/objEnemyParent.yy",},
     {"name":"objEnemyProjectileParent","order":5,"path":"objects/objEnemyProjectileParent/objEnemyProjectileParent.yy",},
     {"name":"objFlamethrowerProjectile","order":5,"path":"objects/objFlamethrowerProjectile/objFlamethrowerProjectile.yy",},

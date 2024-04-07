@@ -74,7 +74,7 @@ for(var i = 0; i < keycard_amount; i++){
 }
 
 // Supplies
-scrap_amount = 0;
-rivet_amount = 0;
-med_kits = 0;
+scrap_amount = 2;
+rivet_amount = 4;
+med_kits = 1;
 fuel_cells = 0;
