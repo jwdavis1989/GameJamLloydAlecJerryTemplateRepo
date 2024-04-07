@@ -7,8 +7,9 @@ if (phase = "Defense") {
 	for(var i = 0; i < 100 * (boss_percentage); i++){
 		draw_text_colour(64 + (i * 3), camera_get_view_y(0) + 68, "I  ", c_red, c_red, c_red, c_red, 1);
 	}
-	
+}
 	//Submarine HP Bar
+if (room_get_name(room) == "rmCentralHub") {
 	draw_text_colour(500, objUIAmmoController.anchorY - 15, "SUBMARINE", c_blue, c_blue, c_blue, c_blue, 1);
 	var submarine_hp_percentage = submarine_hp / submarine_max_hp;
 	draw_text_colour(500, objUIAmmoController.anchorY, string(round(submarine_hp_percentage * 100)) +" %", c_blue, c_blue, c_blue, c_blue, 1)
