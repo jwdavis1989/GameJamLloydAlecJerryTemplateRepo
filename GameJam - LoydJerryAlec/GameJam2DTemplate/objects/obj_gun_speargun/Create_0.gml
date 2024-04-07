@@ -1,4 +1,5 @@
 event_inherited();
+name = "Speargun";
 damage = 100;
 maxAmmo = 5;
 currentAmmo = maxAmmo;
