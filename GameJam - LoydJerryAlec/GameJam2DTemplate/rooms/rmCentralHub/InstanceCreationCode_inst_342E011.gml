@@ -1,2 +1,2 @@
-loot = obj_gun_flamethrower;
+loot = obj_gun_grenade;
 persistent = true;
