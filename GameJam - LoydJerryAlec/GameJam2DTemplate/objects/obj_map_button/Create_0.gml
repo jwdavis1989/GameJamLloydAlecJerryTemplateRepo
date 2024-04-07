@@ -1,8 +1,6 @@
 /// @description init
 depth = obj_submarine.depth + 1
-if(obj_inventory.current_keycards > 0){
-	instance_destroy(self)
-}
+
 image_alpha = 0;
 width = 112;
 height = 40;
@@ -46,13 +44,8 @@ draw = function(_width, _height, _text){
 onclick = function(){
 	obj_submarine.selected_dungeon = dungeon
 	obj_inventory.last_dungeon = dungeon
-	//if(dungeon = 1){
-	//	room_goto(rmDungeon3);
-	//	objPlayer.x = 350
-	//	objPlayer.y = 1050
-	//}else{
-	//	objPlayer.x = 192;
-	//	objPlayer.y = 512;
-	//	room_goto(rm_lloyd_dungeon);
-	//}
+}
+if(obj_inventory.current_keycards > 0){
+	onclick = function(){}
+	hoverColor = c_red;
 }
