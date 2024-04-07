@@ -116,6 +116,7 @@ else if (phase == "Repair") {
 		message = noone;
 		alarm[1] = leviathan_attack_animation_timer;
 		boss.visible = true;
+		top_eyes_glow.visible = true;
 		alarm[5] = boss_approaching_timer;
 		audio_play_sound(snd_snarling_growl, 2, 0, 1, 0, 2);
 		message = create_static_message_at_depth("WARNING!", c_red, obj_helm.x, 
