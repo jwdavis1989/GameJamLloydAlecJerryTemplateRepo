@@ -8,5 +8,5 @@ if(instance_exists(objEnemyParent)){ // Enemies are in room
 	}
 	
 }else{
-	x += obj_gun_laser.pelletSpeed;
+	x += obj_gun_laser.pelletSpeed * speed_multiplier;
 }
