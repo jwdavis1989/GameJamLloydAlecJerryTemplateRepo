@@ -84,6 +84,8 @@ else if (phase == "Gather") {
 	}
 	if (gather_timer < 1) {
 		phase = "Repair";
+		objPlayer.underwater = false;
+		objPlayer.oxygen_missing = 0;
 		room_goto(rmCentralHub);
 		objPlayer.x = 512;
 		objPlayer.y = 576;

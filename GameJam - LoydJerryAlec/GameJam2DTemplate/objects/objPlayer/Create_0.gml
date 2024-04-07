@@ -18,7 +18,7 @@ nightVision = true;
 
 // Underwater-related Variables
 oxygen_missing = 0;
-oxygen_max = 120 * 30; // 2 minutes (120 sseconds) worth of oxygen
+oxygen_max = 90 * 30; // 1.5 minutes (90 sseconds) worth of oxygen
 underwater = false;
 breathing_sound = noone; // Replaced by id for breathing sound in water collison event
 drowning_sound = noone; // Replaced by id for drowning sound in step event
