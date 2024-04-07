@@ -6,7 +6,7 @@ if(hp <= 0){
 if( keyboard_check(ord("L"))){
 	 obj_game_mode_controller.phase = "Gather"
 	 obj_game_mode_controller.wave_remaining = 0;
-	room_goto(rmDungeon3);
+	room_goto(rm_map);
 	x=200
 	y=1000
 }

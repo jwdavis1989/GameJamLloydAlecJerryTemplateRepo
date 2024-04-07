@@ -20,8 +20,8 @@ if point_distance(x, y, move_x, move_y) > 1
 	objNightVisionCamera.visible = true
 	if(obj_inventory.current_keycards == 0){
 		room_goto(rmDungeon3);
-		objPlayer.x = 200
-		objPlayer.y = 1000
+		objPlayer.x = 350
+		objPlayer.y = 1050
 	}else if (obj_inventory.current_keycards == 1){
 		objPlayer.x = 200
 		objPlayer.y = 420

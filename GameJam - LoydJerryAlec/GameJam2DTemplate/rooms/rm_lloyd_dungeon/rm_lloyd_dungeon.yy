@@ -46,7 +46,6 @@
     {"name":"inst_C98DB91","path":"rooms/rm_lloyd_dungeon/rm_lloyd_dungeon.yy",},
     {"name":"inst_65471BF1","path":"rooms/rm_lloyd_dungeon/rm_lloyd_dungeon.yy",},
     {"name":"inst_F57DBCED_1_1_1","path":"rooms/rm_lloyd_dungeon/rm_lloyd_dungeon.yy",},
-    {"name":"inst_595F5D63","path":"rooms/rm_lloyd_dungeon/rm_lloyd_dungeon.yy",},
     {"name":"inst_BD09401","path":"rooms/rm_lloyd_dungeon/rm_lloyd_dungeon.yy",},
     {"name":"inst_156E063A","path":"rooms/rm_lloyd_dungeon/rm_lloyd_dungeon.yy",},
     {"name":"inst_13F456FA","path":"rooms/rm_lloyd_dungeon/rm_lloyd_dungeon.yy",},
@@ -62,7 +61,6 @@
     {"$GMRInstanceLayer":"","%Name":"UI_Layer","depth":-1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_477AAA2E_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_477AAA2E_1_1_1","objectId":{"name":"objUIAmmoController","path":"objects/objUIAmmoController/objUIAmmoController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":384.0,},
         {"$GMRInstance":"","%Name":"inst_65471BF1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_65471BF1","objectId":{"name":"objOrb","path":"objects/objOrb/objOrb.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1056.0,"y":320.0,},
-        {"$GMRInstance":"","%Name":"inst_595F5D63","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_595F5D63","objectId":{"name":"obj_ui_pause","path":"objects/obj_ui_pause/obj_ui_pause.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":384.0,},
       ],"layers":[],"name":"UI_Layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMREffectLayer":"","%Name":"Effect_Screen_Shake","depth":-900,"effectEnabled":true,"effectType":"_filter_screenshake","gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Effect_Screen_Shake","properties":[
         {"name":"g_Magnitude","type":0,"value":"10",},
