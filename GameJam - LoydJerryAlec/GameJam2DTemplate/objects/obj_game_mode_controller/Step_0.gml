@@ -102,6 +102,10 @@ else if (phase == "Gather") {
 		room_goto(rmCentralHub);
 		objPlayer.x = 512;
 		objPlayer.y = 576;
+		objNightVisionCamera.visible = false;
+		obj_game_mode_controller.crack.visible = true;
+		audio_stop_sound(snd_underwater_breathing);
+		audio_stop_sound(snd_underwater_drowning);
 	}
 }
 else if (phase == "Repair") {
