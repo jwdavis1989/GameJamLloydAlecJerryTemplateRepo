@@ -1,6 +1,6 @@
 /// @description Play explosion
 audio_play_sound(snd_explosion, 10, false);
-var explosion = instance_create(x + sprite_get_width(spr_explosive_shell) / 2, y, objExplosionCentered);
+var explosion = instance_create(x + sprite_get_width(spr_explosive_shell) / 2, y, objGrenadeExplosion);
 explosion.image_xscale = 9.375;
 explosion.image_yscale = 9.375;
 
