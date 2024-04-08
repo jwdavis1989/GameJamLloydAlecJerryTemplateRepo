@@ -9,7 +9,7 @@ resW = display_get_width()
 resH=display_get_height();
 
 //audio control
-audio_group_load(audiogroup_default);
+audio_group_load(audiogroupBGM);
 audio_group_load(audiogroup_effects);
 volume = 1;
 vol_max = 2 //double

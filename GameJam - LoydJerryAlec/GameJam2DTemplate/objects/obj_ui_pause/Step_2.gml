@@ -18,7 +18,9 @@ if(pause){
 	if(volume_slider_music.is_being_dragged){
 		vol_slider_current_music = volume_slider_music.amount_current
 		volume_music = (vol_slider_current_music * 0.01) * vol_max
-		audio_group_set_gain(audiogroup_default,volume,0)
+		audio_group_set_gain(audiogroupBGM,volume_music,0)
+		//audio_stop_sound(bgm_SCPx2x);
+		//audio_play_sound(bgm_SCPx2x, 3, 1, volume_music, 0, 0.75);
 	}
 }
 

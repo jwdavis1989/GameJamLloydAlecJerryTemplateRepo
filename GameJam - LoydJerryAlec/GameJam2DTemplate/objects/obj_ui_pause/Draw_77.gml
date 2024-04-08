@@ -47,6 +47,7 @@ if(keyboard_check_pressed(vk_escape)){
 			surface_free(menuSurf)
 		if buffer_exists(pauseSurfBuffer) 
 			buffer_delete(pauseSurfBuffer)
+		window_set_cursor(cr_arrow);
 	}
 }
 gpu_set_blendenable(true)
