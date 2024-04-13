@@ -1,0 +1,1 @@
+loot = obj_rivet

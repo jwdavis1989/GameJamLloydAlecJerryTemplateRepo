@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"vcWelcomeCommander",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":3.683265,
+  "name":"vcWelcomeCommander",
+  "parent":{
+    "name":"AI Voices",
+    "path":"folders/Sounds/AI Voices.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"vcWelcomeCommander.mp3",
+  "type":0,
+  "volume":1.0,
+}
