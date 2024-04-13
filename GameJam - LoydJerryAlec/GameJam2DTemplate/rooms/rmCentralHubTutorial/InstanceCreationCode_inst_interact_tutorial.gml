@@ -5,5 +5,6 @@ on_trigger = function(){
 	//objPlayer.control_locked = true
 }
 on_end = function(){
+	instance_create(0,0,obj_ui_victory)
 	//objPlayer.control_locked = false
 }

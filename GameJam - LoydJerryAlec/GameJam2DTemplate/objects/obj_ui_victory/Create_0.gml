@@ -23,7 +23,7 @@ instance_deactivate_all(true);
 restart_button = instance_create(anchorX, anchorY, obj_ui_restart_button);
 
 //capture moment
-gameoverSurf = surface_create(resW,display_get_height());
+gameoverSurf = surface_create(resW,resH);
 surface_set_target(gameoverSurf)
 draw_surface(application_surface, 0, 0)
 surface_reset_target()
