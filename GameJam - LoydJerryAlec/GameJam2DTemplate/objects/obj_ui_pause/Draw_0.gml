@@ -25,7 +25,7 @@ if(keyboard_check(vk_escape) || pause){
 		, 2, 2, 0 //x/yscale, angle
 		, c_red, c_red, c_red, c_green, 1); //color
 	//PAUSE text
-	draw_text_transformed_color(anchorX + screen_width/2-122, anchorY + screen_height/2, // location
+	draw_text_transformed_color(anchorX + screen_width/3, anchorY + screen_height/2, // location
 		string_hash_to_newline("PAUSED") //text
 		, 4, 4, 0 //x/yscale, angle
 		, c_red, c_red, c_red, c_red, 1); //color
