@@ -34,6 +34,9 @@ draw = function(_width, _height, _text){
 onclick = function(){
 	action_restart_game();
 	room_goto(rmCentralHub);
-	objPlayer.x = 300
-	objPlayer.y = 615
+	instance_create(300, 600, objPlayer)
+	instance_create(300, 600, obj_ui_pause)
+	instance_create(300, 600, objUIAmmoController)
+	//objPlayer.x = 300
+	//objPlayer.y = 615
 }

@@ -3,6 +3,7 @@
 if(mouse_in){
 	action_restart_game();
 	room_goto(rmCentralHub);
-	objPlayer.x = 300
-	objPlayer.y = 615
+	instance_create(300, 615, objPlayer)
+	//objPlayer.x = 300
+	//objPlayer.y = 615
 }
