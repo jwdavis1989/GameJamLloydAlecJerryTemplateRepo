@@ -15,7 +15,11 @@ amount_current = 50;
 is_being_dragged = false;
 
 draw = function(){
-	draw_self()
+	var width = 3;
+	var height = 3;
+	//draw_self()
+	
+	draw_sprite_stretched_ext(sprite_index, 0, x, y-14, sprite_width, sprite_height, c_aqua, 1)
 	var threshold = x + (0.05 * sprite_width);
 	var slideWidth = 0.9 * sprite_width;
 	var knob_amount = amount_current / amount_max;

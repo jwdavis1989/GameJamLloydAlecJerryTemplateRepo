@@ -1,5 +1,5 @@
-/// @description draw knob
-//draw_sprite(sprite_index, image_index, x ,y);
+/// @description Insert description here
+// You can write your code in this editor
 //draw_self()
 //var threshold = x + (0.05 * sprite_width)
 //var knob_amount = amount_current / amount_max;

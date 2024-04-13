@@ -15,6 +15,7 @@ sprite_9s = spr_pauseMenu9slc
 /// @param {Real}     _height    the width of the button
 /// @param {Any}     _text    the width of the button
 draw = function(_width, _height, _text){
+	var text_scale = 2
 	//hafta redeclare for some reason
 	draw_self()
 	draw_sprite_stretched(sprite_9s, 0, x, y, _width, _height)
@@ -32,4 +33,7 @@ draw = function(_width, _height, _text){
 }
 onclick = function(){
 	action_restart_game();
+	room_goto(rmCentralHub);
+	objPlayer.x = 300
+	objPlayer.y = 615
 }
