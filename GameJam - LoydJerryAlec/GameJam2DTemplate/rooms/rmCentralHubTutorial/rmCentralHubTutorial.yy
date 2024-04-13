@@ -75,7 +75,8 @@
         {"name":"g_FractalNoiseTexture","type":2,"value":null,},
       ],"resourceType":"GMREffectLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Metal_Tiles_Foreground","depth":-700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Metal_Tiles_Foreground","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":63,"TileCompressedData":[
-          -281,0,2,23,25,-61,0,2,23,25,-61,0,2,23,25,-61,0,2,23,25,-61,0,2,23,25,-61,0,2,23,25,-914,0,
+          -255,0,-2,9,-24,0,-2,9,-61,0,2,23,25,-61,0,2,23,25,-61,0,2,23,25,-61,0,2,23,25,-61,0,2,23,25,-61,0,2,
+          28,27,-851,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scifi_brick_iso","path":"tilesets/ts_scifi_brick_iso/ts_scifi_brick_iso.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Player_Layer","depth":-10,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_5DFDC9F4_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5DFDC9F4_1_1","objectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":592.0,},
@@ -134,10 +135,10 @@
         {"$GMRInstance":"","%Name":"inst_25D199E1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_25D199E1","objectId":{"name":"obj_junk_box","path":"objects/obj_junk_box/obj_junk_box.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1120.0,"y":448.0,},
       ],"layers":[],"name":"Control_Layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Metal_Tiles_Isometric_1","depth":2,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Metal_Tiles_Isometric_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":63,"TileCompressedData":[
-          1,0,-9,24,-22,0,-31,-2147483648,-29,24,3,0,18,0,-11,-2147483648,1,19,-19,-2147483648,-29,24,-3,0,-11,
-          -2147483648,1,23,-19,-2147483648,-31,33,1,0,-11,-2147483648,2,23,24,-18,-2147483648,-3,15,29,23,25,0,
-          9,0,9,0,9,0,9,0,9,0,9,0,9,0,9,0,9,0,9,0,9,0,9,23,25,0,-11,-2147483648,1,23,-13,24,-6,-2147483648,-3,
-          24,2,23,25,-24,0,3,23,25,0,-11,-2147483648,2,23,-2147483648,-5,24,1,18,-4,-2147483648,2,19,24,-6,-2147483648,
+          1,0,-9,24,-22,0,-31,-2147483648,-29,24,2,0,18,-12,33,1,19,-19,-2147483648,-29,24,3,0,25,0,-11,-2147483648,
+          1,23,-19,-2147483648,-30,33,2,34,0,-11,-2147483648,2,23,24,-18,-2147483648,-3,15,29,23,25,0,9,0,9,0,
+          9,0,9,0,9,0,9,0,9,0,9,0,9,0,9,0,9,0,9,23,25,0,-11,-2147483648,1,23,-13,24,-6,-2147483648,-3,24,2,23,
+          25,-24,0,3,23,25,0,-11,-2147483648,2,23,-2147483648,-5,24,1,18,-4,-2147483648,2,19,24,-6,-2147483648,
           -3,24,2,23,25,-10,24,-5,0,-9,24,3,23,25,0,-11,-2147483648,2,23,-2147483648,-5,24,-6,-2147483648,1,24,
           -6,-2147483648,-3,24,2,23,25,-10,24,-5,15,-9,24,3,23,25,0,-11,-2147483648,2,32,24,-10,-2147483648,2,
           23,24,-6,-2147483648,-3,24,2,23,25,-24,24,3,23,25,0,-23,-2147483648,2,23,24,-6,-2147483648,5,5,6,6,23,

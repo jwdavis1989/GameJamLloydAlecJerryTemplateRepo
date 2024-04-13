@@ -44,12 +44,12 @@ if(selected_dungeon == -1 && obj_inventory.current_keycards == 0){
 			objPlayer.y = 512;
 			room_goto(rm_lloyd_dungeon);
 		}else{
-			room_goto(rmDungeon3);
+			room_goto(rmDungeonMiniArena);
 			objPlayer.x = 350
 			objPlayer.y = 1050
 		}
 	}else if(selected_dungeon == 1){
-		room_goto(rmDungeon3);
+		room_goto(rmDungeonMiniArena);
 		objPlayer.x = 350
 		objPlayer.y = 1050
 	}else if (selected_dungeon == 2){

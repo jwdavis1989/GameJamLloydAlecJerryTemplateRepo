@@ -185,7 +185,7 @@
     {"name":"rmAlecDev","order":4,"path":"rooms/rmAlecDev/rmAlecDev.yy",},
     {"name":"rmCentralHub","order":3,"path":"rooms/rmCentralHub/rmCentralHub.yy",},
     {"name":"rmCentralHubTutorial","order":10,"path":"rooms/rmCentralHubTutorial/rmCentralHubTutorial.yy",},
-    {"name":"rmDungeon3","order":8,"path":"rooms/rmDungeon3/rmDungeon3.yy",},
+    {"name":"rmDungeonMiniArena","order":8,"path":"rooms/rmDungeonMiniArena/rmDungeonMiniArena.yy",},
     {"name":"Room1","order":1,"path":"rooms/Room1/Room1.yy",},
     {"name":"__background_get_element","order":3,"path":"scripts/__background_get_element/__background_get_element.yy",},
     {"name":"__background_get_internal","order":4,"path":"scripts/__background_get_internal/__background_get_internal.yy",},

@@ -1,5 +1,5 @@
 message_to_show = "Welcome Commander *STATIC* to Naval Vessel *STATIC*";
-show_time = 180
+show_time = 125
 show_warning = false;
 times_to_show = 2;
 game_start = false;
@@ -19,6 +19,7 @@ on_end = function(){
 		room_goto(rmCentralHub);
 		objPlayer.x = 315;
 		objPlayer.y = 600;
+		objPlayer.control_locked = false
 	}else{
 		game_start = true;
 	}
